@@ -1,0 +1,168 @@
+---
+title: White Knights
+archived_url: "https://web.archive.org/web/20170324215022/http://www.openlierox.net/wiki/index.php/White_Knights"
+last_modified: "09:25, 12 September 2010"
+categories: [Clans]
+---
+{% raw %}
+<table border="1" cellpadding="2" cellspacing="0" width="400">
+<tr>
+<td>
+<table border="0" cellpadding="2" cellspacing="0" width="100%">
+<tr>
+<th align="center" colspan="2" style="background:#cef2e0;" width="25">  Notice
+</th></tr>
+<tr>
+<td style="background:#cef2e0;" width="20">
+</td><td align="center"> This article is about a clan that is considered active. Any featured information may be outdated due to events in the clan. Feel free to correct any inaccuracies.
+</td></tr></table>
+</td></tr></table>
+
+The WhiteKnights (**WK**) was founded by WhiteKnight in 2008, refounded in 2010 by Gyrspo.
+
+## Player Classes
+
+* 1 - Generals/Bosses
+* 2 - Senior Members (Allowed to recruit)
+* 3 - Junior Members (May start a cw)
+* 4 - Trials
+
+## Generals
+
+* WK|1|Gyrspo (An old player who revived the clan)
+
+## Old Generals
+
+* WK|1|WhiteKnight@US
+* WK|1|Poison@US
+* WK|1|Shinighami@PL
+* WK|1|JesterRace@AU
+* WK|1|DaMonster@US
+
+## Senior Members
+
+* WK|2|Awaken
+* WK|2| Cra2y
+
+## Old Senior Members
+
+* WK|2|Beastly@US
+* WK|2|Mario@US
+* WK|2|Squig@US
+* WK|2|Jaom@PL
+* WK|2|Gyrspo@FI (New Leader)
+* WK|2|Blood@CA
+* WK|2|Hypnos@CA
+* WK|2|Afro@US (Currently Cra2y)
+
+## Junior Members
+
+* WK|3|Purkki
+* WK|3|Fataga
+* WK|3|Mr.Tar
+* WK|3|Edse
+
+## Old Junior Members
+
+* WK|3|Pinto@AU
+* WK|3|Furzil@BE
+* WK|3|Hande@FI
+* WK|3|Vredesbyrd@US
+* WK|3|Norox@AU
+* WK|3|Bloodguin@CA
+* WK|3|Nugattz0r@NO
+* WK|3|::KillJake::@CA
+* WK|3|Sh4rp@US
+* WK|3|~Sonakye~@US
+* WK|3|Way~magnum@US
+* WK|3|Awesome@US
+* WK|3|BlueTiger@UK
+
+## Trials
+
+* Currently none
+
+## Retired
+
+* WK.Japsu
+* WK.Skyx
+* WK.Haxx
+* WK.Doodle
+* WK.Teegz
+* WK.Maximus
+* WK.Ventti
+* WK.^Zweq
+* WK.Pendragon
+* WK.Silent
+* WK.Shoopusmahwoopus
+* WK.Psiwarp
+* WK.Doom45
+* WK.Iceman
+* WK.Mr.Nacho
+* WK.Slash
+* WK.Omistaja
+* WK.Chibikko
+* WK.KIXXX
+* WK.MartieThePlumber
+* WK.Barrack Obama
+* WK.Golllem
+* WK.Woarther
+* WK.Shiyth Tsayad
+* WK|4|Null
+* WK|4|Scorpion
+* WK|4|KingDoom@n/a
+* WK|4|Toadie@SE
+
+## Alliances
+
+* [M80] <merged>
+* |FeaR| <merged>
+
+## Mods played
+
+* Mods played + lt + banned weapons
+* Modern Warfare v1.0 20% mortar only
+* Modern Warfare v1.0 50% limited
+* Modern Warfare v1.0 100% limited
+* Food Fight v0.6 50% limited
+* 8-bit Warfare v1.2 50% limited
+* WH40K 0.13 50% limited
+* Mortars v11.0 20%
+* Worm War 1.0 100%
+* Liero 1.0 100%
+
+## Levels played
+
+Base Fight
+Blat Arena
+Cafeteria
+Castle Strike
+Castle Wars
+Christmas Tree
+Death Dice Overdose
+Fight Box
+Fossil Facility
+Lamda
+Lieros Of Caribbean
+S[ace Station
+WK||Castle
+wormmountain
+X Arena
+
+## ClanWars
+
+* New
+* WK - 8D 1-2
+* WK - [NoN] 1-2
+* WK-Wol 1-2
+* WK - [NoN] 0-2
+* WK - [NoN] 0-2
+* WK - [NoN] 0-2
+
+* Old
+* WK - [Emp] 0-2
+* WK vs [Sn] 0-2
+* WK - [Sun~] 2 - 0
+
+* Page was made by Hawk & Awaken
+{% endraw %}

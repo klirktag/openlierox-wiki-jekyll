@@ -1,0 +1,66 @@
+---
+title: Team Killers
+archived_url: "https://web.archive.org/web/20110721164351/http://www.openlierox.net/wiki/index.php/Team_Killers"
+last_modified: "09:04, 18 May 2008"
+categories: [Clans, Retired clans]
+---
+{% raw %}
+<table border="1" cellpadding="2" cellspacing="0" width="400">
+<tr>
+<td>
+<table border="0" cellpadding="2" cellspacing="0" width="100%">
+<tr>
+<th align="center" colspan="2" style="background:#EFAAAA;" width="25">  Notice
+</th></tr>
+<tr>
+<td style="background:#EFAAAA;" width="20">
+</td><td align="center"> This article is about a clan that has been tagged dead. Any info is to be considered purely of historical value. Feel free to correct any inaccuracies.
+</td></tr></table>
+</td></tr></table>
+
+**[TK] Team Killers** was a famous 100lt playing clan which existed in the year 2004. The clan fell after the leading figures left. Most of the leaving members joined We all Suck clan.
+
+## Members
+
+* Z01 (Leader)
+* Glad-CP
+* Juustme
+* AND1
+* Kossu Man
+* Bakker_182
+* The Destiny
+* Punk Zombie
+
+## Prematurely retired members
+
+* Antihero
+* UFO
+* Weirdworm (Leader)
+
+## Servers
+
+* [TK] ~ Dome (Z01's server)
+* [TK] ~ Weirdness (Weirdworms server)
+* [TK] ~ Kossu land (kossu mans server)
+
+## Rules
+
+* 100% loading always
+* NO LAMDA
+* No combos
+* Only 1 of each weapons
+* No camping
+* No ceiling hanging
+* No laming
+* Complaining = kick
+* Liero 1.0 mod only
+
+## Clan Wars
+
+* Clanwars won: 18
+* Clanwars lost: 0
+
+(Stats counted after Weirdworm's retirement)
+
+<div class="thumb tright"><div class="thumbinner" style="width:182px;"><img alt="TK versus BtBs" border="0" class="thumbimage" src="/wiki/images/thumb/6/6e/Btbsowned.gif/180px-Btbsowned.gif"/> <div class="thumbcaption"><div class="magnify" style="float:right"><a href="/wiki/index.php/Image_Btbsowned.gif/"><img alt="" src="/wiki/skins/common/images/magnify-clip.png"/></a></div>TK versus BtBs</div></div></div>
+{% endraw %}

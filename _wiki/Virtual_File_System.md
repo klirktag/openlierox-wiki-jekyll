@@ -1,0 +1,174 @@
+---
+title: Virtual File System
+archived_url: "https://web.archive.org/web/20110721213942/http://www.openlierox.net/wiki/index.php/Virtual_File_System"
+last_modified: "14:11, 10 October 2010"
+---
+{% raw %}
+[OpenLieroX](/wiki/index.php/OpenLieroX/) uses a **Virtual File System** (VFS). This means that filenames of resources in OpenLieroX, for example like *cfg/options.cfg* or *data/sounds/dirt.ogg*, are abstracted from the underlying real file system.
+
+## Terminology
+
+For this reason, we must strictly differ between VFS filenames and the real filenames. Let's call the latter OS filenames.
+
+### Real file system
+
+In the real file system, the absolute filename is something like *C:\OpenLieroX\data\sounds\dirt.ogg* (on Windows) or */Applications/OpenLieroX.app/Contents/Resources/gamedir/data/sounds/dirt.ogg* (on MacOSX). You can also have relative filenames. They are relative to the directory where you started the game from. This is also called the working directory or the current directory. In most systems, you also have a home directory or a documents directory (under Windows, that is something like *C:\Documents and Settings\<username>\My Documents*). There are certain placeholders for such specific directories:
+
+* .: working directory
+* ${HOME}: on Windows: documents directory; everywhere else: home directory
+* ${BIN}: directory of the game binary (the EXE-file on Windows)
+
+## How it works
+
+Now, when some code in OLX wants to open a file, it uses its VFS filename, e.g. *data/sounds/dirt.ogg*. Now, the VFS gets this VFS filename and must find out where it can find the real data behind that VFS filename.
+
+In the case of OpenLieroX, this is done by a simple **search path system**. That means there is a list of search paths and the VFS will search in each search path for that file.
+
+### Search paths
+
+A search path is just a real filename (or directory in this case). There is a list of such search paths. We call them just `SearchPath1`, `SearchPath2`, ... to `SearchPathN` for a number N.
+
+#### Default search path lists
+
+##### Windows
+
+* SearchPath1 = ${HOME}/OpenLieroX
+* SearchPath2 = .
+* SearchPath3 = ${BIN}
+
+##### MacOSX
+
+* SearchPath1 = ${HOME}/Library/Application Support/OpenLieroX
+* SearchPath2 = .
+* SearchPath3 = ${BIN}/../Resources/gamedir
+
+##### everywhere else
+
+* SearchPath1 = ${HOME}/.OpenLieroX
+* SearchPath2 = .
+* SearchPath3 = /usr/share/games/openlierox
+
+### The algorithm
+
+Let's say you have this search path list:
+
+* SearchPath1 = ${HOME}/OpenLieroX
+* SearchPath2 = ${BIN}
+* SearchPath3 = C:/LieroX
+
+Now, if the VFS gets a filename like *data/sounds/dirt.ogg* and it wants to read/open that file, it searches through the list of search paths for such a file, i.e. it checks these real filenames:
+
+1. ${HOME}/OpenLieroX/data/sounds/dirt.ogg
+2. ${BIN}/data/sounds/dirt.ogg
+3. C:/LieroX/data/sounds/dirt.ogg
+
+And it will open the first file which actually exists.
+
+### Exceptions
+
+#### Writing to a file
+
+When OpenLieroX is writing to a file through the VFS, it will always write to the file in the first user-defined search path. I.e., if OpenLieroX wants to write the file *cfg/options.cfg*, it will write to *<SearchPath1>/cfg/options.cfg*. The first search path is usually (by default) somewhere in the home directory (in case of Windows, the default is *${HOME}/OpenLieroX*), so it means that you will usually find files like *cfg/options.cfg* there.
+
+It is very common for all kind of applications and games to store user settings somewhere in the user/home directory. On some systems (Linux, MacOSX, Windows 7), it is even not possible to write directly to the game data directory (because of security settings in your system). This common behavior is achieved in OpenLieroX by this special rule for writing files because the first search path is by default somewhere in the home directory.
+
+Also, this rule is still consistent, because if you open the same VFS filename for reading now, it will still open the same file you have just written to.
+
+(For techies: Appending to a file is somewhat special but just the natural conclusion of this: It copies the file first to SearchPath1 and then does the actual appending.)
+
+#### At OpenLieroX initialization
+
+The user-defined search path list is defined in the [options.cfg](/wiki/index.php/Options.cfg/) file. Before OpenLieroX has loaded this file, it uses the default search path list (see above).
+
+#### Theme search path
+
+(This is kind of a hack and might be changed somewhat at some time. However, it just works mostly great as it is for now and for most cases.)
+
+If you select another than the default theme in OpenLieroX (i.e. what you can select in the right top corner in the main menu), it will add another special search path to the list at the very beginning for that theme (although this special search path will be the very first, it not used for writing).
+
+This works the following way: For example, if you select the *Angry Worm* theme, it will search in the *themes* directory, i.e. it will search in the VFS for *themes/Angry Worm*. The real filename of that might be *C:/OpenLieroX/themes/Angry Worm*. This is the directory it will internally handle like it would be in front of the search path list. If you use the default theme, it will not add such special theme search path.
+
+This has the effect that when OpenLieroX tries to load the VFS filename *data/frontend/buttons.png*, it will load the file *C:/OpenLieroX/themes/Angry Worm/data/frontend/buttons.png*. If you would use the default theme, it would just load the file *C:/OpenLieroX/data/frontend/buttons.png* (if the file is in no other search path).
+
+## Implementation in OLX
+
+The implementation is done in the files *FindFile.{h,cpp}*.
+
+## Code usage
+
+You, as a user, mostly just need two functions. That is to open a file or to iterate through the filenames/directories of a directory in the VFS. All the search paths and such stuff are always hidden from you at that time (for OpenLieroX, as a more common game: if you load the level *levels/CastleStrike.lxl*, it really shouldn't make any difference in what search path that file can be found).
+
+To replace the C-function fopen, there is the OpenGameFile() function with the same interface as fopen. Depending on the mode (i.e. OpenGameFile("file.txt", "w") or OpenGameFile("file.txt", "r")), it will open the file for writing or for reading (as fopen does). In case of reading, it will open the file just where it is found first. E.g., if you have *$sp2/file.txt* but not *$sp1/file.txt*, it will open *$sp2/file.txt*. It only fails if *file.txt* couldn't be found in any of the search paths. If it exists in multiple search paths, the order of the search paths define the priority (in practice, it will just take the file where it is found first).
+
+In case of writing, it will always open *$sp1/file.txt*. Directories which must be created to open the file are created automatically. This behavior has the sense that at the next OpenGameFile("file.txt", "r"), it will open the updated file *$sp1/file.txt*. (This behaviour is also kind of common. For example, in OpenLieroX, we distributed earlier a file *cfg/options.cfg* with the binary, including some default settings. Once the user started the game and the options where saved again, they were saved to his home directory and the next time he started the game, they were loaded also from there.)
+
+In [Commander Genius](/wiki/index.php/Commander_Genius/), I also added some interface to open files for std::ifstream or std::ofstream:
+
+`bool OpenGameFileR(std::ifstream& f, const std::string& path, std::ios_base::openmode mode = std::ios_base::in);
+bool OpenGameFileW(std::ofstream& f, const std::string& path, std::ios_base::openmode mode = std::ios_base::out);`
+
+Now, to the filename iteration through a directory. This is done via the FindFiles() function. This is the interface:
+
+```
+// FindFiles searches for files
+// _handler has to be a functor with
+// bool op()( const std::string& abs_filename )
+// if it returns false, it will break
+template<typename _handler>
+void FindFiles(
+ _handler& handler,
+ const std::string& dir,
+ bool absolutePath = false,
+ const filemodes_t modefilter = -1,
+ const std::string& namefilter = ""
+);
+
+typedef char filemodes_t;
+enum {
+ FM_DIR = 1,
+ FM_REG = 2,
+ FM_LNK = 4,
+};
+```
+
+If you are not that used to C++: A functor is similar to a function pointer in C. It is an object where the operator() function will be called. As templates are used here, the object can be of any type of your wish (btw., the STL uses very similar methods in many places).
+
+The common way is now that you define the struct for the _handler yourself, for example:
+
+```
+struct MyDummyHandler {
+ bool operator()(const std::string& absfilename) {
+     std::cout << "new file: " << GetBaseFileName(absfilename) << std::endl;
+     return true; // true is the signal back to FindFiles that it should continue with the iteration
+ }
+};
+
+MyDummyHandler myHandler;
+
+Now, you call just the function:
+
+FindFiles(myHandler, "games");
+```
+
+This will list all files/dirs in the subdirectory games.
+
+Or, you can do this if you only want to list the directories:
+
+`FindFiles(myHandler, "games", false, FM_DIR);`
+
+Some words to the other parameters of FindFiles:
+
+* absolutePath specifies that the search path system should not be used and filename is an absolute path (normally, you don't need that).
+* modefilter can get any mask, for example also FM_DIR | FM_LNK. -1 means everything.
+* namefilter: I thought of some regexp or also just simple filter as "*.png" or so. This is not implemented yet. :)
+
+These both functionalities, FindFiles() and OpenGameFile() are in most cases the only functions you need. Though, in some cases, you might want to search directly in the VFS for a specific file and return its absolute path. This is the case when you want to pass it to some extern library (for example SDL_LoadWAV()). In this case, there is this function:
+
+`std::string GetFullFileName(const std::string& path, std::string* searchpath = NULL);`
+
+If you specify searchpath, you will get the searchpath passed where the file was found. This function GetFullFileName() is internally used by OpenGameFile() if you open a file for reading.
+
+For writing, as explained, the behaviour is slightly different. It will always return the file in the first search path. You have this function for that:
+
+`std::string GetWriteFullFileName(const std::string& path, bool create_nes_dirs = false);`
+{% endraw %}

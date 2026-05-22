@@ -1,0 +1,47 @@
+---
+title: Sirus
+archived_url: "https://web.archive.org/web/20130324070101/http://www.openlierox.net:80/wiki/index.php/Sirus"
+last_modified: "19:31, 1 May 2008"
+categories: [Players, Retired players, Canada]
+---
+{% raw %}
+<table border="1" cellpadding="2" cellspacing="0" width="400">
+<tr>
+<td>
+<table border="0" cellpadding="2" cellspacing="0" width="100%">
+<tr>
+<th align="center" colspan="2" style="background:#ABCDEF;" width="25">  Notice
+</th></tr>
+<tr>
+<td style="background:#ABCDEF;" width="20">
+</td><td align="center"> This article is about a player that has been tagged as retired. Any featured information is to be considered purely of historical value. Feel free to correct any inaccuracies.
+</td></tr></table>
+</td></tr></table>
+
+## General
+
+* Name: Thomas
+* Location: Nova Scotia, Canada.
+* DOB: March of 1991,
+* Gender: Male
+* Started Playing: Sometime late 2003.
+* Favorite Settings: MSF v1.28
+
+Made a few levels and mods but was never really popular.
+
+## Alternate Nicks
+
+* Sirus
+* Sinju
+* Taliban
+* Lucifer
+
+## Clans
+
+* [Angels of Death](/wiki/index.php/Angels_of_Death/) - {AOD}
+* Soldiers of Hell - [SoH]
+* Crooked minds [cM]
+* player killers - -pk-
+* Advanced Liero Tactics - ~ALT~
+* Nigga Blasta - Assault Team - [NB-AT]
+{% endraw %}

@@ -1,0 +1,34 @@
+---
+title: Javelin 2005!
+archived_url: "https://web.archive.org/web/20110721185510/http://www.openlierox.net/wiki/index.php/Javelin_2005%21"
+last_modified: "22:58, 29 April 2008"
+categories: [Contests]
+---
+{% raw %}
+**Javelin 2005!** was a tournament hosted by Dflies in June 2005. Tournament died soon after it has started. The idea of the contest was to throw javelin as far as possible in [Jukke's](/wiki/index.php/Jukke/) Javelin mod and level.
+
+## Rules
+
+* The throwing player must not cross the white line before he has thrown the javelin.
+* Jumping is allowed while throwing but player must not land on the grass, then the result will be disqualified.
+* Using the ninja rope is not allowed while taking speed or landing.
+* Do NOT cheat.
+* You must do it in Netplay with someone seeing it. Although, must wish someone has this. And he/she must take screenshot and say did thrower cheat or not.
+
+## Contestants
+
+* Dflies
+* Jukke
+* Luzo
+* Morbid"
+* Ruki
+
+## Record
+
+The known record 71 meters was set on June 29 by Ruki.
+
+## External links
+
+* [GU Javelin 2005! thread](http://www.thegaminguniverse.com/forums/showthread.php?t=23225)
+* [Screenshot of the record](http://img259.imageshack.us/img259/6900/71cj2.png)
+{% endraw %}

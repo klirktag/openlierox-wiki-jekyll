@@ -1,0 +1,14 @@
+---
+title: FileBase
+archived_url: "https://web.archive.org/web/20110119032440/http://www.openlierox.net:80/wiki/index.php/FileBase"
+last_modified: "02:12, 5 October 2009"
+---
+{% raw %}
+# Filebase
+
+Filebase is a filehost for LieroX. It is categorized into 5 different sections for easy searching. Levels, Mods, Skins, Frontends, and Misc can be found at Filebase.
+
+## History
+
+Filebase was created by Loop at TheLobby. It started off with a blue theme that matched the Lobby's forum theme. Soon after the idea of Filebase 2 was decided upon and taken over by the Dev's of OpenLieroX. It was soon added to LXAlliance. Now it is synced into OpenLieroX.net.
+{% endraw %}

@@ -1,0 +1,98 @@
+---
+title: Hermod
+archived_url: "https://web.archive.org/web/20110721182749/http://www.openlierox.net/wiki/index.php/Hermod"
+last_modified: "10:25, 17 May 2008"
+categories: [Players, Sweden]
+---
+{% raw %}
+<table border="1" cellpadding="2" cellspacing="0" width="400">
+<tr>
+<td>
+<table border="0" cellpadding="2" cellspacing="0" width="100%">
+<tr>
+<th align="center" colspan="2" style="background:#cef2e0;" width="25">  Notice
+</th></tr>
+<tr>
+<td style="background:#cef2e0;" width="20">
+</td><td align="center"> This article is about a player considered active. Any featured information may be outdated due to   any recent events. Feel free to correct any inaccuracies.
+</td></tr></table>
+</td></tr></table>
+
+## Own introduction
+
+Hello, I (Hermod have made this text it is very long, so just read one or two parts of it, if you don't have very much patience, the last parts are more intersting than the firsts.
+
+I started playing LieroX 2003 at winter, he started with mortars, after some weeks, I learned the basics in internet games (as LieroX was the first one for me.) So, i made some clans with his friends, then one day, when i was in [rush] as a proud leader, Finno-12 Boss asked him for a duel cw, i of course asked what a duel cw was, and got a fine explenation.
+i won the first one, then Boss wanted revenge, and i accepted it, as i thought Boss was a very friendly old and wise person, i asked what "Lag" was, and how you activate it. Boss said he would tell me if he would finish the game. Then when the game were finished, I got a link, the name of that link was lxalliance.net. I registered there, but i didn't get any answers.
+
+Soon I noticed that Finno-12 was a great and active clan, I started faking the players, but it didn't go so well, as they had passwords, after one week or two, Finno-12 Boss asked me if he wanted to join Finno-12. I did, and my friend Racso followed me.
+Finno-12 Boss gave me short explanations on many things, and one of them were a link, it was a link to thelobby. I wasen't very impressed, but my friend racso sure was, by my IRL friend Racso, I got a lot of information, for example, what distance lag was, why some people can't host, and most of theese explanations was made by Raziel actually.
+
+After some time in Finno-12, in my own server, VIP odin came, and played some games, he kind of sucked in mortars, but then, he asked me if he wanted to come to his server, and play a better set, I came immediately, and Odin showed me all the weps in a impressive and introducing way, he also said Fossil facility was the third set, and how a multimod cw works. That happened in only 30minutes or something, but i could sure have listened to that guy thw whole day. I countinued playing mortars, but i also entered 100lt servers, after a week or two, i only played 100lt. Then, when i went to school, the first thing i did was to tell my friends, they laughed they asses off, and joked about the loading time, they of course thought it would take one day to reload one weapon. But Racso was ready to try it. When he was in my server, with some finno-12 noobs, and some half 100lt players, i had to eat, but i didn't close the server, when i came back, Racso told me the seting was the funniest he had ever play in LieroX, and apologized immediately.
+
+Then we decided to create our first serious clan, LE, it was a totally normal clan, i mean, it sucked but it wasen't any special, except some extra creativity we had, we played some, and got some recruits, but it was just some random noobs, after one week or two, Cha!n enetered my server, and played a 100lt game, he said he hadn't play on 5 months, and i asked him if he was searching for a clan, he said he didn't think so, but he also said it was a possiblity, he really pwned me on 100lt and rifles, and of course i asked him if he wanted to join LE, i said he didn't need to promise anything, as he would be on a much higher level than the clan.
+He said yes, i was so happy, i immediately explained all the rules in the clan, and told him to wear the tag. Chain was in the clan a long time, and thanks to him, we won cws, and understood things that we would never be able to do if he woulden't be there. We were of course idiots in his eyes, but he still respected us, then came the day when i recruited his little brother PunK, it was in the summer of 2004, and chain told me he left, i asked why, and he blocked me, one day later, PunK left too. The clan was dead, but the summer vacation had just begun!
+
+And in summer vacations, no one goes to school, except nerds ofc, Gullveig, Loke, Thor, and Frey started to show up a lot, i already knew some of them in LE, or all of them, but now they were really active, it didn't take long before i joined VIP, as a trial, after 5 days, i said i wanted a better tag, as i hated the "()" tag, gullveig gave me premission to use something else, but i still was a trial, after 2 weeks, i passed, and i could finally play cws, my first cw was against 2JM, Z01 and exzero, they won their round, it it was our trun to choose, it was in my server, and we choosed MW 100lt, unfortunatly, i didn't know the bans, so all the weapons were enabled except medical camp. In the beggining i sucked, but then thor and Gullveig told me to take some deep breaths and stat pwning, and i did. I managed to make a pretty good game, and it was only Thor and Z01 left. Thor had 1 life with veyer low hp, Z01 had 0 lifes, with lower hp. Z01 managed to kill Thor once. And then Thor was on the other side of the hose, and had cover, Z01 shot a fireball shot, and Thor jumped right in it. I think no one in VIP talked with Thor in like 1 week, and i still bully him for that. Well at leats he gave us a good laugh. I had a great time in VIP, i wasen't the most nice and best member, but i still loved VIP. after 3 months, everyone went pretty inactive again, except Thor, so he created aC, i didn't want to follow Gullveig and everyone, as they were so different. I joined aC, and left it after three weeks, to join VIP again, i did, but i left it again after one month or two, i took a pretty long break, and then came back, and joined aC, some great guys were there this time, like Lodur, and Mashkito, but then i left it again (the same day as Luffy and Villetys). and took one more break. when i was back, i didn't want to play serious, so i joined an one piece fan clan, as i just was back from watching one piece episodes. I went to tenerife and S was created, i thought it was a great and loved clan, so i joined it. Some players, started to hate me, i was very chocked, as they were my friends just some months ago, theese players was Namura, Uw, AoG, Osp, and more. I had a pretty good playing style, but in S, it changed, to follow the team, i had to save lifes, and play defensivly, i was in S 3 months, and played hours almost every day, and it was enough to become pretty hated, and screw up my playing style.
+
+Then, S died, some players went to Uw, some to mD, and some were never in S, or left very quick. Many things happened, but soon Thor legend and Luffy, wanted to get back on track, so they started aC, after one month, i could join the clan, and i did, i was there for 7 months, the first five months was great, but then i decided to leave it, unfortunatly, i coulden't because i wanted to show lx that i was a loyal member, but that isn't what loyality really is, and i realised that after 3 months, what i really got pissed over , was that no one cared, i learned an important lesson.
+
+After 3 weeks, i joined pFe, as i thought it was a great clan, i still think that, and i'm still there. And i don't think i will leave it either.
+
+## Clans
+
+[Finno-12] {2 months} (made by Finno-12 Boss, and is now quite dead)
+
+[LE] {4-5 months} (made by me Racso and Chain)
+
+[VIP] {3-4 months] (Made by Odin, and later Gullveig)
+
+Break {4 months} (made by me, and the Naruto anime)
+
+[aC] {1 month} (Made by Thor, Legend, Kyodo, and Nova)
+
+[VIP] {2 months} (officialy Revived by Loke and me)
+
+Break {4 months}(By me and the One piece Anime)
+
+{S} {3 months} (made by Luffy Villetys and OP)
+
+[aC] {7 months} (made by Legend Thor DruFF Luffy, me and Lodur, Depends on how you look at it)
+
+[pFe] {2- - --------} (Made by Hostile and Leemuu)
+
+## Special thanks to
+
+Finno-12 Boss, for learning me some clan basics, like CW.
+
+Raziel, and the RIP clan, For making incredible nice guides, and teaching us what lag was.
+
+Ruki. For beeing funny while the RIP clan helped us
+
+Odin. For getting me and LE to the lx proffesional world (Liero 1.0, and three setting cws)
+
+Chain and Racso. For helping me to keep LE alive, and to win some cws.
+
+Odin, Gullveig, Frey, and Loke. For creating and beeing active in VIP.
+
+Thor. For beeing fat and funny (when he jumped into the fireball for exampple)
+
+Thor and Kyodo. For letting me in to aC.
+
+the one piece creators, for giving me a break to get a better english and understand more
+
+Loke and KGR, for reliving VIP with me
+
+Luffy, Villetys, and OP. For letting me into S
+
+Aegir. For beeing my swedish friend a long time, and for making lovely clans levels, and guides in our forum.
+
+Lodur. For giving me a sight of fins. (Beer, girls, and school)
+
+Legend. For keeping himself 1st at my idol list for 7 months.
+and the rest of aC.
+
+Hostile. For creating pFe, letting me in, and for have been a great friend and still is.
+
+Sorry if i missed someone...
+{% endraw %}

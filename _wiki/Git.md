@@ -1,0 +1,34 @@
+---
+title: Git
+archived_url: "https://web.archive.org/web/20110721114635/http://www.openlierox.net/wiki/index.php/Git"
+last_modified: "00:02, 14 May 2011"
+---
+{% raw %}
+[Git](http://en.wikipedia.org/wiki/Git_(software)) is a system which allows us to easily work all together on the same source code. We use it to [work](/wiki/index.php/Development/) on the [OpenLieroX](/wiki/index.php/OpenLieroX/) source code.
+
+The source code is on [GitHub](/wiki/index.php/GitHub/). It can also be seen online [here](https://github.com/albertz/openlierox).
+
+# Repositories
+
+There are several repositories. One is to keep the main source code and all the stuff needed to build and run OpenLieroX for your own. This is the [openlierox repo](https://github.com/albertz/openlierox). Then there is another one to keep all needed stuff for distribution, i.e. building the packages for release. We keep this seperated because for one, we don't want to blow up the openlierox (source) repo with unneccessary stuff and also because it should be anyway independent from the OLX branch/version (those distrib scripts should work for all branches). Normally, you only need the source code itself here, i.e. only the openlierox repo and you should not care about the others.
+
+# Branches
+
+Then, every repo itself has several branches. They are for one totally seperated. They represent the different [versions](/wiki/index.php/Development/#versions) of the game. So, if you want to work on it, you have to choose the branch you want to work on. You can also creaty easily own branches, if you want to try something out and don't want to get some unfinished/unstable stuff into the main branches. You can even keep those own branches on your local disk only. Or you push your own seperate branch online and others can work together with you on this seperate branch.
+
+# Merging
+
+With Git, it is easily possible to get a change (or a bunch of changes - or a whole branch since it was split up from another branch) from one branch to another. In fact, this is the most basic operation of all Git operations - this is the whole concept of Git. Getting one branch into another is called *merging*.
+
+# Working on the code
+
+When you are going to commit small improvements which are mostly stable and could go like that into the next release, just push them to the same branch (like 0.59). When you are starting to do something very big and new where it is likely that other things might break for the moment, please make an own branch for it, so that the main branches (0.58, 0.59) stay stable/useable (in the sense that at any time, I could make a release from the current point).
+
+Also, never modify the history on Git (but normally the git client doesn't do that anyway, only if you really force it to).
+
+Otherwise, we don't really have rules for working on the Git code. Git gives us the great freedom to just try things out (in own branches) if we got any idea or so.
+
+# Get the source
+
+[Read further here, how to obtain the source code from Git.](/wiki/index.php/Obtaining_OpenLieroX_source_from_Git/)
+{% endraw %}

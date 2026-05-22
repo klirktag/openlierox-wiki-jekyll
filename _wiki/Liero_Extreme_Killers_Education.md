@@ -1,0 +1,34 @@
+---
+title: Liero Extreme Killers Education
+archived_url: "https://web.archive.org/web/20120504114647/http://www.openlierox.net:80/wiki/index.php/Liero_Extreme_Killers_Education"
+last_modified: "16:37, 7 August 2008"
+categories: [Clans]
+---
+{% raw %}
+<table border="1" cellpadding="2" cellspacing="0" width="400">
+<tr>
+<td>
+<table border="0" cellpadding="2" cellspacing="0" width="100%">
+<tr>
+<th align="center" colspan="2" style="background:#cef2e0;" width="25">  Notice
+</th></tr>
+<tr>
+<td style="background:#cef2e0;" width="20">
+</td><td align="center"> This article is about a clan that is considered active. Any featured information may be outdated due to events in the clan. Feel free to correct any inaccuracies.
+</td></tr></table>
+</td></tr></table>
+
+# [leke] - Liero Extreme Killers Education
+
+:   :   Leaders: LemonNinja, GrassNinja
+    :   Senior Members: SnowNinja
+    :   Members: CnmnNinja
+    :   Trials: none
+    :   Founded in: August 2005
+    :   Settings played: All
+
+## General
+
+[leke] was founded back in summer 2005 by LemonNinja and GrassNinja. Because there were no ideas for a clan name or tag, they took their last names first two letters(GrassNinja: Silvio Leuenberger, LemonNinja: Joel Keller) Le and Ke. Later they thought this was a bit lame and renamed the clan to "Liero Extreme Killers Education", and kept the tag. [leke] was originally a Mortar clan (like almost all new clans back then) but switched to 100% loading time later.
+[leke] registered as a non-allied clan at LXA in early 2006, and turned allied some months later.
+{% endraw %}

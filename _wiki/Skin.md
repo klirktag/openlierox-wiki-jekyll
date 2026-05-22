@@ -1,0 +1,44 @@
+---
+title: Skin
+archived_url: "https://web.archive.org/web/20130324065322/http://www.openlierox.net:80/wiki/index.php/Skin"
+last_modified: "22:22, 15 May 2008"
+categories: [Guides]
+---
+{% raw %}
+## Skinning
+
+Making custom skins relatively easy, although a complex skin is time-consuming to make. The skins in the game are located in the "skins" folder. To save time and ensure that your skin will be fully functional, follow these guidelines:
+
+* Download the skin template below.
+
+![Image:SkinTemplate.png](/wiki/images/6/69/SkinTemplate.png)
+
+* Your skin will go into the top 672x36 pixels (the top 1/3rd as shown below). The rest of the template is for assistance only during the making process, and should be removed once the skin is finished.
+
+![Image:Skinguide.png](/wiki/images/2/24/Skinguide.png)
+
+* The skin consists of two rows with 21 frames in each, each frame being 25x18 pixels. The top row contains the version of the skin that will be seen ingame. The bottom row determines which colors in the corresponding drawing above are static and which are changable.
+
+![Image:Skinlevels.png](/wiki/images/8/86/Skinlevels.png)
+
+* Each frame is designated by a pink box containing green bordering . The part of the green bordering that forms a box in each frame indicates the dimensions of the skin that interacts with solid areas and projectiles ingame; borders included. These may be used as a guide to centering the skin. The frames are separated by non-usable space designated by a dark pink color .
+
+* The pink color (RGB:255,0,255) is transparent, and once the skin is finished, all assisting ready-made green and dark pink areas should be replaced with pink.
+
+* The blue horizontal bar below the skin in the template contains the standard colors that should be used for areas that are supposed to change color. Using other close nuances of similar blue is likely to result in dysfunctional color changing. It is highly recommended to have color-changing areas because of team games where color indicates which team the player is on.
+
+* Each of the two rows in the skin is divided into three sections of seven frames per section. The frames in the left section are shown while the skin is standing still. While the skin is moving, the frames are cycled from the left section, to the corresponding frame in the center section, and then on to the right, whereafter the cycle is repeated . These three frames are indicated by the same number in the skin template.
+
+![Image:Skinsections.png](/wiki/images/2/23/Skinsections.png)
+
+* Each frame in each section designates a particular aim of the skin, as indicated by the aim disk in the skin template. The blue section of the disk shows the degree of aim that a particular frame corresponds to.There are three frames for each aim, one in each section, and these will form the animation of the skin.
+
+* The bottom row should correspond exactly to the upper row , except in terms of colors. The areas of the skin which aren't supposed to change color should be marked with black (RGB: 0, 0, 0) in the bottom row. Areas which are supposed to change color should be marked with white (RGB: 255, 255, 255). However, while you are making the skin, you can save time by having the bottom row identical to the top row. This will make it possible to observe the skin in action, although without the correct coloring.
+* When you start making the skin, make sure that it faces to the right. The program will automatically mirror it to the left.
+* Once you have finished making it, resize the template to remove all the assisting parts, so that that the skin has the dimensions 672x36 pixels. Replace the assisting dark pink and green coloring with the transparent pink color.
+* Name the skin according to skin naming standards such as "AssaultWorm" instead of "assaultworm" or "Assault worm". Save the file in .png format, and preferrably check that the extension becomes ".png" and not ".PNG". If the only option is .PNG, you can simply rename the skin and change the extension.
+* If you are going to upload the skin so that others may download it, it is not recommended to use imageshack.us to upload your skin. Imageshack will add a few random characters to the end of the name of the skin. The best option is to use [FileBase](/wiki/index.php/FileBase/).
+
+Useful template:
+![Image:Skin template.png](/wiki/images/a/a7/Skin_template.png)
+{% endraw %}

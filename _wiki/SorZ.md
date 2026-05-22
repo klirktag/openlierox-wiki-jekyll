@@ -1,0 +1,40 @@
+---
+title: SorZ
+archived_url: "https://web.archive.org/web/20140508150954/http://www.openlierox.net:80/wiki/index.php/SorZ"
+last_modified: "22:41, 28 December 2013"
+categories: [Players, Sweden]
+---
+{% raw %}
+<table border="1" cellpadding="2" cellspacing="0" width="400">
+<tr>
+<td>
+<table border="0" cellpadding="2" cellspacing="0" width="100%">
+<tr>
+<th align="center" colspan="2" style="background:#cef2e0;" width="25">  Notice
+</th></tr>
+<tr>
+<td style="background:#cef2e0;" width="20">
+</td><td align="center"> This article is about a player considered active. Any featured information may be outdated due to   any recent events. Feel free to correct any inaccuracies.
+</td></tr></table>
+</td></tr></table>
+
+# SorZ
+
+Dedicated to the game and community since 2006, has taken part in the competitive scene since 2008. He got experience in clan building from hard work with establishing his clan [Quality](/wiki/index.php/Quality/), but today he is gaming for the veteran clan [annuit Coeptis](/wiki/index.php/Annuit_Coeptis/).
+
+He's been active in hosting of several tournaments during the years, such as the legendary [Fightbox](/wiki/index.php/Fightbox/) 2008-2010 and 2012, LX Alliance Awards 2009-2011, King of Classic 2011, Alliance Clan Series 2009-2010, LieroXtreme Nations Cup 2008
+
+# Achievements (Solo)
+
+* 1st Place ~ One Night Stand 2010
+* Top 10 (4th) ~ Fightbox 2009
+* Top 10 (9th) ~ Fightbox 2008
+
+# Achievements (Clan)
+
+* 2nd Place ~ Fightbox 2009, with [aC]
+* 2nd Place ~ Domination 2008/2009, with {Q}
+* 3rd Place ~ Fightbox 2009, with {Q}
+* 3rd Place ~ Fight For Win 2009, duo with Lodur
+* Top 5 (4th) ~ Fightbox 2008, with {Q}
+{% endraw %}

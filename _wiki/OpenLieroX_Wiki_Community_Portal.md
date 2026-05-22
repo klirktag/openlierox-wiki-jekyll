@@ -1,0 +1,12 @@
+---
+title: "OpenLieroX Wiki:Community Portal"
+archived_url: "https://web.archive.org/web/20140803233549/http://www.openlierox.net:80/wiki/index.php/OpenLieroX_Wiki:Community_Portal"
+last_modified: "02:18, 5 May 2008"
+---
+{% raw %}
+To find out what you can do for LX Wiki this is the right place to go.
+
+For you casual users we need pages done and by that we need information about things others don't know about. So if you know something, check out the wanted pages and make sure you fill out any information that you know about. This will be most helpful to anyone. Another thing you can do is check out [TODO](/wiki/index.php/TODO/). That page will show you what needs to be edited on importantly. You can add to it if you think something needs to be done thats important.
+
+Also look around by clicking random page, you can find some missing info on pages that you know, fill it in. We are trying to create a page on all levels, skins, frontends, and other stuff that people have created. With information about the creater, and tactics and other such things inside that category.
+{% endraw %}

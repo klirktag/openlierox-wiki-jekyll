@@ -1,0 +1,32 @@
+---
+title: Old School Tournament
+archived_url: "https://web.archive.org/web/20110721185611/http://www.openlierox.net/wiki/index.php/Old_School_Tournament"
+last_modified: "01:25, 15 August 2008"
+categories: [Contests]
+---
+{% raw %}
+**Old School Tournament** is an event in LieroX which was created in a spirit of rescuing old school settings and style from being taken over by [Mortars](/wiki/index.php/Mortars/).
+
+## History
+
+Tournament was created by [Ruki](/wiki/index.php/Ruki/) and it originates from New Year's eve in 2006. It has been going on in [The Lobby](/wiki/index.php/The_Lobby/) and [Gaming Universe](/wiki/index.php/Gaming_Universe/) until most of the contestants left LieroX community or let it slip into the darkest corner of their closets in late 2006. However, it has never been cancelled and with the goal never being achieved it was still ongoing.
+
+Old School Tournament was brought back to the attention on January the 1st in 2008 as an answer to Pure morts competition. It is actively going on since then with a slight change of rules.
+
+## Rules and Goals
+
+The only goal of the tournament is to never play [Mortars](/wiki/index.php/Mortars/). The one who stays clean without playing the forbidden setting for the longest period of time is the winner. Contestants must avoid Mortars servers and leave them before the game starts. In case leaving is not the option contestants should suicide. It is also duty of a contestant to report a fellow contestant if he sees him breaking the rule. Updated version of the tournament in 2008 presented another activity - Inquisition. The tournament ends when either Mortar combos die or there is a single player left. If player breaks the rules, he is out of the tournament for good.
+
+## Inquisition
+
+Inquisition is present to chase the possible rule breakers. Inquisitors are undercover players with a mission to scare away the contestant's urge to play Mortar combos. After a successful 'witch-hunt' Inquisitor presents evidence to the host of the tournament, who then liquidates the sinner from the tournament.
+
+## Signing up
+
+It is still possible to join the tournament as a contestant or inquisitor. You can do it by contacting the host in any form or posting an application in tournament's [thread at LXA](http://lxalliance.net/forum/index.php?topic=7890.0).
+
+## External links
+
+* [Old School Tournament LXA thread](http://lxalliance.net/forum/index.php?topic=7890.msg97311)
+* [Old School Tournament GU thread](http://www.thegaminguniverse.com/forums/showthread.php?t=26996)
+{% endraw %}

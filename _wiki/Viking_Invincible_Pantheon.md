@@ -1,0 +1,124 @@
+---
+title: Viking Invincible Pantheon
+archived_url: "https://web.archive.org/web/20110721204357/http://www.openlierox.net/wiki/index.php/Viking_Invincible_Pantheon"
+last_modified: "13:30, 28 May 2008"
+categories: [Clans, Retired clans]
+---
+{% raw %}
+<table border="1" cellpadding="2" cellspacing="0" width="400">
+<tr>
+<td>
+<table border="0" cellpadding="2" cellspacing="0" width="100%">
+<tr>
+<th align="center" colspan="2" style="background:#EFAAAA;" width="25">  Notice
+</th></tr>
+<tr>
+<td style="background:#EFAAAA;" width="20">
+</td><td align="center"> This article is about a clan that has been tagged dead. Any info is to be considered purely of historical value. Feel free to correct any inaccuracies.
+</td></tr></table>
+</td></tr></table>
+
+**[VIP] - Viking Invincible Pantheon**
+
+## History
+
+[VIP] was founded and started by Odin in September 2005, 5 minutes later Frey (Odins little brother) got recruited as the first member.
+It started out as a mortar clan, but soon changed to multimod. The clan died in May 2006.
+
+## Members
+
+* [VIP] Hermod (leader)
+* [VIP] Odin (leader)
+
+### Prematurely retired members
+
+* Heimdall (IRL friend with Tyr, now active in [aC])
+* Tyr (IRL friend with heimdall. Ex co-leader of the clan, one of the leaders of the [aC] clan)
+* HeL (active in the nG clan. Other nicks Pandora, Beast and Freedom)
+* Bor (Thor's little brother, now retired from the lx community)
+* Thor (Ex leader of the clan. The most active [VIP] member ever. He was in [VIP] for over a year *and under his time in [VIP] he helped [VIP] with its proceeding to be a better clan. Now, he is one *of the leaders of [aC])
+* Vidar (Valk-x is active in the clan >BS)
+* Gefjon (active in the clan [FoH]. Nicks ProFa or Torna)
+* Eir (Retired from the whole lx community)
+* Gullveig (Active in [OwZ])
+* Aegir (dont know where he is)
+* Magni (active in [OwZ])
+* RagnaroK (havent heard from him)
+* JeraX (havent heard from him)
+* Vidar (Retierd from whole LX comunity)
+* Loke (Know active in the clan[lord])
+* Aegir (Know active in the clan {S})
+* Frigg (Know active in the clan [lord])
+* Frey (Know active in the clan [Cop])
+* Svipdag (Know active in the clan [Oa])
+* Akilles (Know active in the clan [Finno-12])
+
+### Kicked members
+
+* Var-bad behaviour
+* Kvasir-multiclanning
+* Lofn-multiclanning
+* Pelimies-multiclanning
+* Balder-hard to communicate(knowned as [CoD] Tzhaar
+
+## Rules
+
+* Be active
+* Always be nice
+* No Multiclanning
+* No Cheating
+* No Spamming
+* No Camping
+* No Running
+* No Whining
+
+## Clan Wars
+
+* Total number of clanwars played: 98
+* Total number of clanwar wins: 55
+* Total number of clanwar losses: 43
+* Clanwar winning percentage: 56%
+* Total number of rounds won: 114
+* Total number of rounds lost: 99
+* Total number of rounds playing: 213
+* Round winning percentage: 54%
+* Total number of kills: 2788
+* Total number of deaths: 2693
+
+* Player Statistics
+* Most kills: 975 (Gullveig)
+* Most kills in a 10 life CW: 19 (RaN)
+* Highest number of rounds played: 102 (Gullveig)
+* Highest number of clan wars played: 49 (Gullveig)
+* Highest kill/death ratio: 1,9 (RaN)
+* Lowest kill/death ratio: 0,61 (Frigg)
+
+## Clan War settings
+
+* Liero v1.0 100lt non-combo (limited weapons)
+* Liero v1.0 20lt combo
+* 8-bit Warfare v1.2 100lt non-combo
+* Modern Warfare v1.0 20lt combo
+* Modern Warfare v1.0 100 lt non combo
+* Food Fight v0.6 100lt non-combo
+* Trick or Treat 0.3 100lt non combo
+* MSF 100 lt non combo
+
+## Levels
+
+* Fossli facility
+* Liero Factory/ Liero Factory (Revisted)
+* Castle Strike
+* Jail Break
+* Bookworm
+* Campus
+* CristmasTree
+* Destrdome
+* Jukke Dome
+* Lamda Bunker
+* Tetrisv2
+* Sunrise Mantion
+* Poo Arena
+* Blat arena
+* Ore Querry
+{% endraw %}

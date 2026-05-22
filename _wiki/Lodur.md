@@ -1,0 +1,52 @@
+---
+title: Lodur
+archived_url: "https://web.archive.org/web/20110721182837/http://www.openlierox.net/wiki/index.php/Lodur"
+last_modified: "23:26, 24 May 2009"
+categories: [Players, Finland]
+---
+{% raw %}
+<table border="1" cellpadding="2" cellspacing="0" width="400">
+<tr>
+<td>
+<table border="0" cellpadding="2" cellspacing="0" width="100%">
+<tr>
+<th align="center" colspan="2" style="background:#cef2e0;" width="25">  Notice
+</th></tr>
+<tr>
+<td style="background:#cef2e0;" width="20">
+</td><td align="center"> This article is about a player considered active. Any featured information may be outdated due to   any recent events. Feel free to correct any inaccuracies.
+</td></tr></table>
+</td></tr></table>
+
+## General
+
+**Lodur** is a Finnish player who has been playing LieroX since september 2006. His LX history you can find here: <http://lxalliance.net/forum/index.php?topic=4467.0>
+
+## Clans
+
+* **[WyD]** - Whos your Daddy - Made by Lodur and his current Classmates ( Only two others became well known but quit LX later, Fray and LionHeart )
+* **]T$P[** - The Skilled Players - Made by Larssa and MaTo (later known as Apathy in rO)
+* **|Sfm|** - Sauna friikki miehet - Made by my good friend Mashkito who is currently in aC
+* **|Finno-12|** - Finno-12 - Made by Finno-12 Boss who is still leading that same clan. Finno died
+* **[<3]** - Loved ones - Made by Kg-r ( Namura ) and I joined it immeaditly. It died after Finno was re-made
+* **|Finno-12|** - Finno-12 - Came back to alive after week or two. Left it soon tho
+* **[VIP]** - Viking Invisible Pantheons - Made by Odin, inactive, VIP was dying at its best days were over before Me, Aegir, KGr joined. Loke was the leader that time
+* **[aC]** - [annuit Coeptis](/wiki/index.php/Annuit_Coeptis/) - Made by Kyudo ( Ryo ) , Thor and Legend.
+* **{S}** - Soldiers of Sunset - Made by Lodur, Luffy and Villetys. Very succesful clan if we watch the clanwars winnint percentage.
+* **[Jsp]** - Junior school players - Was there only for 6 days. Osp clans farm clan Only Pera managed to get into Osp.
+* **{S}** - Soldiers of Sunset - New try, didnt work out.
+* **(Uw)** - [United Warriors](/wiki/index.php/United_Warriors/) - I was trial with Thor. Didnt pass. Neither did Thor.
+* **-mD-** - mass Destruction - made by Mashkito and Syphon, left after 4days.
+* **[aC]** - annuit Copetis - Made by Luffy, Legend, Thor, Lodur, druFF ( all original aCs ) i was there for 7months
+* **(V)** - [Men of Valor](/wiki/index.php/Men_of_Valor/) - Made by Tizzle, Spectro and Asrack. Old North American clan.
+* **{Q}** - [Quality](/wiki/index.php/Quality/) - Joined a underdog clan, we kinda brought its level up alot
+* **[aC]** - [annuit Coeptis](/wiki/index.php/Annuit_Coeptis/) - 3rd edition but only me, mash and thor from old aCs.
+
+## Lodurs closest friends in LX
+
+Thor - Amazing friend of mine, we are planning on meeting IRL. He have had my back for all this time
+[Purplehaze](/wiki/index.php/Purplehaze/) ( Alex <3 ) - When i tried to make my rep. up Alex was there for me all the time =)
+Karma - Awesome guy, loves to hit on my ex girls 8D
+
+~ Written by Lodur himself.
+{% endraw %}

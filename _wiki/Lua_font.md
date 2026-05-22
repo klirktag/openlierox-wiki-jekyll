@@ -1,0 +1,38 @@
+---
+title: "Lua:font"
+archived_url: "https://web.archive.org/web/20100618092033/http://www.openlierox.net:80/wiki/index.php/Lua:font"
+last_modified: "12:56, 30 January 2010"
+---
+{% raw %}
+Copied from [here](http://sliekas.org/basara/gusdocs/doku.php/main:modding_docs:lua:font).
+
+###### Class Font
+
+```
+===== See also: =====
+```
+
+[font_load](/wiki/index.php/Lua_global/#font_load)
+
+##### render
+
+```
+ render(bitmap, string, x, y[, color[, flags]])
+```
+
+Draws the text 'string' on 'bitmap' at the position (x, y).
+
+If //color// is supplied, it draws the text with that color,
+otherwise it draws the text white.
+
+* * Note that in versions before 0.9c, color was specified as
+
+three parameters. This has been deprecated.**
+
+//flags// can be a sum of these values:
+Font.None : No flags (default).
+Font.CenterV : Center the text vertically with y at the middle.
+Font.CenterH : Center the text horizontally with x at the middle.
+Font.Shadow : Draw a shadow under the text.
+Font.Formatting : Draw the text with formatting.
+{% endraw %}

@@ -1,0 +1,115 @@
+---
+title: Ep!c Warr!ors
+archived_url: "https://web.archive.org/web/20110721135422/http://www.openlierox.net/wiki/index.php/Ep%21c_Warr%21ors"
+last_modified: "04:02, 5 November 2008"
+categories: [Clans]
+---
+{% raw %}
+<table border="1" cellpadding="2" cellspacing="0" width="400">
+<tr>
+<td>
+<table border="0" cellpadding="2" cellspacing="0" width="100%">
+<tr>
+<th align="center" colspan="2" style="background:#cef2e0;" width="25">  Notice
+</th></tr>
+<tr>
+<td style="background:#cef2e0;" width="20">
+</td><td align="center"> This article is about a clan that is considered active. Any featured information may be outdated due to events in the clan. Feel free to correct any inaccuracies.
+</td></tr></table>
+</td></tr></table>
+
+**Ep!c Warr!ors - (Ew)**
+
+## History
+
+(Ew) was created in early 2008 by Hrunting, SteelCrush (Now known as "Carb!de"), ExiT/DeLi and [Snap](/wiki/index.php/Snap/). It's mainly a North American clan but features members from Europe and New Zealand. A few months down the road Snap left (Ew) after some problems developed between him and other (Ew) members. ExiT left some time later due to LX becoming boring for him. SteelCrush left after that to start up another clan.
+
+### Sets
+
+* 20lt Modern Warfare, Mortar combo
+* 100lt, liero V.1 [Limited](/wiki/index.php/Limited/)/[Unlimited](/wiki/index.php/Unlimited/)
+* 100lt MSF II
+* 100lt Shock
+* 20lt Liero V.1. Rifle combo
+
+## Members
+
+Members as of, 4th November 2008
+
+### Supreme Robot Over-Lord
+
+* (Ew) The Girl
+
+### Leaders
+
+* (Ew)Hrunting
+* (Ew)Oxygen
+
+### Members
+
+* (Ew) algis Lit`
+* (Ew)Savory
+* (Ew) Poomah
+* (Ew) Illusion
+* (Ew) Atumbra
+* (Ew)Flip
+
+### Recruits
+
+* [Ew] Tobi
+* [Ew] Ferret
+* [Ew]SparQ
+
+### Retired/Kicked Members
+
+* Chimera / Chemist
+* Vi0LanC3 / DefiL3D
+* Rain / yarr / Spoon / Teh Hawtest
+* Aloha
+* NoReal
+* Petric Ze 4th
+* Kuldain
+* Machoman
+* ExiT
+* Snap
+* SteelCrush
+* Gent.
+
+## Clan Wars
+
+General Statistics.
+
+* Won: 13
+* Lost: 7
+* Draw: 0
+
+### Wins
+
+* (Ew) vs. 420._____420. 2-1
+* (Ew) vs. (EDN) 2-0
+* (Ew) vs. [FC] 2-0
+* (Ew) vs. [oP] 2-0
+* (Ew) vs. [NP] 2-0
+* (Ew) vs. [mVp] 2-0
+* (Ew) vs. [SLX] 2-1
+* (Ew) vs. [mVp] 2-0
+* (Ew) vs. [mVp] 2-0
+* (Ew) vs. [dF] 2-1
+* (Ew) vs. [CmD] 2-0
+* (Ew) vs. [rb] 2-0
+* (Ew) vs. |FeaR| 2-1
+
+### Loses
+
+* (Ew) vs. [[{Q}]] 1-2
+* (Ew) vs. [(V)](/wiki/index.php/(V)/) 0-2
+* (Ew) vs. |a&S| 1-2
+* (Ew) vs. [AoG] 0-2
+* (Ew) vs. [AoG] 0-2
+* (Ew) vs. [(V)](/wiki/index.php/(V)/) 0-2
+* (Ew) vs. [(V)](/wiki/index.php/(V)/) 0-2
+
+### Draws
+
+None
+{% endraw %}

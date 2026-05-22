@@ -1,0 +1,108 @@
+---
+title: Quality
+archived_url: "https://web.archive.org/web/20110721164323/http://www.openlierox.net/wiki/index.php/Quality"
+last_modified: "23:14, 7 June 2010"
+categories: [Clans, Retired clans]
+---
+{% raw %}
+<table border="1" cellpadding="2" cellspacing="0" width="400">
+<tr>
+<td>
+<table border="0" cellpadding="2" cellspacing="0" width="100%">
+<tr>
+<th align="center" colspan="2" style="background:#EFAAAA;" width="25">  Notice
+</th></tr>
+<tr>
+<td style="background:#EFAAAA;" width="20">
+</td><td align="center"> This article is about a clan that has been tagged dead. Any info is to be considered purely of historical value. Feel free to correct any inaccuracies.
+</td></tr></table>
+</td></tr></table>
+
+**Quality** (**{Q}**) (6th October 2007 - 26th April 2009) grew from being a completely newbie clan to one of the strongest competitive LX clans during it's existence. The clan was mainly focused on multimodding and had many good and skilled players.
+
+## History
+
+* 2007-10-06 **{Q}** is given birth (by [SorZ](/wiki/index.php/SorZ/) & Caged)
+* 2007-10-12 **Kurapica** joins the clan
+* 2007-10-18 **SteelSide** joins the clan
+* 2007-10-19 **Jage** joins the clan
+* 2007-10-21 **Kira** joins the clan
+* 2007-10-29 **Dread** joins the clan
+* 2007-11-06 **Dread** jumps off the train
+* 2007-11-07 **Kira** retires from the LieroX scene
+* 2007-11-07 **Nassie** joins the clan
+* 2007-11-13 **QuiverZ** joins the clan
+* 2007-11-13 **Nassie** can't stand the pressure and leaves
+* 2007-11-19 **Kurapica** is punished and banned from the clan
+* 2007-11-29 **QuiverZ** thinks the grass is greener on the other side
+* 2007-12-07 **Sakmongkol** joins the clan
+* 2007-12-14 **Wilz** joins the clan
+* 2007-12-18 **Caged** retires from LieroX
+* 2007-12-27 **manu** joins the clan
+* 2007-12-28 **miri** joins the clan, under the name SyphaeL
+* 2008-01-03 **Wilz** slips on a banana peel
+* 2008-01-07 **Cizin** joins the clan
+* 2008-03-14 **manu** runs away in confusion
+* 2008-03-16 **Caged** makes up his mind and returns
+* 2008-03-22 **Cizin** betrays the brotherhood
+* 2008-04-04 **Johnnyy** joins the clan
+* 2008-04-17 **Piippu** joins the clan
+* 2008-05-31 **Caged** retires from the active LieroX scene for good
+* 2008-06-18 **QuiverZ** returns to the clan
+* 2008-07-23 **QuiverZ** gets bribed
+* 2008-08-04 **Piippu** disappears without a trace
+* 2008-08-28 **Thor** joins the clan
+* 2008-08-31 **Lodur** joins the clan
+* 2008-09-17 **Purplehaze** joins the clan
+* 2008-10-06 **{Q}** celebrate it's 1 years birthday
+* 2008-11-30 **Laku** joins the clan
+* 2008-12-02 **Cizin** returns to the clan
+* 2009-01-08 **Mashkito** joins the clan
+* 2009-01-15 **Thor** undergoes emotional crisis
+* 2009-01-26 **SteelSide** ends his membership
+* 2009-01-31 **Cizin'**s mind gets clouded by dark spirits
+* 2009-04-26 **{Q}** runs out of lifestream
+
+## Members
+
+### Leader
+
+* [SorZ](/wiki/index.php/SorZ/)
+
+### Members
+
+* Jage
+* Johnnyy
+* Laku
+* [Lodur](/wiki/index.php/Lodur/)
+* Mashkito
+* [Purplehaze](/wiki/index.php/Purplehaze/)
+* miri
+* QuiverS
+
+### Ex Members
+
+* Caged (founder)
+* Cizin
+* Dread
+* Kira
+* Kurapica
+* manu
+* Nassie
+* PiipqU
+* Sakmongkol
+* [SteelSide](/wiki/index.php/SteelSide/)
+* Thor
+* Wilz
+
+## Clan Achievements
+
+* #4 Place: Fightbox 2008
+* #2 Place: Domination 2009
+
+## External Links
+
+* [Clan website](http://www.thequalityclan.webs.com)
+* [Clan thread: LX Alliance](http://lxalliance.net/forum/index.php?topic=7054.0)
+* [Clanwar list: LX Alliance](http://lxalliance.net/forum/index.php/topic,12265.0.html)
+{% endraw %}

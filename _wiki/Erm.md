@@ -1,0 +1,68 @@
+---
+title: Erm
+archived_url: "https://web.archive.org/web/20110721135214/http://www.openlierox.net/wiki/index.php/Erm"
+last_modified: "20:05, 3 April 2008"
+categories: [Clans, Retired clans]
+---
+{% raw %}
+<table border="1" cellpadding="2" cellspacing="0" width="400">
+<tr>
+<td>
+<table border="0" cellpadding="2" cellspacing="0" width="100%">
+<tr>
+<th align="center" colspan="2" style="background:#EFAAAA;" width="25">  Notice
+</th></tr>
+<tr>
+<td style="background:#EFAAAA;" width="20">
+</td><td align="center"> This article is about a clan that has been tagged dead. Any info is to be considered purely of historical value. Feel free to correct any inaccuracies.
+</td></tr></table>
+</td></tr></table>
+
+**erm** (**[erm]**) (February 2004 - July 2004) was one of the first serious LieroX clans ever made. Clan has later merged with [heh](/wiki/index.php/Heh/) clan and together they formed [42](/wiki/index.php/42/) clan.
+
+## History
+
+erm was formed in February 2004 by [Blackninja](/wiki/index.php/Blackninja/). To increase the activity erm has merged with [heh](/wiki/index.php/Heh/) clan to form [42](/wiki/index.php/42/) in July 2004.
+
+Because of 42 clan's inactivity Tizzle was trying to resurrect erm with Blackninja's permission in July 2005. As the only member he finally gave up in September 2005.
+
+## Members
+
+### Leader
+
+* [Blackninja](/wiki/index.php/Blackninja/)
+
+### Co-Leader
+
+* Eradicate (replaced by C3M when he got inactive)
+
+### Normal members
+
+* C3M (co-leader later)
+* Galamoth
+* Gemini
+* Hydra
+* LMX
+* [MasterOfHyrule](/wiki/index.php/MasterOfHyrule/)
+
+## Rules
+
+* No members are allowed in [erm] without Blackninja's or Eradicatess approval.
+* [erm] is never to play any netplay game with less than 70% loading time. Reputation will go down if members are caught.
+* No flaming or spamming is allowed in the game or before a game.
+
+## Clan Wars
+
+### Won
+
+[erm] vs [BtBs] (1:0) [Screenshot](http://lxalliance.net/wiki/images/e/e3/ERMvsBTBS.jpg)
+
+## See also
+
+* [42](/wiki/index.php/42/)
+
+## External links
+
+* [erm GU thread](http://www.thegaminguniverse.com/forums/showthread.php?t=12227)
+* [erm resurrection GU thread](http://www.thegaminguniverse.com/forums/showthread.php?t=23568)
+{% endraw %}

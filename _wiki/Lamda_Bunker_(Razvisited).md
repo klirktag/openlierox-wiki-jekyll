@@ -1,0 +1,17 @@
+---
+title: Lamda Bunker (Razvisited)
+archived_url: "https://web.archive.org/web/20171226011438/http://www.openlierox.net:80/wiki/index.php/Lamda_Bunker_(Razvisited)"
+last_modified: "22:42, 10 May 2008"
+---
+{% raw %}
+**Lamda Bunker (Razvisited)**
+
+<div class="thumb tright"><div class="thumbinner" style="width:202px;"><img alt="Screenshot of the level (51 kB)" border="0" class="thumbimage" src="/wiki/images/d/d8/Lamda_Bunker_%28Razvisited%29.png"/> <div class="thumbcaption"><div class="magnify" style="float:right"><a href="/wiki/index.php/Image_Lamda_Bunker_(Razvisited).png/"><img alt="" src="/wiki/skins/common/images/magnify-clip.png"/></a></div>Screenshot of the level (51 kB)</div></div></div>
+
+This level, originally made by Ragzouken, has been completelly remade by [Raziel](/wiki/index.php/Raziel/) in April 2008. The Lamda Bunker (Razvisited) level is going to be included in [OpenLieroX](/wiki/index.php/OpenLieroX/) Beta6 release.
+
+**Layout**
+In comparison to the old [Lamda Bunker](/wiki/index.php/Lamda_Bunker/) level, Lamda Bunker (Razvisited) has wider corridors and more holes in the walls which make the level less campy and improve playability. To avoid "random kills" in the bottom part (the sea), there are several rocks to block direct shooting across the whole level.
+
+The graphics has been changed even more than the playability of the level. The whole level is much more realistic and colorful than the original [Lamda Bunker](/wiki/index.php/Lamda_Bunker/).
+{% endraw %}

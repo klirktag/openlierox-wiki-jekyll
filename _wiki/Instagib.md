@@ -1,0 +1,10 @@
+---
+title: Instagib
+archived_url: "https://web.archive.org/web/20110721132643/http://www.openlierox.net/wiki/index.php/Instagib"
+last_modified: "22:04, 29 April 2008"
+---
+{% raw %}
+This word refers to a one shot kill. Any weapon that can destroy a player in one hit. A good example of this would be the weapon Mortar Launcher from [Modern Warfare](/wiki/index.php/Modern_Warfare/).
+
+To make an instagib weapon, the damage calculation on all projectiles should equal past 101. Or if you for example, use the napalm, then the explosion it self does 101 damage to the opponent. This will cause the player to die on impact.
+{% endraw %}

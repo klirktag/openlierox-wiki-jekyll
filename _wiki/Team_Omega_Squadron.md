@@ -1,0 +1,95 @@
+---
+title: Team Omega Squadron
+archived_url: "https://web.archive.org/web/20110721164305/http://www.openlierox.net/wiki/index.php/Team_Omega_Squadron"
+last_modified: "18:28, 3 April 2008"
+categories: [Clans, Retired clans]
+---
+{% raw %}
+<table border="1" cellpadding="2" cellspacing="0" width="400">
+<tr>
+<td>
+<table border="0" cellpadding="2" cellspacing="0" width="100%">
+<tr>
+<th align="center" colspan="2" style="background:#EFAAAA;" width="25">  Notice
+</th></tr>
+<tr>
+<td style="background:#EFAAAA;" width="20">
+</td><td align="center"> This article is about a clan that has been tagged dead. Any info is to be considered purely of historical value. Feel free to correct any inaccuracies.
+</td></tr></table>
+</td></tr></table>
+
+**Team Omega Squadron** (**ToS_**) (May 2004 - October 2004) was mostly North American and Rifles setting playing clan.
+
+## History
+
+Team Omega Squadron was already existing in other games like Junglewar, Vietcong, Hidden and Dangerous 2, Day of Defeat, Counter-Strike 2D and Call of Duty for a longer period (January in 2003 to be exact) when they decided to make a squadron in LieroX in May of 2004. It was a successful start as they soon became one of the best North American clans at that point.
+
+In July of 2004 some of the members tried to force other clan mates to change their playing style from Rifles only to Limited 100 lt and Multimodding which caused into most of the members leaving and therefore ToS had to reform the clan. 2nd period of the clan was born.
+
+After the Summer of 2004 there was a great lack of players and activity in ToS and it was time to retire the clan in LieroX in October of 2004. Team Omega Squadron still lives on today in other communities (including World of Warcraft).
+
+## Original Members
+
+### Leader
+
+* 0wner
+
+### Co-Leader
+
+* Anders
+
+### Normal members
+
+* l3lack Ninja
+* Big Red
+* Black Hawk
+* Death/Cloud
+* Maki
+* ooworm
+* [Ruki](/wiki/index.php/Ruki/)
+* Samurai
+* Smugli/Dape
+* The Jeet
+* Tizzle
+
+## Members in 2nd period
+
+### Leader
+
+* 0wner
+
+### Co-Leader
+
+* Death/Cloud
+
+### Normal members
+
+* Badest Mofo
+* Big Red
+* Black Hawk
+* ooworm
+* RaW
+* Samurai
+* The Jeet
+
+## Clan Wars
+
+### Won
+
+* ToS_ vs [nn] (2:0)
+* ToS_ vs WsW_ (2:0)
+
+### Lost
+
+* ToS_ vs [TK] (0:1)
+
+### Tied
+
+N/A
+
+## External links
+
+* [Team Omega Squadron Guildopedia page](http://guildopedia.wikia.com/wiki/Team_Omega_Squadron)
+* [Team Omega Squadron home page](http://teamos.org/)
+* [Team Omega Squadron old home page](http://www.geocities.com/coolsiteau/tosclan/hdhome.htm)
+{% endraw %}

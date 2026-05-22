@@ -1,0 +1,91 @@
+---
+title: Jukke
+archived_url: "https://web.archive.org/web/20110721183202/http://www.openlierox.net/wiki/index.php/Jukke"
+last_modified: "16:26, 16 April 2008"
+categories: [Players, Retired players]
+---
+{% raw %}
+<table border="1" cellpadding="2" cellspacing="0" width="400">
+<tr>
+<td>
+<table border="0" cellpadding="2" cellspacing="0" width="100%">
+<tr>
+<th align="center" colspan="2" style="background:#ABCDEF;" width="25">  Notice
+</th></tr>
+<tr>
+<td style="background:#ABCDEF;" width="20">
+</td><td align="center"> This article is about a player that has been tagged as retired. Any featured information is to be considered purely of historical value. Feel free to correct any inaccuracies.
+</td></tr></table>
+</td></tr></table>
+
+**Jukke** (or **Kaaronen**) was a leader of [Sausage Fighters](/wiki/index.php/Sausage_Fighters/) and creator of various LieroX files. He is most known for his Sheep Army Skins and Jukke Dome Level. Jukke was also host of [Level and Skin of the Month competition](/wiki/index.php/Level_and_Skin_of_the_Month_competition/).
+
+## List of files
+
+### Levels
+
+* Blast Fur-nace
+* Destruction Dome
+* Farm Drawing
+* Gnome Village
+* House Drawing
+* Jukke Dome
+* Lierowood (with various [Gaming Universe](/wiki/index.php/Gaming_Universe/) forums members)
+* Military Area 57
+* Night of the Dead
+* Parking Lot 1.04
+* Soccor Stadium
+* Tomb of Wormses
+* Waterfall
+* Woodland
+
+### Mods
+
+* 2 a.m B00M! 0.2
+* Javelin v1.1
+* Jukke
+
+### Skins
+
+#### Rambo Animal Skins
+
+* RamboBeaver
+* RamboPanda
+* RamboPanther
+* RamboPanther-B
+* RamboPig
+* RamboWalrus
+* RamboWalrus-B
+
+#### Sheep Army Skins
+
+* SA-BlackSheepLegion
+* SA-EvilSheepLord
+* SA-PanzerLamb
+* SA-Sheep
+* SA-SheepJeep
+* SA-WoollyTrooper
+
+#### Miscallenous Skins
+
+* Beebop
+* Flowdy
+* Gnome
+* HumptyDumpty
+* Lillofant
+* Necker
+* Nousey
+* Nousey-Ninja
+* PrivateBeer
+
+### The Sheep Story Comics
+
+The Sheep Story is a story consisting of many comics which together form a wholesome story of the beginning of the Sheep race and it's struggle for independence and the phases after that. The comics include races such as the Sheep, Lieros, Slugs, Meta Slugs, Anti-Sheep etc. One of the main characters in the story is well known and feared Evil Sheep Lord.
+
+* [The Sheep Story Comics GU thread](http://www.thegaminguniverse.com/forums/showthread.php?t=21210)
+
+## External links
+
+* [Jukke's LieroX home page](http://www.freewebs.com/jukke/)
+* [The Sheep Story Comics GU thread](http://www.thegaminguniverse.com/forums/showthread.php?t=21210)
+{% endraw %}

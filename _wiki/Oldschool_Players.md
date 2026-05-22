@@ -1,0 +1,139 @@
+---
+title: Oldschool Players
+archived_url: "https://web.archive.org/web/20110721162603/http://www.openlierox.net/wiki/index.php/Oldschool_Players"
+last_modified: "15:01, 9 June 2009"
+categories: [Clans]
+---
+{% raw %}
+<table border="1" cellpadding="2" cellspacing="0" width="400">
+<tr>
+<td>
+<table border="0" cellpadding="2" cellspacing="0" width="100%">
+<tr>
+<th align="center" colspan="2" style="background:#cef2e0;" width="25">  Notice
+</th></tr>
+<tr>
+<td style="background:#cef2e0;" width="20">
+</td><td align="center"> This article is about a clan that is considered active. Any featured information may be outdated due to events in the clan. Feel free to correct any inaccuracies.
+</td></tr></table>
+</td></tr></table>
+
+**Oldschool players** (**[Osp]**) is one of the oldest active LieroX clans, featuring mostly adult players. It was created by Zapp the 6th of March 2005, and currently has thirteen members. The members consist of six senior members who collectively make clan decisions, four regular members, and two honorary members who have retired from Osp and active playing. The clan plays a multitude of mods, favouring 100% loading time, but is open to most settings. Recruiting is highly selective: only seventeen players have ever been members of the clan.
+
+## Members
+
+The members are divided into senior and regular members. The difference between the two is that senior members are allowed to start clan wars, and have deciding power in the clan. Regular members are allowed to participate in clan wars. Honorary members have retired from Osp and active playing.
+
+* The difference between regular and senior members is that regular members aren't allowed to start clan wars, and don't have any absolute deciding power in the clan.
+* It is the duty of all the members, both senior and regular, to teach each other settings that they know well; and to actively seek to learn more.
+* Becoming a member in Osp requres that a player has shown mature and good gamesmanship, and has the potential to become an excellent player in a multitude of settings.
+* If seniormember becames unactive during a long perioid of time he can temporarily change his squadstatus from Senior to Regular member.
+* A regular member becomes a senior member when the senior members decide so.
+
+### Senior Members
+
+* [Osp] Chase
+* [Osp] Funkkarimies
+* [Osp] MiLeC
+* [Osp] Turma
+* [Osp] YellowBart
+
+### Regular Members
+
+* [Osp] Beat
+* [Osp] Morbid
+* [Osp] Pera
+* [Osp] Zapp (Founder)
+
+### Honorary Members
+
+* [Osp] Hurme
+* [Osp] Kossu Man
+
+### Retired Members
+
+* [Osp] Judas
+* [Osp] QuafaS
+* [Osp] Paulus
+* [Osp] Screams
+* [Osp] Tarinoko
+* [Osp] Spade-AU
+
+## Clan War Settings
+
+* Liero v.1.0 100% non-combo (with all weapons or limited weapons)
+* Liero v.1.11 100% non-combo
+* Marine Special Forces II 100%
+* Modern Warfare v.1.0 100% non-combo
+* Liero v. 1.0 20% combo
+* All levels, but with a distaste for the levels that limit movement.
+
+## Standards of the clan
+
+* Fairness and good gamesmanship
+* No disrespect for other players
+* No kicking people from servers in the middle of a game without a good reason.
+* When hosting: no quitting a server when others are still playing
+* When playing on others servers: no leaving games just because you are losing.
+* Results of clan wars are always shown.
+* No cheating
+* No camping
+* No running
+
+## Other Information
+
+* The founder reserves the rights to the clan, and with the assistance of both the senior members and the regular members, makes all the decisions regarding membership in the clan.
+* The senior members make all the decisions regarding senior membership in the clan.
+* Senior members are allowed to start clan wars.
+* Regular members are allowed to participate in clan wars.
+* Contacting the clan founder: whazupp@mail.com
+* Clan homepage: <http://lxalliance.net/lierox/index.php/clans/osp>
+* Clan private forums: Praiiiiveeeettt, duh
+* Clan thread on the lobby: <http://thelobby.altervista.org/viewtopic.php?t=195>
+* Clan thread on LieroX FIN: <http://zamzaii.suddenlaunch3.com/index.cgi...ay&num=11271233> 57
+
+## Joining the Clan
+
+* We are currently not actively seeking new members. If you feel like you would fit in. Don't hesitate to contact.
+* For players who have been in this community less than a year. We have Junior clan called [Jsp] If you want to hear more about it contact. Mileceka@hotmail.com
+
+Advantages(not requirements) for being accepted as a member are:
+
+* You are an adult player
+* You are an active player
+* You are a friendly guy
+* You are able to host
+* You have skills and potential
+* You have a sense of clan loyalty
+
+## Clan Wars
+
+[Osp] is known as a clan with the highest count of cws among multimod players. Overall only the controversial mortar clan Finno-12 has managed to gather a higher amount of clan wars.
+
+### Clan War statistics
+
+* Number of clan wars: 639
+* Clanwar victories: 518
+* Clanwar defeats: 107
+* Clanwar draws: 13
+* Unfinished: 2
+* Clanwar winning: percentage: 81%
+* Clanwar Draw: percentage: 2%
+* Clanwar defeat: percentage 17%
+
+### Great Clan Wars
+
+* 1.10.07 [Osp] vs. [Uw] 3-0
+* 1.11.07 [Osp] vs. [aC] 2-3
+* 6.11.07 [Osp] vs. [Uw] 1-3
+* 3.12.07 [Osp] vs. [Uw] 2-3
+* 11.11.07 [Osp] vs. [LaG] 3-2
+* 15.11.07 [Osp] vs. [LaG] 3-0
+* 17.12.07 (started 12.9) [Osp] vs. [Aog] 3-0
+* 19.12.07 [Osp] vs. [aC] 2-3
+* 14.1.08 [Osp] vs. [Aog] 3-2
+* 16.1.08 [Osp] vs. [FoH] 2-3
+* 23.1.08 [Osp] vs. [LaG] 3-0
+* 30.1.08 [Osp] vs. [aC] 3-1
+* 9.2.08 [Osp] vs. [LaG] 3-1
+{% endraw %}

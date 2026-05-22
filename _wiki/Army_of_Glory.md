@@ -1,0 +1,162 @@
+---
+title: Army of Glory
+archived_url: "https://web.archive.org/web/20110721135633/http://www.openlierox.net/wiki/index.php/Army_of_Glory"
+last_modified: "18:27, 20 December 2009"
+categories: [Clans]
+---
+{% raw %}
+<table border="1" cellpadding="2" cellspacing="0" width="400">
+<tr>
+<td>
+<table border="0" cellpadding="2" cellspacing="0" width="100%">
+<tr>
+<th align="center" colspan="2" style="background:#cef2e0;" width="25">  Notice
+</th></tr>
+<tr>
+<td style="background:#cef2e0;" width="20">
+</td><td align="center"> This article is about a clan that is considered active. Any featured information may be outdated due to events in the clan. Feel free to correct any inaccuracies.
+</td></tr></table>
+</td></tr></table>
+
+**Army of Glory** (**[AoG]**)
+
+# History
+
+The weather is a bit warmer in Europe than it usually is, however some people were thinking for weeks to make something new, something unique for Liero Extreme.
+Then, ~ALT~ and Vp came up with an idea. What about making a new clan?
+So they decided to merge, and here we go: [AoG]
+Most of its players have played with Liero Extreme for a long time, and we hope, each of us will be apart of a great Team:).
+December 27 2006...- by the founders.
+
+## Dates
+
+* January: Z01 leaves because of his real life problems, the other "leader" is away, so the clan nearly dies, everyone leaves,at the end Gyogyi, and Caldeth remain.
+* April: After being quiet for a month the clan takes a big blow, members decided to come back, finally everything is seeming to be nice and cool.
+* 11th of May: Cl!FF comes back to lierox and joins the clan.
+* 18thof May: Thomas joins the clan.
+* 9-14th of July: Pelimies and Worminator leave the clan, on their own, however the friendship stays.
+* 24th of July: Tafka begins his test period as the only trial in the clan.
+* Late August: Pelimies rejoins to the clan, Virtue gets kicked.
+* First week of September: Tafkas Trial period ends.
+* 27th of September: Worminator rejoins.
+* 7th of October: Army of Glory, becomes an LXA Allied clan.
+* 23rd of November: SoUa joins [AoG] as a trail.
+* 19th of January: Pelimies leaves [AoG].
+* 14th of February: SoUa passed the trail and is promoted to a full member, we also have a new trail member, [AoG]ninjalewter.
+
+# Members
+
+All currently active members are found here, retired members will be placed on there own.
+
+## Founders/Leaders
+
+* [AoG]'SL'*Gyogyi*
+* [AoG] ->Z01<-
+
+## Co-Leaders
+
+* [AoG]'PK'Ahmed(Legendkiller)
+
+## Messiah
+
+* [AoG] St. Bakker (Bakker_182)
+
+## Normal members
+
+* [AoG]‚ÄôAR‚ÄôTyrael
+* [AoG]'wn'Caldeth
+* [AoG]'FQ' Twister
+* [AoG]'DJ'Cl!FF
+* [AoG]'HP'Thomas
+* [AoG] Worminator/ straight Fairy
+* [AoG] Kunoichi
+* [AoG] Tiger
+* [AoG] SoUa
+
+## Retired Members
+
+* [AoG] Pelimies
+
+## Old Members
+
+* [AoG] RIPA
+
+# Hosts
+
+## [AoG] Z01
+
+* Size: For 8 players normally.
+* Server IP: Static
+* Location: The Netherlands
+* Server Details:8 Mbit, 100lt games,
+
+## [AoG]*Gyogyi*
+
+* Size: For 5-6 players
+* Server IP: Dynamic
+* Location: Hungary
+* Server Details:2 Mbit, Both 20lt and 100lt games
+
+## [AoG] Legendkiller
+
+* Size: For 8 players
+* Server IP: Ultra Dynamic
+* Location: Canada
+* Server Details: 10mbps , 100lt games(multimod), 20lt if seriously asking me.
+
+## [AoG] Caldeth
+
+* Size: For 4 players
+* Server IP: Dynamic
+* Location: Estonia
+* Server Details: Both 20lt and 100lt games
+
+## [AoG] Twister
+
+* Size: For 8 players
+* Server IP: Dynamic
+* Location: Finland
+* Server Details: Mostly 100lt games
+
+## [AoG] Cl!FF
+
+* Size: For 8 players
+* Server IP: Stable
+* Location: The Netherlands
+* Server Details: Mostly 100lt games
+
+## [AoG] Thomas
+
+* Size: For 8 players
+* Server IP: Dynamic
+* Location: Poland
+* Server Details: Both 20lt and 100lt games
+
+## [AoG] Worminator
+
+* Size: For 8 players
+* Server IP: Dynamic
+* Location: The Netherlands
+* Server Details: 100lt multimod
+
+## [AoG] Bakker
+
+* Size: For 8 players
+* Server IP: Dynamic
+* Location: The Netherlands
+* Server Details: 100lt multimod
+
+## [AoG] RIPA
+
+* Size: For 8 players
+* Server IP: Dynamic
+* Location: Finland
+* Server Details: Mostly 20lt and 100lt rounds
+
+## [AoG] Kunoichi
+
+* Max players: 8
+* IP changes: Don't know and don't care (I rarely host)
+* Settings: Almost anything if requested.
+* Most common maps: There ain't any. Anything is possible if I just have it.
+{% endraw %}

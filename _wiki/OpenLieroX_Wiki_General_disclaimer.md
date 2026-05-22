@@ -1,0 +1,17 @@
+---
+title: "OpenLieroX Wiki:General disclaimer"
+---
+{% raw %}
+**This is an archival re-creation.** The OpenLieroX Wiki was a community-run
+fan wiki for the game [OpenLieroX](/wiki/index.php/OpenLieroX/). The original
+site is no longer online.
+
+The pages here were reconstructed from snapshots stored in the
+[Internet Archive Wayback Machine](https://web.archive.org/web/2011*/openlierox.net/wiki/)
+and are preserved for historical interest. Content reflects the wiki roughly as
+it stood between 2009 and 2014 and may be incomplete, outdated, or inaccurate.
+
+All article text was written by the original wiki contributors and remains the
+property of its respective authors. This re-creation is non-commercial and is
+not affiliated with the OpenLieroX developers.
+{% endraw %}

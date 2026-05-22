@@ -1,0 +1,24 @@
+---
+title: LieroX
+archived_url: "https://web.archive.org/web/20130531172654/http://www.openlierox.net:80/wiki/index.php/LieroX"
+last_modified: "18:55, 12 August 2010"
+categories: [Liero Xtreme Community]
+---
+{% raw %}
+## LieroX
+
+LieroX (Liero Xtreme, LX, or Liero Extreme) was created by [Jason Boettcher](/wiki/index.php/Jason_Boettcher/) in 2003. It was a clone to the popular game Liero; similar to worms, except in real time. LieroX is the most popular Liero clone to date, after 5 amazing years. It carries a 2-D platform style shooter. It has one of the largest and most active communities of all Liero clones. The latest version of LieroX is LieroX 0.56 which was outdated by [OpenLieroX](/wiki/index.php/OpenLieroX/).
+
+[Read more details about LieroX in the original Liero wiki.](http://comser.liero.org.pl/wiki/index.php?title=LieroX)
+
+## Game Modes
+
+There are four different game modes in LieroX:
+
+* **Deathmatch** - Objective of this is to kill all worms and become the only player alive.
+* **Team Deathmatch** - Objective of this is to kill all the other teams worms before getting killed yourself.
+* **Tag** - Kill the person who is **it** and run away from other players. Stay around the longest to win.
+* **Demolition** - Destroy as much dirt as possible. Only applicable in Local Play.
+
+In [OpenLieroX](/wiki/index.php/OpenLieroX/), some new [Game modes](/wiki/index.php/Game_modes/) were added.
+{% endraw %}

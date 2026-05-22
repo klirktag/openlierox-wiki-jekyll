@@ -1,0 +1,173 @@
+---
+title: Commands
+archived_url: "https://web.archive.org/web/20120321050356/http://www.openlierox.net/wiki/index.php/Commands"
+last_modified: "09:54, 26 March 2010"
+---
+{% raw %}
+OLX comes with a powerful intern command execution system. Those commands can be entered via the [ingame console](/wiki/index.php/Ingame_console/), via the real console (i.e. stdin) on systems which support that (all except Windows) in [dedicated mode](/wiki/index.php/Dedicated_server/) (i.e. OLX started with "-dedicated" parameter), via [chat command](/wiki/index.php/Chat_commands/) ("/ded <cmd>"), via a [dedicated script](/wiki/index.php/Dedicated_script/) or via [command line parameter](/wiki/index.php/Command_line_parameters/) ("-exec <cmd>").
+
+You can get a list of all commands via the command "help" or "longhelp" and further information about each command can be get with "help <cmd>".
+
+## List of commands in OpenLieroX/0.59_beta9
+
+* addBot [botprofile] [ai-diff] [inGame:*true/false] ===== add bot to game
+* addBots number [ai-diff] ===== add bots to game
+* addHuman [profile] ===== add human player to game
+* authorizeWorm id ===== authorize worm
+* banWorm id [reason] ===== ban worm
+* chatMsg text ===== give a global chat message
+* connect server[:port] [player] ===== join a server
+* debugFindProblems ===== do some system checks and print problems - no output means everything seems ok
+* disconnect ===== disconnect from server or exit server
+* dumpConnections ===== dump connections of server
+* dumpGameSettings ===== dump game settings (all layers)
+* dumpGameState ===== dump game state
+* dumpSysState ===== dump system state
+* findSpot [(x,y)] ===== find randm free spot in map (close to pos)
+* getComputerWormList ===== get computer worm list
+* getFullFileName relativefilename ===== get full filename
+* getGameState ===== get game state
+* getVar variable ===== read variable
+* getWormHealth id ===== get worm health
+* getWormIp id ===== get worm IP
+* getWormList ===== get worm list
+* getWormLives id ===== get worm lives
+* getWormLocationInfo id ===== get worm location info
+* getWormName id ===== get worm name
+* getWormPing id ===== get worm ping
+* getWormPos id ===== get worm position
+* getWormProps id ===== get worm properties
+* getWormScore id ===== get worm score
+* getWormSkin id ===== get worm skin
+* getWormTeam id ===== get worm team
+* getWormVelocity id ===== get worm velocity
+* getWriteFullFileName relativefilename ===== get writeable full filename
+* gotoLobby ===== go to lobby
+* help [command] ===== list available commands or shows desription/usage of specific command
+* irc text ===== send message to IRC chat
+* kickBot [reason] ===== kick bot from game
+* kickBots [reason] ===== kick all bots from game
+* kickWorm id [reason] ===== kick worm
+* killBots ===== kill all bots out of game
+* listMaps ===== list all available maps
+* listMods ===== list all available mods
+* loadConfig [filename] ===== load config file
+* longhelp ===== list available commands and description
+* map filename ===== set map
+* mapInfo ===== get map info
+* mod filename ===== set mod
+* msg text ===== print message on stdout
+* muteWorm id ===== mute worm
+* privateMsg id text ===== give a private message to a worm
+* quit ===== quit game
+* saveConfig [filename] ===== save current config
+* saveConfigSection section filename ===== save a specific config section
+* script [script] [args] ===== load extern dedicated script
+* selectWeapons id ===== select weapons for worm
+* serverName new-name ===== rename server
+* serverSideHealth true/false ===== turn on/off server-side health
+* setVar variable value ===== set variable
+* setViewport mode=follow|cycle|freelook|actioncam [wormID] [mode2] [wormID2] ===== Set viewport mode
+* setWormCanAirJump id true/false ===== enable/disable air jump for worm
+* setWormCanUseNinja id true/false ===== (dis)allow worm to use ninja
+* setWormColor id r g b ===== Change the color of a worm
+* setWormDamageFactor id factor ===== set worm damagefactor
+* setWormLives id (-2: unlimited, -1: outofgame, >=0: lives) ===== set worm lives
+* setWormName id name [notify:*true/false] ===== Rename a worm
+* setWormShieldFactor id factor ===== set worm shieldfactor
+* setWormSkin id skin ===== Change the skin of a worm
+* setWormSpeedFactor id factor ===== set worm speedfactor
+* setWormTeam id team ===== set worm team
+* signal <args> ===== send custom signal to dedicated script
+* sound true/false ===== enable or disable sound
+* spawnWorm id [pos] ===== spawn worm
+* startGame ===== start game
+* startLobby [serverport] ===== start server lobby
+* suicide [#kills] ===== suicide first local human worm
+* unmuteWorm id ===== unmute worm
+* unstuck ===== unstuck first local human worm
+* version ===== print game version info
+* volume 0-100 ===== set sound volume
+* wait seconds|lobby|game command [args] [ ; command2 args... ] ===== Execute commands after wait
+* wantsJoin true/false ===== enable/disable wants to join messages
+* whoIs worm-id ===== get some info about a connection
+* nextSignal ===== This command will be very important for you when building your dedicated script. The signal OpenLieroX returns will be an ingame event, like 'backtolobby' or 'lobbystarted'. Read more here: [http://www.openlierox.net/wiki/index.php/Dedicated_script](/wiki/index.php/Dedicated_script/)
+
+## Usage Examples
+
+* This will turn the player with id 3 into a very fast pink bunny that can not be killed but can't hurt anyone either. (Extremely usefull :P)
+
+```
+setWormSkin 3 "Bunny.png"
+setWormColor 3 200 100 200
+setWormSpeedFactor 3 3
+setWormShieldFactor 3 999
+setWormDamageFactor 3 0
+```
+
+* unstuck - move the worm stucked in non-destroyable terrain to nearest free spot.
+
+```
+unstuck
+```
+
+* ssh - turn Server Side Health on/off on server
+
+```
+ssh on/off
+ssh true/false
+ssh 1/0
+ssh yes/no
+```
+
+* wantsjoin - allow "player wants join the server" message on server
+
+```
+wantsjoin on/off
+wantsjoin true/false
+wantsjoin 1/0
+wantsjoin yes/no
+```
+
+* servername - set new server name
+
+```
+servername newname
+servername "new name"
+```
+
+* help - outputs list of console commands
+
+```
+help
+```
+
+* version - outputs game version
+
+```
+version
+about
+```
+
+* quit - quits the game (actually quits to main menu only)
+
+```
+quit
+exit
+```
+
+* volume - sets sound volume
+
+```
+volume # - # is number from 0 to 100
+```
+
+* sound - toggles the sound on/off
+
+```
+sound on/off
+sound true/false
+sound 1/0
+sound yes/no
+```
+{% endraw %}

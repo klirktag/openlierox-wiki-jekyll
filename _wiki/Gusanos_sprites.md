@@ -1,0 +1,36 @@
+---
+title: "Gusanos:sprites"
+archived_url: "https://web.archive.org/web/20100528080202/http://www.openlierox.net:80/wiki/index.php/Gusanos:sprites"
+last_modified: "13:29, 30 January 2010"
+---
+{% raw %}
+Copied from [here](http://sliekas.org/basara/gusdocs/doku.php/main:modding_docs:sprites).
+
+###### Description
+
+A sprite is the name given to images that gusanos can display ( Being for objects, explosions, HUD elements, etc ). Gusanos supports BMP and PNG image formats.
+
+###### Image Structure
+
+The first horizontal and vertical lines of the Sprite image are used to separate the image into sub sprites and to choose the pivot ( If the pivot is not set the image will be drawn centered ). The **pivot marker** is a pixel of colour values **RGB = 255, 0, 0**. The **sub Sprite separator** is a pixel of colour values **RGB = 0, 0, 0.**
+
+Gusanos sprites use the colour of values **RGB = 255, 0, 255** as a **mask colour**. The pixels marked with this colour will not be drawn making those parts invisible.
+
+Alpha channel is also supported for a special blender mode "alphach".
+
+Template:Gusimages:sprite example 1.png
+
+Sub sprites are used to separate images for both frames of an animation and angle ranges resulting in a matrix of sub sprites. Each column is a different frame of the animation, and each row is a different range of angles. Note that objects with no directions ( Like explosions ) will always be drawn using the first angle row.
+
+##### Example of a pure animation (No directional frames) image:
+
+Template:Gusimages:animationex.png
+
+##### Example of a pure directional image:
+
+The angle ranges will be calculated automatically from the amount of rows the image has, the more rows the thinner the range will be.
+
+The image displays for which angle ranges each frame will be shown.
+
+Template:Gusimages:directionalex.png
+{% endraw %}

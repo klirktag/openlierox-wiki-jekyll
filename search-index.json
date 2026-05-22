@@ -1,0 +1,12 @@
+---
+layout: null
+sitemap: false
+---
+[
+{% for p in site.wiki %}{
+"title": {{ p.title | jsonify }},
+"url": {{ p.url | relative_url | jsonify }},
+"text": {{ p.content | strip_html | normalize_whitespace | jsonify }}
+}{% unless forloop.last %},{% endunless %}
+{% endfor %}
+]

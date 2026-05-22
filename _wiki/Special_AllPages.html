@@ -1,0 +1,12 @@
+---
+title: All pages
+---
+{% assign articles = site.wiki | sort: "title" %}
+<p>This page lists every article in the OpenLieroX Wiki re-creation.</p>
+<div class="pagelist">
+<ul>
+{% for p in articles %}{% unless p.url contains "/Special_" %}
+	<li><a href="{{ p.url | relative_url }}">{{ p.title }}</a></li>
+{% endunless %}{% endfor %}
+</ul>
+</div>

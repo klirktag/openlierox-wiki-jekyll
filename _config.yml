@@ -1,0 +1,51 @@
+# --- OpenLieroX Wiki (Jekyll re-creation) ---------------------------------
+# A faithful imitation of the original MediaWiki-based OpenLieroX Wiki
+# (http://www.openlierox.net/wiki/), reconstructed from the Wayback Machine.
+
+title: OpenLieroX Wiki
+description: >-
+  A faithful Jekyll re-creation of the original OpenLieroX MediaWiki,
+  reconstructed from the Internet Archive Wayback Machine.
+
+# GitHub Pages project site:  https://klirktag.github.io/openlierox-wiki-jekyll/
+url: "https://klirktag.github.io"
+baseurl: "/openlierox-wiki-jekyll"
+
+# --- Build settings --------------------------------------------------------
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+  syntax_highlighter: rouge
+  parse_block_html: true
+
+# Wiki articles have no use for Jekyll excerpts; disabling generation also
+# avoids noisy build warnings about excerpts overlapping {% raw %} blocks.
+excerpt_separator: ""
+
+# The original wiki served pages at /wiki/index.php/<Page_Name>.
+# We mirror that path scheme as closely as a static site allows.
+collections:
+  wiki:
+    output: true
+    permalink: /wiki/index.php/:path/
+
+defaults:
+  - scope:
+      path: ""
+      type: wiki
+    values:
+      layout: wiki
+
+exclude:
+  - scripts/
+  - README.md
+  - CLAUDE.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor/
+  - .github/
+  - tmp/
+
+# Pretty URLs for ordinary pages.
+permalink: pretty

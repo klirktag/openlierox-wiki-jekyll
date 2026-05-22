@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<!--
+  OpenLieroX Wiki - static Jekyll re-creation of the original MediaWiki skin
+  "openlierox" (a MediaWiki MonoBook variant built on the MistyLook theme).
+-->
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" dir="ltr">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<title>{{ page.title | default: site.title }} - {{ site.title }}</title>
+	{% if page.description %}<meta name="description" content="{{ page.description | strip_html | truncate: 160 }}" />{% endif %}
+	<link rel="shortcut icon" href="{{ '/assets/skin/logo.png' | relative_url }}" />
+	<link rel="stylesheet" type="text/css" href="{{ '/assets/css/style.css' | relative_url }}" />
+</head>
+<body class="mediawiki ns-0 ltr page-{{ page.title | default: 'Page' | replace: ' ', '_' }}">
+
+<div id="ie_center">
+<div id="top_part">
+
+	<a href="{{ '/wiki/index.php/Main_Page/' | relative_url }}"><img
+		src="{{ '/assets/skin/logo.png' | relative_url }}" id="img_logo" alt="OpenLieroX" /></a>
+
+	<div id="navigation">
+	<ul>
+		{%- assign cur = page.title -%}
+		<li class="{% if cur == 'Main Page' %}current_page_item{% else %}page_item{% endif %}">
+			<a href="{{ '/wiki/index.php/Main_Page/' | relative_url }}">Main Page</a></li>
+		<li class="page_item">
+			<a href="{{ '/wiki/index.php/OpenLieroX_Wiki_Community_Portal/' | relative_url }}">Community portal</a></li>
+		<li class="page_item">
+			<a href="{{ '/wiki/index.php/Special_AllPages/' | relative_url }}">Recent changes</a></li>
+		<li class="page_item">
+			<a href="{{ '/wiki/index.php/Special_Random/' | relative_url }}" id="n-randompage">Random page</a></li>
+		<li class="page_item">
+			<a href="https://www.openlierox.net/forum/">Forum</a></li>
+		<li class="page_item">
+			<a href="https://www.openlierox.net/">OpenLieroX Website</a></li>
+
+		<li class="search">
+			<form method="get" id="searchform" action="{{ '/wiki/index.php/Special_Search/' | relative_url }}">
+				<input type="text" accesskey="f" value="" class="textbox" name="search" id="searchInput" />
+				<input type="submit" id="searchsubmit" value="Search" />
+			</form>
+		</li>
+	</ul>
+	</div>
+</div>
+</div>
+
+<div id="container">
+
+<div id="header">
+	<h1><a href="{{ '/wiki/index.php/Main_Page/' | relative_url }}">OpenLieroX Wiki</a></h1>
+	<h2>{{ page.title | default: site.title }}</h2>
+</div>
+
+<div id="headerimage">
+</div>
+
+<div id="content">
+<div id="content-main">
+
+	<a name="top" id="top"></a>
+
+	<h3 id="siteSub">From OpenLieroX Wiki</h3>
+	<div id="contentSub"></div>
+
+	<!-- start content -->
+{{ content }}
+
+	{%- if page.categories and page.categories != empty -%}
+	<div id="catlinks">
+		<p>{% if page.categories.size > 1 %}Categories{% else %}Category{% endif %}:
+		<ul>
+		{%- for cat in page.categories -%}
+			<li><a href="{{ '/wiki/index.php/Category_' | append: cat | replace: ' ', '_' | append: '/' | relative_url }}">{{ cat }}</a></li>
+		{%- endfor -%}
+		</ul></p>
+	</div>
+	{%- endif -%}
+	<!-- end content -->
+
+	<div class="printfooter">
+	Retrieved from "{{ page.archived_url | default: 'https://www.openlierox.net/wiki/' }}"
+	</div>
+
+	<div class="visualClear"></div>
+</div> <!-- content-main -->
+
+<div id="sidebar">
+<ul>
+	<li id="p-cactions" class="sidebox">
+		<h2>Views</h2>
+		<ul>
+			<li id="ca-nstab-main" class="selected"><a href="{{ page.url | relative_url }}">Article</a></li>
+			<li id="ca-talk" class="new"><a href="{% if page.archived_url %}{{ page.archived_url }}{% else %}#{% endif %}">Discussion</a></li>
+			<li id="ca-viewsource"><a href="{% if page.archived_url %}{{ page.archived_url }}{% else %}#{% endif %}">View source</a></li>
+			<li id="ca-history"><a href="{% if page.archived_url %}{{ page.archived_url }}{% else %}#{% endif %}">History</a></li>
+		</ul>
+	</li>
+
+	<li class="sidebox" id="p-personal">
+		<h2>Personal tools</h2>
+		<ul>
+			<li id="pt-login"><a href="https://www.openlierox.net/forum/">Log in / create account</a></li>
+		</ul>
+	</li>
+
+	<li class="sidebox" id="p-tb">
+		<h2>Toolbox</h2>
+		<ul>
+			<li id="t-whatlinkshere"><a href="{{ '/wiki/index.php/Special_AllPages/' | relative_url }}">What links here</a></li>
+			<li id="t-recentchangeslinked"><a href="{{ '/wiki/index.php/Special_AllPages/' | relative_url }}">Related changes</a></li>
+			<li id="t-specialpages"><a href="{{ '/wiki/index.php/Special_AllPages/' | relative_url }}">Special pages</a></li>
+			<li id="t-print"><a href="javascript:window.print();">Printable version</a></li>
+			<li id="t-permalink"><a href="{% if page.archived_url %}{{ page.archived_url }}{% else %}#{% endif %}">Permanent link</a></li>
+		</ul>
+	</li>
+</ul>
+</div><!-- sidebar -->
+
+<div class="visualClear"></div>
+
+</div> <!-- content -->
+</div> <!-- container -->
+
+<div id="footer">
+	<p><strong>OpenLieroX Wiki</strong></p>
+	<br class="clear" />
+	<div>
+		<div id="f-poweredbyico"><a href="https://www.mediawiki.org/"><img
+			src="{{ '/assets/skin/poweredby_mediawiki_88x31.png' | relative_url }}" alt="Powered by MediaWiki" /></a></div>
+		<ul id="f-list">
+			{%- if page.last_modified -%}
+			<li id="lastmod">This page was last modified {{ page.last_modified }}.</li>
+			{%- endif -%}
+			<li id="archive-note">Re-created from the
+				<a href="https://web.archive.org/web/2011*/openlierox.net/wiki/">Internet Archive Wayback Machine</a>.</li>
+			<li id="privacy"><a href="{{ '/wiki/index.php/OpenLieroX_Wiki_Privacy_policy/' | relative_url }}">Privacy policy</a></li>
+			<li id="about"><a href="{{ '/wiki/index.php/OpenLieroX_Wiki_About/' | relative_url }}">About OpenLieroX Wiki</a></li>
+			<li id="disclaimer"><a href="{{ '/wiki/index.php/OpenLieroX_Wiki_General_disclaimer/' | relative_url }}">Disclaimers</a></li>
+		</ul>
+	</div>
+	<br class="clear" />
+</div>
+
+<div id="footer_end">
+	<span><a href="http://wpthemes.info/misty-look/" title="MistyLook by Sadish Bala">MistyLook for WordPress</a> originally by Sadish Bala</span>
+</div>
+
+<script src="{{ '/assets/js/wiki.js' | relative_url }}"></script>
+</body>
+</html>

@@ -1,0 +1,17 @@
+Copied from [http://sliekas.org/basara/gusdocs/doku.php/main:modding_docs:lua:worm here].
+
+====== Class Worm ======
+(inherits from [[Lua object|Object]])
+
+===== See also: =====
+[[Lua global#bindings.wormrender|bindings.wormRender]], [[Lua global#bindings.viewportrender|bindings.viewportRender]], [[Lua global#bindings.wormdeath|bindings.wormDeath]], [[Lua global#bindings.wormremoved|bindings.wormRemoved]], [[Lua networkwormevent#send|NetworkWormEvent:send]], [[Lua global#network_worm_event|network_worm_event]]
+
+===== health =====
+<pre>
+ health()
+</pre>
+
+(Known as get_health before 0.9c)
+Returns the [[#health]] of this worm.
+
+<!-- imported from Wayback Machine: https://web.archive.org/web/20100618092039/http://www.openlierox.net:80/wiki/index.php/Lua:worm -->

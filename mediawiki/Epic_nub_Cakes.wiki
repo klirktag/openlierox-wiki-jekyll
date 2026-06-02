@@ -1,0 +1,78 @@
+<table border="1" cellpadding="2" cellspacing="0" width="400">
+<tr>
+<td>
+<table border="0" cellpadding="2" cellspacing="0" width="100%">
+<tr>
+<th align="center" colspan="2" style="background:#EFAAAA;" width="25">  Notice
+</th></tr>
+<tr>
+<td style="background:#EFAAAA;" width="20">
+</td><td align="center"> This article is about a clan that has been tagged dead. Any info is to be considered purely of historical value. Feel free to correct any inaccuracies.
+</td></tr></table>
+</td></tr></table>
+
+== [EnC] Epic nub Cakes ==
+The [TeL] clan was formed and founded by leaders Magus and Azriath on February 24th, 2006. The reason it was created was because Kurashima and Azriath we're looking for a clan to retire on. The name changed to [EnC] because they were receiving complaints about sounding like older clans. So they decided to be a little more original by doing Epic nub Cakes. On the 30th of March 2006 the name was changed to  '''-[ToI]- Tyrants of Imperium'''
+
+== Members ==
+=== Leaders ===
+* [EnC] Kurashima
+* [EnC] Azriath
+
+=== Regular Members ===
+* [EnC] Kain
+* [EnC] StrikeX
+* [EnC] Sinju
+* [EnC] >-Faisal-->
+
+== Mods and Settings ==
+* Lierov1.0 - 20% and 100%
+* Lierov1.11 - 100%
+* ModernWarefare1.0 - 20%
+* FoodFightv0.6 - 100%
+* MSFv1.22 - 100%
+
+== Levels ==
+* BookWorm
+* Campus
+* CastleStrike
+* Duel
+* FightBox
+* FossilFacility
+* GammaComplex
+* JailBreak
+* JukkeDome
+* LamdaBunker
+* LieroFactory
+* LieroFactory(Revisited)
+* LierosOfCaribbean
+* Section19A
+* SpacePortKappa
+* Tetris v2
+
+== Rules ==
+* No Multi-Clanning
+* No Complaining
+* No Camping
+* No Spamming
+* Try to be as Active as possible.
+
+== Clan Wars ==
+* [TeL] vs. {Pro} 2-0 Won
+* [TeL] vs. [LcD] 0-2 Lost
+* [EnC] vs. [LcD] 2-0 Won
+
+== Clan War statistics ==
+* Total Clan Wars Played: 3
+* Total Clan Wars Won: 2
+* Total Clan Wars Lost: 1
+* Clan War Winning Percentage: 66.6%
+* North American Clan Wars Played: 3
+* European Clan Wars Played: 0
+* Most Kills in a Clan War: 14 [Kurashima/Azriath]
+* Most Lives at the end of a Clan War: 3 [Azriath]
+
+[[Category:Clans]]
+[[Category:Retired clans]]
+
+<!-- imported from Wayback Machine: https://web.archive.org/web/20110721135547/http://www.openlierox.net/wiki/index.php/Epic_nub_Cakes -->

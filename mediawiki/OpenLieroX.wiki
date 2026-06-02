@@ -1,0 +1,66 @@
+'''OpenLieroX''' ('''OLX''') is based and compatible to the famous [[LieroX]]. [[LieroX]] is a 2D shooter game. It is an unofficial sequel to [[Liero]], and is the most popular of all the [[Liero clones]]. It features online play, fully customizable weapons, levels and characters. Liero Xtreme was created in C++ by Jason [[JasonB]] Boettcher, an Australian programmer. OpenLieroX is still being developed.
+
+The game is based on a [[Deathmatch|deathmatch]] setting, where multiple players face off in a closed level. Each player is equipped with five weapons selected out of all the weapons allowed, and with a ninja rope that allows the player to move in any direction. Players begin with a set amount of lives, and whilst the game records the number of kills, the last man standing is usually considered the winner. LieroX also allows team deathmatches, which has made it common for players to form [[Clan|clans]].
+
+Because of the huge community, there are dozens of levels and mods available. You also have no problem to find somebody on Internet to play with. Or if you want to play offline, you also can play with bots or against another player on the same computer. Either using the same keyboard or a gamepad.
+
+OpenLieroX is completely free and Open Source (hence the name). The [[OpenLieroX source code|source code]] is licenced under the L[[GPL]]. Open Source means that everybody is ecouranged to help actively on the development and every development is completely transparent, i.e. you can watch every single detail. [[Development|Read further about the development process here.]]
+
+== Current developers ==
+* Albert
+* Da_Nick
+* DarkCharlie
+* Griffin
+* Morphles
+* Pelya
+* SteelSide
+
+== Commands ==
+All the commands with the exception of /me and specifically noted ones were introduced in 0.57 beta3 and will not work in older servers.
+Commands may be entered through a chat (you enter chat by pressing "i" key in default key config),
+or through in-game console (you enter console by pressing Tilde key) - console commands don't require "/" symbol at the beginning, and are different from chat commands.
+To execute chat command the server must support it, console command may be executed on any server, for example to spectate game in 0.56b or 0.57 beta1-2 server you should enter "suicide 1000" from console.
+
+* [[Chat commands|more information about chat commands]]
+* [[Commands|more information about ingame commands]]
+
+== Make your own ==
+* [[Level Making|Map]]
+* [[Scripting|Mod]]
+* [[Skin]]
+* [[Single player game]]
+* [[Game modes|Game mode]]
+
+== Versions ==
+There are a lot of different versions of OLX. All are labeled like "versionnumber releasetype". Version-number can be 0.57, 0.58 or any upcoming. Sometimes we call this also the branch, i.e. the 0.57 branch or the 0.58 branch. There may also be branches where we, the developers, work on but there is no official release of this branch yet. Releasetype is alpha, beta, rc or stable/final (or when we just say "0.58", we mean the stable).
+
+On the homepage, you will find two main download buttons, one for the latest stable version (that is either rc or final) and the latest beta. That is of all branches. So you basically have the choice between a more stable version or a more modern / more experimental version. You can also download any older versions but there is no real reason to do so.
+
+The way we do releases changed with the first release of 0.58. Earlier, we did very infrequent releases and so the different releases of 0.57 have huge changes to each other. Now, with 0.58 and any upcoming version, you will not have that anymore - major new features will always go to the next branch. A new release of an existing branch will only fix things and have only small improvements, until there is finally a final stable release of that branch. [/forum/index.php/topic,12643.0.html Here] is the original article where I introduced these organisation changes.
+
+Here a rough overview of the different version (only where important changes were made):
+
+* 0.56: That was [[LieroX]], not OpenLieroX. This was releases by [[Jason Boettcher]], not by us.
+* 0.57 beta1: First release of OLX at all. (TODO: changes to 0.56)
+* 0.57 beta2: TODO changes
+* 0.57 beta3: TODO [/forum/index.php?topic=3071.0 Release notes]
+* 0.57 beta4: TODO [/forum/index.php?topic=9386.0 Release notes]
+* 0.57 beta5: TODO [/forum/index.php?topic=9587.0 Release notes]
+* 0.57 beta8: TODO [/forum/index.php?topic=11163.0 Release notes]
+* 0.57 rc1: First stable release of 0.57. Mostly the same as 0.57 beta8. [/forum/index.php/topic,12641 Release notes]
+* 0.58: 0.58 includes all the results after about a year of work. Many new features have introduced. Some earlier physic changes in 0.57 has been reverted to the 0.56 code. [/forum/index.php/topic,12825.0.html Release notes]
+* 0.59: The main work here is the [[Merge with Gusanos|merge with Gusanos]]. [/forum/index.php/topic,12826.0.html Beta release notes]
+
+For a more detailed list, see our change log (TODO link).
+
+== External links ==
+* OpenLieroX homepage
+* [/downloads OpenLieroX downloads]
+* [http://lxalliance.net/forum/index.php?board=125.0 OpenLieroX LXA (forum) section]
+* [https://github.com/albertz/openlierox/issues OpenLieroX bug tracker]
+* [http://sourceforge.net/projects/openlierox/ OpenLieroX project site]
+* [http://lxalliance.net/forum/index.php?topic=7361.0 OpenLieroX F.A.Q.]
+
+[[Category:Main]]
+
+<!-- imported from Wayback Machine: https://web.archive.org/web/20140813014607/http://www.openlierox.net/wiki/index.php/OpenLieroX -->

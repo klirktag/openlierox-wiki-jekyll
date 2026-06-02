@@ -1,0 +1,511 @@
+Copied from [http://sliekas.org/basara/gusdocs/doku.php/main:modding_docs:lua:global here].
+
+== Global functions ==
+===== abs =====
+<pre>
+ abs(n)
+</pre>
+
+Returns the absolute value of n.
+
+===== angle_clamp =====
+<pre>
+ angle_clamp(angle)
+</pre>
+
+Returns //angle// normalized to [0, 360).
+
+===== angle_diff =====
+<pre>
+ angle_diff(a, b)
+</pre>
+
+Returns the relative angle in (-180, 180) between
+angle //a// and //b// such that (a + angle_diff(a, b)) = b (mod 360)
+
+===== angle_vector =====
+<pre>
+ angle_vector(angle[, length = 1])
+</pre>
+
+Returns a tuple representing the angle
+with length //length//.
+
+===== bindings.afterRender =====
+<pre>
+ bindings.afterRender()
+</pre>
+
+This is called after a rendering cycle is complete
+
+===== bindings.afterUpdate =====
+<pre>
+ bindings.afterUpdate()
+</pre>
+
+This is called after every logic cycle is complete.
+
+===== bindings.gameEnded =====
+(available from version 0.9c)
+
+<pre>
+ bindings.gameEnded(reason)
+</pre>
+
+This is called when the game ended and no new game is pending.
+
+//reason// can be one of the following:
+EndReason.ServerQuit : the server disconnected.
+EndReason.Kicked : you were kicked from the server.
+EndReason.IncompatibleProtocol : you are running a protocol incompatible with the server's.
+EndReason.IncompatibleData : your data does not match the server's.
+
+===== bindings.gameNetworkInit =====
+(available from version 0.9c)
+
+<pre>
+ bindings.gameNetworkInit(connID)
+</pre>
+
+This is called when a new client joins the game. //connID// is the connection ID of the new client.
+
+The connection ID can be passed to the send() method of a [[Lua networkgameevent|NetworkGameEvent]] to send events only
+to the new client.
+
+===== bindings.playerInit =====
+<pre>
+ bindings.playerInit(player)
+</pre>
+
+This is called when a new player is added to the game. //player// is the [[Lua player|Player]] object that was added.
+
+===== bindings.playerNetworkInit =====
+<pre>
+ bindings.playerNetworkInit(player, connID)
+</pre>
+
+This is called when a player is replicated to a new client. //player// is the player replicated.
+//connID// is the connection ID of the new client.
+
+The connection ID can be passed to the send() method of a [[Lua networkplayerevent|NetworkPlayerEvent]] to send events only
+to the player on the new client.
+
+===== bindings.playerRemoved =====
+(available from version 0.9c)
+
+<pre>
+ bindings.playerRemoved(player)
+</pre>
+
+This is called when a player is removed from the game. //player// is the [[Lua player|Player]] object that will be removed.
+
+===== bindings.playerUpdate =====
+<pre>
+ bindings.playerUpdate(player)
+</pre>
+
+This is called in every logic cycle for every player. //player// is the relevant [[Lua player|Player]] object.
+
+===== bindings.viewportRender =====
+<pre>
+ bindings.viewportRender(viewport, worm)
+</pre>
+
+This is called for every viewport when it's time to render the viewport HUD.
+
+//viewport// is the [[Lua viewport|Viewport]] object it should be rendered to and //worm// is the
+[[Lua worm|Worm]] object of the [[Lua player|Player]] object that owns //viewport//.
+
+===== bindings.wormDeath =====
+<pre>
+ bindings.wormDeath(worm)
+</pre>
+
+This is called when a worm dies. //worm// is the [[Lua worm|Worm]] object that died.
+
+===== bindings.wormRemoved =====
+<pre>
+ bindings.wormRemoved(worm)
+</pre>
+
+This is called when a worm is removed from the game. //worm// is the [[Lua worm|Worm]] object that will be removed.
+
+===== bindings.wormRender =====
+<pre>
+ bindings.wormRender(x, y, worm, viewport, ownerPlayer)
+</pre>
+
+This is called for every worm and viewport combination when it's time to render
+the worm HUD.
+
+(x, y) is the position of the worm in viewport coordinates.
+
+//worm// is the [[Lua worm|Worm]] object for which HUD should be rendered and //viewport// is
+the [[Lua viewport|Viewport]] object it should be rendered to. Use the bitmap() method of [[Lua viewport|Viewport]]
+to retrieve the relevant bitmap to draw on.
+
+//ownerPlayer// is the [[Lua player|Player]] object that owns //viewport//.
+
+===== color =====
+(available from version 0.9c)
+
+<pre>
+ color(r, g, b)
+</pre>
+
+Returns a [[#color]]
+
+===== connect =====
+<pre>
+ connect(address)
+</pre>
+
+Connects to the address passed.
+
+===== console_register_command =====
+<pre>
+ console_register_command(name, function)
+</pre>
+
+Registers the function //function// as a command in the Gusanos console.
+When it is called, it will be passed each console parameter as a seperate parameter to the function.
+The command will be removed automatically when a new [[#map]] is loaded.
+
+===== console_register_control =====
+(available from version 0.9c)
+
+<pre>
+ console_register_control(name, function)
+</pre>
+
+Registers a number of console commands that work like player controls.
+
+//function// is a function that is called when the control is activated or
+deactivated. It is of the form:
+
+<pre>
+ function(player, state)
+ end
+</pre>
+
+Where //player// is the [[Lua player|Player]] object the control applies to, and //state// is either true
+or false depending on if the control is activated or deactivated.
+
+The control can be bound to keys like built-in controls such as FIRE and JUMP
+by binding to the command +P//x//_//name// where //x// is the local player number
+and //name// is the name passed to this function.
+
+===== fetch_server_list =====
+<pre>
+ fetch_server_list(handler)
+</pre>
+
+Fetches the server list from the master server and calls
+//handler// with one parameter containing an array of
+the servers.
+
+===== floor =====
+<pre>
+ floor(n)
+</pre>
+
+Returns the number n rounded down towards infinity.
+
+===== font_load =====
+<pre>
+ font_load(name)
+</pre>
+
+Loads and returns a [[Lua font|Font]] object of the font with the passed name.
+
+If the font couldn't be loaded, nil is returned.
+
+===== game_local_player =====
+<pre>
+ game_local_player(i)
+</pre>
+
+Returns a [[Lua player|Player]] object of the local player with index i.
+If the index is invalid, nil is returned.
+
+===== game_players =====
+<pre>
+ game_players()
+</pre>
+
+Returns an iterator object that returns a [[Lua player|Player]] object
+for every player in the game.
+
+Intended to be use together
+with a for loop, like this:
+
+<pre>
+ for p in game_players() do
+   -- Do something with p here
+ end
+</pre>
+
+===== gfx_draw_box =====
+<pre>
+ gfx_draw_box(bitmap, x1, y1, x2, y2, r, g, b)
+</pre>
+
+//This function is deprecated in 0.9c and later. Use the draw_box method of [[Lua bitmap|Bitmap]] instead//.
+
+===== gfx_reset_blending =====
+<pre>
+ gfx_reset_blending()
+</pre>
+
+Deactivates any blender that was active.
+Everything drawn after this is called will be drawn solid.
+
+===== gfx_set_add =====
+<pre>
+ gfx_set_add(alpha)
+</pre>
+
+Activates the add blender.
+//alpha// is a value in [0, 255] that specifies the scaling factor
+of things drawn after this is called.
+
+===== gfx_set_alpha =====
+<pre>
+ gfx_set_alpha(alpha)
+</pre>
+
+Activates the alpha blender.
+//alpha// is a value in [0, 255] that specifies the opacity
+of things drawn after this is called.
+
+===== gfx_set_alphach =====
+(available from version 0.9c)
+
+<pre>
+ gfx_set_alphach(alpha)
+</pre>
+
+Activates the alphach blender.
+//alpha// is a value in [0, 255] that specifies the opacity
+of things drawn after this is called.
+
+===== host =====
+<pre>
+ host(map)
+</pre>
+
+Hosts a networked game with the current mod and [[#map]] //map//.
+
+===== load_particle =====
+<pre>
+ load_particle(name)
+</pre>
+
+Loads a particle type with the name //name// and returns it as a
+ParticleType object.
+
+===== map =====
+<pre>
+ map(map)
+</pre>
+
+Loads the [[#map]] //map// with the current mod.
+
+===== map_is_blocked =====
+<pre>
+ map_is_blocked(x1, y1, x2, y2)
+</pre>
+
+Returns true if the line between (x1, y1) and (x2, y2) on the [[#map]] is blocked for particles.
+Otherwise false.
+
+===== map_is_loaded =====
+<pre>
+ map_is_loaded()
+</pre>
+
+Returns true if a [[#map]] is loaded, otherwise false.
+
+===== map_is_particle_pass =====
+<pre>
+ map_is_particle_pass(x1, y1)
+</pre>
+
+Returns true if the point (x1, y1) on the [[#map]] is passable by particles.
+
+===== maps =====
+<pre>
+ maps()
+</pre>
+
+Returns an iterator that iterates through all maps.
+
+===== network_game_event =====
+<pre>
+ network_game_event(name, handler)
+</pre>
+
+Creates and returns a [[Lua networkgameevent|NetworkGameEvent]] object.
+//name// is any string that is unique to this NetworkGameEvent.
+//handler// is a function that is called when this event is recieved on this client/server.
+It has the the form:
+
+<pre>
+ function(event, data)
+</pre>
+
+Where //event// is the [[Lua networkgameevent|NetworkGameEvent]] returned by //network_game_event// and //data//
+is a bitstream with data sent with the event.
+
+===== network_particle_event =====
+<pre>
+ network_particle_event(name, handler)
+</pre>
+
+Creates and returns a [[Lua networkparticleevent|NetworkParticleEvent]] object.
+//name// is any string that is unique to this NetworkParticleEvent.
+//handler// is a function that is called when this event is recieved on this client/server.
+It has the the form:
+
+<pre>
+ function(event, particle, data)
+</pre>
+
+Where //event// is the [[Lua networkparticleevent|NetworkParticleEvent]] returned by //network_particle_event//, //particle//
+is the [[Lua particle|Particle]] object the event was sent on, and //data// is a bitstream with data sent
+with the event.
+
+===== network_player_event =====
+<pre>
+ network_player_event(name, handler)
+</pre>
+
+Creates and returns a [[Lua networkplayerevent|NetworkPlayerEvent]] object.
+//name// is any string that is unique to this NetworkPlayerEvent.
+//handler// is a function that is called when this event is recieved on this client/server.
+It has the the form:
+
+<pre>
+ function(event, player, data)
+</pre>
+
+Where //event// is the [[Lua networkplayerevent|NetworkPlayerEvent]] returned by //network_player_event//, //player//
+is the [[Lua player|Player]] object the event was sent on, and //data// is a bitstream with data sent
+with the event.
+
+===== network_worm_event =====
+<pre>
+ network_worm_event(name, handler)
+</pre>
+
+Creates and returns a [[Lua networkwormevent|NetworkWormEvent]] object.
+//name// is any string that is unique to this NetworkWormEvent.
+//handler// is a function that is called when this event is recieved on this client/server.
+It has the the form:
+<code>function(event, worm, data)</code>
+Where //event// is the [[Lua networkwormevent|NetworkWormEvent]] returned by //network_worm_event//, //worm//
+is the [[Lua worm|Worm]] object the event was sent on, and //data// is a bitstream with data sent
+with the event.
+
+===== new_bitstream =====
+<pre>
+ new_bitstream()
+</pre>
+
+Returns a new [[Lua bitstream|Bitstream]] object.
+
+===== randomfloat =====
+<pre>
+ randomfloat(l, u)
+</pre>
+
+Returns a random floating point number in the interval [l, u].
+
+===== randomint =====
+<pre>
+ randomint(l, u)
+</pre>
+
+Returns a random integer in the interval [l, u].
+
+===== sounds =====
+(available from version 0.9c)
+
+<pre>
+ sounds
+</pre>
+
+This table returns [[Lua sound|Sound]] objects when indexed with a valid sound name, and
+nil otherwise.
+
+Example:
+`local mySound = sounds["bazooka.wav"]
+mySound:play(10, 10)`
+
+===== sprites_load =====
+<pre>
+ sprites_load(name)
+</pre>
+
+Loads and returns a [[Lua spriteset|SpriteSet]] object of the sprite set with the passed name.
+
+If the sprite set couldn't be loaded, nil is returned.
+
+===== sqrt =====
+<pre>
+ sqrt(n)
+</pre>
+
+Returns the squareroot of n.
+
+===== to_time_string =====
+<pre>
+ to_time_string(v)
+</pre>
+
+Converts a frame count //v// to a string showing hours, minutes and seconds as HH:MM:SS.
+
+===== vector_add =====
+<pre>
+ vector_add(x1, y1, x2, y2)
+</pre>
+
+Returns a tuple equal to (x1 + x2, y1 + y2)
+
+===== vector_diff =====
+<pre>
+ vector_diff(x1, y1, x2, y2)
+</pre>
+
+Returns a tuple equal to (x2 - x1, y2 - y1)
+
+===== vector_direction =====
+<pre>
+ vector_direction(x1, y1, x2, y2)
+</pre>
+
+Returns the angle between (x1, y1) and (x2, y2)
+in degrees.
+
+===== vector_distance =====
+<pre>
+ vector_distance(x1, y1, x2, y2)
+</pre>
+
+Returns the distance from (x1, y1) to (x2, y2)
+
+===== weapon_count =====
+<pre>
+ weapon_count()
+</pre>
+
+Returns the total number of weapons.
+
+===== weapon_random =====
+<pre>
+ weapon_random()
+</pre>
+
+Returns a random [[Lua weapontype|WeaponType]] object.
+
+<!-- imported from Wayback Machine: https://web.archive.org/web/20100618080807/http://www.openlierox.net:80/wiki/index.php/Lua:global -->

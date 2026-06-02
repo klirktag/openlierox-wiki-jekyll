@@ -1,0 +1,20 @@
+Copied from [http://sliekas.org/basara/gusdocs/doku.php/main:modding_docs:lua:networkparticleevent here].
+
+====== Class NetworkParticleEvent ======
+===== See also: =====
+[[Lua global#network_particle_event|network_particle_event]], [[Lua global#network_particle_event|network_particle_event]]
+
+===== send =====
+(available from version 0.9c)
+
+<pre>
+ send(particle, [data[, connection[, mode[, rules]]]])
+</pre>
+
+Sends a particle event to one or more computers.
+
+//particle// is the [[Lua particle|Particle]] object to [[#send]] the event on.
+
+See [[Lua networkgameevent#send|Lua:networkgameevent#send]] for documentation of the other parameters.
+
+<!-- imported from Wayback Machine: https://web.archive.org/web/20130523211648/http://www.openlierox.net:80/wiki/index.php/Lua:networkparticleevent -->

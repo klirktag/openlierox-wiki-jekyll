@@ -1,0 +1,118 @@
+Copied from [http://sliekas.org/basara/gusdocs/doku.php/main:modding_docs:lua:object here].
+
+====== Class Object ======
+<pre>
+===== angle =====
+</pre>
+
+<pre>
+ angle()
+</pre>
+
+(Known as get_angle before 0.9c)
+Returns the current [[#angle]] of the object.
+
+===== closest_worm =====
+<pre>
+ closest_worm()
+</pre>
+
+(Known as get_closest_worm before 0.9c)
+
+Returns the closest worm that fulfills these requirements:
+
+<pre>
+* It is not the owner of the object.
+* It is visible and active.
+* The straight path to it from the object is not, for particles, blocked.
+</pre>
+
+===== damage =====
+(available from version 0.9c)
+
+<pre>
+ damage(amount[, player])
+</pre>
+
+Causes [[#damage]] to the object. //player// is the [[#player]] inflicting the damage.
+If //player// isn't specified or nil, the [[#damage]] is anonymous.
+
+===== data =====
+<pre>
+ data()
+</pre>
+
+Returns a table associated with this object that can
+be used by Lua scripts to store values.
+
+===== player =====
+<pre>
+ player()
+</pre>
+
+(Known as get_player before 0.9c)
+
+Returns a [[Lua player|Player]] object of the [[#player]] that owns this object.
+
+===== pos =====
+<pre>
+ pos()
+</pre>
+
+Returns the position of this object as a tuple.
+i.e.:
+<code>local x, y = object:pos()</code>
+
+===== push =====
+<pre>
+ push(x, y)
+</pre>
+
+Accelerates the object in the direction (x, y)
+e.g.:
+<code>object:push(0, 10) -- Accelerates the object downwards</code>
+
+===== remove =====
+<pre>
+ remove()
+</pre>
+
+Removes the object in the next frame.
+
+===== set_pos =====
+<pre>
+ set_pos(x, y)
+</pre>
+
+Moves the object to the location (x, y)
+e.g.:
+<code>object:set_spd(0, 0) -- Moves the object to the upper-left corner</code>
+
+===== set_spd =====
+(available from version 0.9c)
+
+<pre>
+ set_spd(x, y)
+</pre>
+
+Changes the speed of this object to (x, y)
+e.g.:
+<code>object:set_spd(10, 0) -- Makes the object move to the right</code>
+
+===== shoot =====
+<pre>
+ shoot(type, amount, speed, speedVariation, motionInheritance, amountVariation, distribution, angleOffset, distanceOffset)
+</pre>
+
+Shoots an object of ParticleType 'type'. All parameters except 'type' are optional.
+
+===== spd =====
+<pre>
+ spd()
+</pre>
+
+Returns the speed of this object as a tuple.
+e.g.:
+<code>local vx, vy = object:spd()</code>
+
+<!-- imported from Wayback Machine: https://web.archive.org/web/20100618091104/http://www.openlierox.net:80/wiki/index.php/Lua:object -->

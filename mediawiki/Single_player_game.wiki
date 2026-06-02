@@ -1,0 +1,7 @@
+'''Single player''' support was added in [[OpenLieroX]]. It is intended mostly to provide tutorial levels for newcomers but it may also be used for more complex stuff. This probably will be extended a bit later on.
+
+Single player games aren't really something new. They are just a list of scripted [[Gusanos Maps]]. Or you can also just setup any custom game for one game level.
+
+[/forum/index.php/topic,12829.0.html Read here for some more information.]
+
+<!-- imported from Wayback Machine: https://web.archive.org/web/20120321054049/http://www.openlierox.net/wiki/index.php/Single_player_game -->

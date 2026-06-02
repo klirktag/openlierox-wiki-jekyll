@@ -1,0 +1,37 @@
+Copied from [http://sliekas.org/basara/gusdocs/doku.php/main:modding_docs:lua:particle here].
+
+====== Class Particle ======
+(inherits from [[Lua object|Object]])
+
+===== See also: =====
+[[Lua networkparticleevent#send|NetworkParticleEvent:send]], [[Lua global#network_particle_event|network_particle_event]]
+
+===== set_angle =====
+<pre>
+ set_angle(angle)
+</pre>
+
+Changes the angle of the particle to //angle//.
+
+===== set_replication =====
+(available from version 0.9c)
+
+<pre>
+ set_replication(type, state)
+</pre>
+
+If the particle is network-aware, this function turns on or off replication
+of different aspects of the particle's state.
+
+Note that this function can only affects things for
+which replication is activated in the omfgScript of the particle type.
+
+Since the server has authority over particle replication, this function will
+have no affect on clients.
+
+//type// can be one of the following:
+Particle.Position : replication of position.
+
+//state// is either true or false, where true turns on replication and false turns it off.
+
+<!-- imported from Wayback Machine: https://web.archive.org/web/20100618081405/http://www.openlierox.net:80/wiki/index.php/Lua:particle -->

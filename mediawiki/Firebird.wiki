@@ -1,0 +1,34 @@
+'''Firebird''' is a variation of a limited setting in [[Liero 1.0|Liero v1.0]] mod which originates from [[Liero Firebird Tournament]]. Although the setting was originally meant for 20 % loading time it gets often associated with 100 % loading time. Firebird was quite popular in 2004 but later it got replaced by [[Limited]] setting causing only few members of the community remembering the setting and even fewer actually playing it today.
+
+== Weapon list ==
+* Bazooka
+* Cannon
+* Chaingun
+* Dart
+* Doomsday
+* Handgun
+* Flamer
+* Grasshopper
+* Shotgun
+* Super Shotgun
+* Uzi
+
+== See also ==
+* [[Liero Firebird Tournament]]
+
+<table cellpadding="2" cellspacing="0" class="collapsible" style="background:#FFFFFF;" width="100%">
+<table cellpadding="2" cellspacing="0" class="collapsible" style="background:#FFFFFF;" width="100%">
+<tr>
+<th class="MainPageBG" style="margin:0; background: #EFEFE6; font-size:100%; font-weight:bold; border:1px solid #D5D2D2; text-align:left; color:#000; padding:0.2em 0.4em;" width="100%"> <center>Popular Mods</center>
+</th></tr>
+<tr>
+<td style="background: white; color:#000; margin:0; border:1px solid #a3bfb1; text-align:left; color:#000; padding:0.2em 0.4em;"> <center>   [[Liero 1.0]] | [[Liero 1.11]] | [[Modern Warfare]] | [[Cruel]] | [[8-Bit Warfare]] | [[Food Fight]] | [[WH40k]] | [[MSF]] | [[Trick or Treat]]   </center>
+</td></tr></table>
+<p><br/>
+</p>
+<tr><td></td></tr>
+</table>
+
+[[Category:Mods]]
+
+<!-- imported from Wayback Machine: https://web.archive.org/web/20110721122334/http://www.openlierox.net/wiki/index.php/Firebird -->

@@ -1,0 +1,94 @@
+Food Fight is a popular mod with 69 food-related weapons. It was created by [[HocusPocus]]
+
+== Weapon list ==
+(#) for which version the weapons were released first in.
+
+* (1) Tomatoes
+* (1) Toss Your Cookies
+* (5) Turkey
+* (3) Utensil Uzi
+* (4) Vegetablaster
+* (5) Waffles
+* (5) Whipped Cream
+* (5) Apple Tree
+* (4) Banana Gun
+* (6) Banana Split
+* (1) Beans
+* (4) Birthday Cake Surprise
+* (6) Bowl of Cereal
+* (3) Bucket O' Wings
+* (4) Burger Blast
+* (3) Carrots
+* (3) Cereal Killer
+* (2) Cherry Bomb
+* (4) Cheeseballs
+* (3) Chip Shot
+* (4) Chocolate Sauce
+* (3) Chopstick
+* (2) Corndog Cannon
+* (6) Corn Missiles
+* (4) Cracker Crackler
+* (2) Cream Pie
+* (1) Creamsicle
+* (1) Eggs-ecuter
+* (5) Everlasting Gobstopper
+* (3) Exploding Pineapple
+* (5) Fizzy Lifting Drinks
+* (3) Flying Saucer
+* (6) Fruit Basket
+* (3) Fry Gun
+* (1) Grapes
+* (5) Gumdrop Larpa
+* (1) Hot Potato Gun
+* (1) Hot Sauce
+* (3) Jelly Beans
+* (3) Jelly Guard
+* (2) Ketchup
+* (6) Lemons
+* (4) Life-Savers
+* (5) Mango Grenades
+* (2) Mashed Pault-atos
+* (1) Melon Bomb
+* (2) Milk Carton (Healing)
+* (4) Mushroom Mines
+* (4) Olive Assault
+* (5) Onion Grenade
+* (3) Pasta Plate
+* (2) Peanut Butter
+* (1) Pea Shooter
+* (6) Pepper Shaker
+* (4) Pepper Spray
+* (1) Pepsi
+* (4) Piercing Peanuts
+* (4) Pilchard Rifle
+* (2) Pizza Flinger
+* (2) Pop Cannon
+* (2) Popcorn Gun
+* (3) Salad Shooter
+* (6) Scrambled Eggs
+* (5) Shreading Shrimp
+* (5) Spam Can
+* (2) Stinky Cheese
+* (2) Submarine Gun
+* (1) Sushi
+* (4) Toaster Strike
+
+== TCL bans ==
+[[TCL]] staff has worked out a standard banning list for Food Fight v0.6. The allowed weapon list for FF and also other mods can be found [http://z9.invisionfree.com/lxtopclans/index.php?showtopic=13 here]
+
+<table cellpadding="2" cellspacing="0" class="collapsible" style="background:#FFFFFF;" width="100%">
+<table cellpadding="2" cellspacing="0" class="collapsible" style="background:#FFFFFF;" width="100%">
+<tr>
+<th class="MainPageBG" style="margin:0; background: #EFEFE6; font-size:100%; font-weight:bold; border:1px solid #D5D2D2; text-align:left; color:#000; padding:0.2em 0.4em;" width="100%"> <center>Popular Mods</center>
+</th></tr>
+<tr>
+<td style="background: white; color:#000; margin:0; border:1px solid #a3bfb1; text-align:left; color:#000; padding:0.2em 0.4em;"> <center>   [[Liero 1.0]] | [[Liero 1.11]] | [[Modern Warfare]] | [[Cruel]] | [[8-Bit Warfare]] | <strong class="selflink">Food Fight</strong> | [[WH40k]] | [[MSF]] | [[Trick or Treat]]   </center>
+</td></tr></table>
+<p><br/>
+</p>
+<tr><td></td></tr>
+</table>
+
+[[Category:Mods]]
+
+<!-- imported from Wayback Machine: https://web.archive.org/web/20130323190221/http://www.openlierox.net:80/wiki/index.php/Food_Fight -->

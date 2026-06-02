@@ -1,0 +1,82 @@
+Copied from [http://sliekas.org/basara/gusdocs/doku.php/main:modding_docs:lua:bitmap here].
+
+====== Class Bitmap ======
+<pre>
+===== See also: =====
+</pre>
+
+[[Lua global#gfx_draw_box|gfx_draw_box]]
+
+===== draw_box =====
+<pre>
+ draw_box(bitmap, x1, y1, x2, y2, color)
+</pre>
+
+Draws a filled box with the corners (x1, y1) and (x2, y2)
+with the color //color// using the currently selected blender.
+
+===== h =====
+<pre>
+ h()
+</pre>
+
+Returns the width of this bitmap.
+
+===== hline =====
+(available from version 0.9c)
+
+<pre>
+ hline(x1, y1, x2, color)
+</pre>
+
+Draws a horizontal [[Lua bitmap#line|line]] from (x1, y1) to (x2, y1)
+with the color //color// using the currently selected blender.
+
+===== line =====
+(available from version 0.9c)
+
+<pre>
+ line(x1, y1, x2, y2, color)
+</pre>
+
+Draws a [[Lua bitmap#line|line]] from (x1, y1) to (x2, y2)
+with the color //color// using the currently selected blender.
+
+===== linewu =====
+(available from version 0.9c)
+
+<pre>
+ linewu(x1, y1, x2, y2, color)
+</pre>
+
+Draws a Wu-line from (x1, y1) to (x2, y2)
+with the color //colour// using the currently selected blender.
+
+===== putpixel =====
+(available from version 0.9c)
+
+<pre>
+ putpixel(x1, y1, color)
+</pre>
+
+Draws a pixel at position (x1, y1)
+with the color //color// using the currently selected blender.
+
+===== putpixelwu =====
+(available from version 0.9c)
+
+<pre>
+ putpixelwu(x1, y1, color)
+</pre>
+
+Draws a Wu-pixel at position (x1, y1)
+with the color //color// using the currently selected blender.
+
+===== w =====
+<pre>
+ w()
+</pre>
+
+Returns the width of this bitmap.
+
+<!-- imported from Wayback Machine: https://web.archive.org/web/20121214065623/http://www.openlierox.net:80/wiki/index.php/Lua:bitmap -->

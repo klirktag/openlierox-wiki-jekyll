@@ -1,0 +1,28 @@
+This page is for Navigation. All the most important things will be linked on this page. All the
+
+== Main ==
+=== Regarding the main page ===
+[[Main Page]]
+  [[TODO|Todo List]]
+  [[Help Contents|Help]]
+  [[Template News|Adding news headlines]]
+
+=== Special Pages ===
+[[Special Categories|Categories]]
+  [[Special Allpages|All Pages]]
+  [[Special Recentchanges|Recent Changes]]
+  [[Special Wantedpages|Empty and Needed Pages]]
+
+=== Clans ===
+[[Clan List|List of Clans]]
+
+=== Players ===
+[[Players|List of Players]]
+
+=== Guides ===
+[[Guides]]
+  [[Game concepts|Game Help]]
+
+[[Category:Main]]
+
+<!-- imported from Wayback Machine: https://web.archive.org/web/20130323190248/http://www.openlierox.net:80/wiki/index.php/Navigation -->

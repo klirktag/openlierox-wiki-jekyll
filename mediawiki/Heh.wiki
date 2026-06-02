@@ -1,0 +1,48 @@
+<table border="1" cellpadding="2" cellspacing="0" width="400">
+<tr>
+<td>
+<table border="0" cellpadding="2" cellspacing="0" width="100%">
+<tr>
+<th align="center" colspan="2" style="background:#EFAAAA;" width="25">  Notice
+</th></tr>
+<tr>
+<td style="background:#EFAAAA;" width="20">
+</td><td align="center"> This article is about a clan that has been tagged dead. Any info is to be considered purely of historical value. Feel free to correct any inaccuracies.
+</td></tr></table>
+</td></tr></table>
+
+'''heh''' ('''(heh)''') (end of 2003/beginning of 2004 - July 2004) was one of the first serious clans in LieroX, being led by [[Strider]]. Clan has played only higher loading time. In July of 2004 clan has merged with [[Erm|erm]] to form [[42]].
+
+== Members ==
+=== Leaders ===
+* [[Strider]]
+* Gliptic
+
+=== Normal members ===
+* [[HocusPocus]]
+* MrEvil
+* Ragzouken
+* TTFTCUTS
+
+== Rules ==
+* Above average skill.
+* Playing fair.
+* Active in the chat.
+* Fun to talk to.
+* Friend with other members.
+* Avoid constantly asking to join heh.
+
+== (heh) Tournament ==
+As an early concept of Clan Wars heh clan was planning to do a tournament where clans would fight heh and by their performance they would be ranked in ladders. 2 matches would be played by single clan - one on heh server and the other one on challenging clan's server. Settings to choose from included Shock mod (with unballanced, slow and spammy weapons banned) or the Classic weapons (either Liero v2.0 or Shock 1.40 with only classic weapons enabled). All the matches would be played with 100 % loading time and 10 lives. Challenging clan could choose number of players for one match - 3 vs 3 or 4 vs 4. One of the most important rules stated players are not allowed to pick up two or more of the same weapon. Lack of interest and challengers prevented the tournament from being put into realisation.
+
+== See also ==
+* [[42]]
+
+== External links ==
+* [http://www.thegaminguniverse.com/forums/showthread.php?t=13726 heh GU thread]
+* [http://www.thegaminguniverse.com/forums/showthread.php?t=13755 heh tournament GU thread]
+
+[[Category:Clans]]
+[[Category:Retired clans]]
+
+<!-- imported from Wayback Machine: https://web.archive.org/web/20110721135230/http://www.openlierox.net/wiki/index.php/Heh -->

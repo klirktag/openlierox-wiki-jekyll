@@ -1,0 +1,33 @@
+<table>
+<tr>
+<td> <b>May 28, 2009</b> - Check [[TODO]] for new stuff.
+</td></tr>
+<tr>
+<td> <b>May 10, 2008</b> - New templates: [[Clanlayout|ClanPage]] and [[Leveltemplate|LevelPage]]
+</td></tr>
+<tr>
+<td> <b>May 5</b>: New template: [[UserPage]].
+</td></tr>
+<tr>
+<td> <b>May 1</b>: [[Navigation]] page is created and added to quick links.
+</td></tr>
+<tr>
+<td> <b>April 30</b>: Main Page gets another touch up.
+</td></tr>
+<tr>
+<td> <b>April 18</b>: [[News hosting without port forwarding|Hosting without port forwarding]]
+</td></tr>
+<tr>
+<td> <b>April 11</b>: [[News Lamda has been Razvisited|Lamda has been Razvisited]]
+</td></tr>
+<tr>
+<td> <b>April 6th</b>: Main page gets a touch up.
+</td></tr>
+<tr>
+<td> <b>April 5th</b>: [[News LieroX Patch 2008 released|LieroX Patch 2008 released]]
+</td></tr>
+<tr>
+<td> <b>April 1st</b>: Wiki is up! Start editing!
+</td></tr></table>
+
+<!-- imported from Wayback Machine: https://web.archive.org/web/20130324065259/http://www.openlierox.net:80/wiki/index.php/News_archive -->

@@ -1,0 +1,5 @@
+[http://sourceforge.net SourceForge] is a free service to host an Open Source project and provides all kind of tools to work on it, like [[Git]], all the file release packages, the [[Mailinglist|mailinglists]] and so on.
+
+[[OpenLieroX]] uses SourceForge since the very beginning for most of the [[Development|development]]. As of May 2011 though, we have moved the [[OpenLieroX source code|main code]] [[Git]] repository to [[GitHub]].
+
+<!-- imported from Wayback Machine: https://web.archive.org/web/20120510144534/http://www.openlierox.net:80/wiki/index.php/SourceForge -->

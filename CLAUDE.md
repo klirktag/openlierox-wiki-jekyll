@@ -30,6 +30,8 @@ Markdown document in a Jekyll collection.
 | `_plugins/baseurl_links.rb` | Build hook: prefixes root-relative `/wiki/` and `/assets/` links with `site.baseurl` so the project page works under `/openlierox-wiki-jekyll/`. |
 | `_plugins/category_pages.rb` | Generator: builds a `Category:<Name>` page for every category used in front matter. |
 | `scripts/fetch_wiki.py` | Scraper/converter: pulls archived pages from the Wayback Machine and writes the Markdown in `_wiki/`. |
+| `scripts/to_mediawiki.py` | Converts the Markdown articles back to MediaWiki wikitext + a Special:Import XML dump, written into `mediawiki/`. |
+| `mediawiki/` | MediaWiki export for migrating the wiki to a real MediaWiki install elsewhere. One `.wiki` file per article plus `openlierox-wiki.xml`. See [mediawiki/README.md](mediawiki/README.md). |
 | `index.html` | Root redirect to the Main Page (the original wiki opened there). |
 | `.github/workflows/jekyll.yml` | Builds with Jekyll and deploys to GitHub Pages. |
 
@@ -62,6 +64,16 @@ untouched by the scraper.
 
 Re-run with: `python3 scripts/fetch_wiki.py`
 (needs `pip install --user --break-system-packages markdownify beautifulsoup4`)
+
+### Migrating to a real MediaWiki
+
+`scripts/to_mediawiki.py` reads `_wiki/*.md` and writes:
+
+- `mediawiki/<Name>.wiki` — one wikitext file per page
+- `mediawiki/openlierox-wiki.xml` — bulk Special:Import / importDump.php dump
+
+Re-run with: `python3 scripts/to_mediawiki.py`. See
+[mediawiki/README.md](mediawiki/README.md) for upload instructions.
 
 ## Local development
 

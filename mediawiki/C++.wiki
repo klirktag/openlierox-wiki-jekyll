@@ -1,0 +1,5 @@
+'''C++''' is a programming language. [http://en.wikipedia.org/wiki/C%2B%2B See Wikipedia about it]
+
+It is the main language we have [[Development|used]] to [[OpenLieroX source code|code]] [[OpenLieroX]].
+
+<!-- imported from Wayback Machine: https://web.archive.org/web/20110721122457/http://www.openlierox.net/wiki/index.php/C%2B%2B -->

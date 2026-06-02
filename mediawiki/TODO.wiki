@@ -1,0 +1,34 @@
+= TODO =
+This is the general TODO page. Put priority tasks here you want someone to do or tasks you are performing which will take time.
+Add tasks in the following format:
+
+```<code> </code>``
+==Category==
+* Task
+** Subtask
+</code>
+<pre>
+
+Also, it would be nice maintaining some kind of priority order. Of course, once you start working on something you mark it as being under work, and remove it once it's done.
+
+== Game/Modification ==
+Currently it's needed to create new pages for mods and settings. Also maybe some clan war rules something, anything to do with LieroX, don't be shy.
+
+== Community ==
+* Write LXA article (Anubis: Commenced)
+** Get facts/dates correct. More in Talk:Liero Xtreme Alliance
+* Write article on FileBase.
+* Write article on the Gaming Universe.
+
+== Levels ==
+* Changes from older versions of levels (LFr, for instance)
+
+Wanted pages
+
+== User Pages ==
+* User pages should be made in your profile, not under a new page. You have a User|Username tag juts for that. ````
+</pre>
+
+[[Category:Moderation]]
+
+<!-- imported from Wayback Machine: https://web.archive.org/web/20110721115338/http://www.openlierox.net/wiki/index.php/TODO -->

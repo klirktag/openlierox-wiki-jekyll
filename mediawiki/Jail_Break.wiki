@@ -1,0 +1,12 @@
+= Jail Break =
+<div class="thumb tright"><div class="thumbinner" style="width:182px;">[[File:Jail_Break.JPG|Overview image of Jail Break]] <div class="thumbcaption"><div class="magnify" style="float:right"><a href="/wiki/index.php/Image_Jail_Break.JPG/"><img alt="" src="/wiki/skins/common/images/magnify-clip.png"/></a></div>Overview image of Jail Break</div></div></div>
+
+A popular level set in a prison. Made by HocusPocus.
+
+== Layout ==
+The prison theme of the level renders most of the areas of the level quite flat which makes it hard to find good cover in most places without having to retreat. The top part of the level is made up by a vast space of air, and the green bottom part of the level is entirely of dirt.
+The dirt part of the level can only be accessed from three narrow paths and is easily defended, which can lead to some defensive endings of some games.
+
+[[Category:Levels]]
+
+<!-- imported from Wayback Machine: https://web.archive.org/web/20110721112223/http://www.openlierox.net/wiki/index.php/Jail_Break -->

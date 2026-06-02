@@ -1,0 +1,327 @@
+Copied from [http://sliekas.org/basara/gusdocs/doku.php/main:modding_docs:objects here].
+
+====== Properties: ======
+Object properties must be added to the .obj file before events. These properties may only be used in .obj files.
+
+===== acceleration =====
+<pre>
+ acceleration = <float>
+</pre>
+
+Determines the speed value that will be added to the object each frame. The speed will be added in the direction of the object angle. ''Note that this speed can be capped using the '''max_speed''' property.''
+
+'' '' Default value:** 0
+
+===== alpha =====
+<pre>
+ alpha = <int> ( from 0 to 255 )
+</pre>
+
+Alpha is the value of transparency used by the blender. This cannot be used without specifying the blender.
+
+'' '' Default value:** 255
+
+===== angular_friction =====
+<pre>
+ angular_friction = <float>
+</pre>
+
+Each frame the angular speed will be decremented by this value.
+>> This may change to work like a factor instead of this silly friction method.
+
+'' '' Default value:** 0
+
+===== anim_duration =====
+<pre>
+ anim_duration = <int>
+</pre>
+
+Determines how much time ( in frames ) will pass until 1 cycle of the sprite animation ends.
+
+'' '' Default value:** 100
+
+===== anim_on_ground =====
+<pre>
+ anim_on_ground = <bool>
+</pre>
+
+If true, the animation will not stop while the object is on the ground.
+
+'' '' Default value:** false
+
+===== anim_type =====
+<pre>
+ anim_type = { ping_pong / loop_right / right_once }
+</pre>
+
+Determines the behaviour of the sprite animation.
+
+'' '' Default value:** loop_right
+
+===== blender =====
+<pre>
+ blender = <alpha/add/alphach/none>
+</pre>
+
+Blender is the the blender used for manipulating the alpha of an object. There are two blenders, '''Alpha''' and '''Add'''. (possibly more later) Alpha will make the object translucent depending on the alpha value and add will make the object light up the background.
+
+'' '' Default value:** none
+
+===== bounce_factor =====
+<pre>
+ bounce_factor = <float>
+</pre>
+
+When the particle collides against a wall one of the speed will be multiplied by this factor. So values between 0 and 1 will make the object lose speed after a collision. ''Note that only one axis of the speed will be affected which depends in if the wall was an horizontal or vertical one.''
+
+'' '' Default value:** 1
+
+===== color/colour =====
+<pre>
+ color/colour = [r, g, b]
+</pre>
+
+Determines the colour in which the object will be drawn.
+
+'' '' Default value:** 255,255,255
+
+===== col_layer =====
+<pre>
+ col_layer = <int> ( from 0 to 7 )
+</pre>
+
+Determines in which collision layer the object will be placed.
+
+'' '' Default value:** 0
+
+===== damping =====
+<pre>
+ damping = <float>
+</pre>
+
+Each frame the object speed will be multiplied by this value. Its normally used to simulate air friction, but it can also be used to make an object accelerate if the value is bigger than 1.
+
+'' '' Default value:** 1
+
+===== distortion =====
+<pre>
+ distortion = <distortFunction>(radius)
+</pre>
+
+If this is set to a distortion function then the object will apply a distortion to the screen after it draws itself.
+The possible distortion functions are lens, swirl, spin, ripple and random.
+
+====== Example: ======
+<pre>
+ distortion = lens(30)
+</pre>
+
+===== distort_magnitude =====
+<pre>
+ distort_magnitude = <float>
+</pre>
+
+'' '' distort_magnitude''' will multiply the effect of the '''distortion**.
+
+'' '' Default value:** 0.8
+
+===== distort_gen (buggy) =====
+===== distort_size (buggy) =====
+===== gravity =====
+<pre>
+ gravity = <float>
+</pre>
+
+Each frame the object vertical speed will increase by the number passed.
+
+'' '' Default value:** 0
+
+===== ground_friction =====
+<pre>
+ ground_friction = <float>
+</pre>
+
+When an object collides against a wall the speed of the object in the direction of the wall will be multiplied by this value.
+
+'' '' Default value:** 1
+
+===== health =====
+<pre>
+ health = <float> ( > 0 )
+</pre>
+
+Determines the initial health of the object.
+
+'' '' Default value:** 100
+
+===== invisible =====
+<pre>
+ invisible = <int>
+</pre>
+
+If its not equal 0 then the particle will not be displayed.
+
+'' '' Default value:** 0
+
+===== light_radius =====
+<pre>
+ light_radius = <int>
+</pre>
+
+It will render a light of radius '''light_radius''' centered on the particle. Works only on darkmode.
+
+'' '' Default value:** 0
+
+===== light_gen =====
+<pre>
+ light_gen = <pie>
+</pre>
+
+Description.
+
+'' '' Default value:** zomg
+
+===== light_size =====
+<pre>
+ light_size = [<int>, <int>]
+</pre>
+
+The height and width to generate the light within.
+
+'' '' Default value:** Unknown.
+
+===== line_to_origin =====
+<pre>
+ line_to_origin = <bool>
+</pre>
+
+If true a line will be rendered from where the object was created to the position of the object.
+
+'' '' Default value:** false
+
+===== max_speed =====
+<pre>
+ max_speed = <float>
+</pre>
+
+This value will cap the '''acceleration''' of the object, Once the speed is greater than this value the object will stop accelerating. Negative values will make it have no limit to the speed.
+
+'' '' Default value:** -1
+
+===== network_init (->sync_reload) =====
+<pre>
+ network_init = <string>
+</pre>
+
+Syncronizes whenever the screen is reloaded when the string is different than "".
+
+'' '' Default value:** ""
+
+===== occluded =====
+<pre>
+ occluded = <int>
+</pre>
+
+If its not equal to 0 and the particle has a sprite then the particle will be rendered as an occluded light.
+
+'' '' Default value:** 0
+
+===== radius (not useful/buggy) =====
+<pre>
+ radius = <int>
+</pre>
+
+This sets the radius of the particle when trying to hit scenary. It's not fully syncronized for network play. Also, the particle might hit the scenary if it is fast enough, or it finds it in certain angles. If the radius is greater than the hit radius, it will bounce infinitely...
+
+'' '' Default value:** 0
+
+===== render_layer =====
+<pre>
+ render_layer = <int> ( from 0 to 8 )
+</pre>
+
+When the objects are rendered they are rendered in order of its layers, objects with '''render_layer''' = 0 will be rendered before objects with greater values. Worms are rendered in layer 5. ''Note that Objects in the same layer will be rendered in order of appearance.''
+
+'' '' Default value:** 5
+
+===== repeat =====
+<pre>
+ repeat = <int> ( >= 1 )
+</pre>
+
+Determines the amount of times an object will repeat its logic per game frame. Its usually used to make fast objects without skipping collisions. ''Note that all properties, events or actions that depend on the object frames will be affected since the frames will pass repeat times faster.''
+
+'' '' Default value:** 1
+
+===== sprite =====
+<pre>
+ sprite = <string>
+</pre>
+
+The string passed as parameter has to be the name of a sprite inside the sprites folder of the mod or default.
+If the file exists the object will be displayed with that image instead of a pixel.
+
+===== sync_pos (->sync_reload) =====
+===== sync_reload =====
+<pre>
+ sync_reload = <bool>
+</pre>
+
+Syncronizes whenever the next game cycle is reloaded.
+
+'' '' Default value:** false
+
+===== sync_shot (->sync_reload) =====
+===== wu_pixels =====
+<pre>
+ wu_pixels = <bool>
+</pre>
+
+If true and the object would be rendered as a pixel, it will be rendered as a wu pixel instead.
+
+'' '' Default value:** false
+
+====== Events: ======
+===== creation =====
+<pre>
+ on creation ()
+</pre>
+
+Gets triggered once when the object was just created.
+
+===== custom_event =====
+<pre>
+ on custom_event ( <int> index )
+</pre>
+
+Will get triggered when some other object uses the custom_event action with the specified '''index''' on this particle.
+
+===== death =====
+<pre>
+ on death ()
+</pre>
+
+Gets triggered when the object health is <= 0.
+
+===== detect_range =====
+<pre>
+ on detect_range ( <float> range,  <bool> detect_owner = true, <[layer]> layers = [worms] )
+</pre>
+
+Gets triggered if there is an object with distance < than '''range'''. Only the objects that are in the specified collision layer will be detected, there is a special layer called "worms" that has to be used to be able to detect worms. If '''detect_owner''' is false then the event wont trigger for object that have the same owner than the particle.
+
+===== ground_collision =====
+<pre>
+ on ground_collision ()
+</pre>
+
+Gets triggered when the object collides with ground.
+
+===== timer =====
+<pre>
+ on timer ( <int> delay, <int> delay_var = 0, <int> trigger_times = 0 )
+</pre>
+
+The timer will get triggered every '''delay''' frames plus the '''delay_var'''. If the '''trigger_times''' param is bigger than 0 then the timer will only be triggered that amount of times.
+
+<!-- imported from Wayback Machine: https://web.archive.org/web/20100528073736/http://www.openlierox.net:80/wiki/index.php/Gusanos:objects -->

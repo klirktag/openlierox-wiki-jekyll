@@ -1,0 +1,87 @@
+Copied from [http://sliekas.org/basara/gusdocs/doku.php/main:modding_docs:lua:bitstream here].
+
+====== Class Bitstream ======
+<pre>
+===== See also: =====
+</pre>
+
+[[Lua global#new_bitstream|new_bitstream]]
+
+===== add_bool =====
+<pre>
+ add_bool()
+</pre>
+
+Extracts a boolean value from this bitstream (Returns either true or false).
+
+===== add_int =====
+<pre>
+ add_int(value[, bits])
+</pre>
+
+Adds an integer to this bitstream encoded in //bits// bits.
+
+If bits is left out, 32 bits is assumed.
+
+===== add_string =====
+<pre>
+ add_string(str)
+</pre>
+
+Adds the string //str// to this bitstream.
+
+===== decode_elias_gamma =====
+<pre>
+ decode_elias_gamma()
+</pre>
+
+Extracts an integer above or equal to 1 encoded using the elias gamma universal encoding.
+
+===== dump =====
+<pre>
+ dump(value)
+</pre>
+
+Adds a lua object to the bitstream.
+
+WARNING: This function is not very space efficient and can only encode tables
+, strings, numbers, booleans and nil (or tables with keys and values of those types)
+
+===== encode_elias_gamma =====
+<pre>
+ encode_elias_gamma(value)
+</pre>
+
+Adds an integer above or equal to 1 encoded using the elias gamma universal encoding.
+
+===== get_bool =====
+<pre>
+ get_bool()
+</pre>
+
+Extracts a boolean value from this bitstream (Returns either true or false).
+
+===== get_int =====
+<pre>
+ get_int([bits])
+</pre>
+
+Extracts an integer from this bitstream encoded in //bits// bits.
+
+If bits is left out, 32 bits is assumed.
+
+===== get_string =====
+<pre>
+ get_string()
+</pre>
+
+Extracts a string from this bitstream.
+
+===== undump =====
+<pre>
+ undump()
+</pre>
+
+Extracts a lua object added to the bitstream using the //dump// method.
+
+<!-- imported from Wayback Machine: https://web.archive.org/web/20100618084947/http://www.openlierox.net:80/wiki/index.php/Lua:bitstream -->

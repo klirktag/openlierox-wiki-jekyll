@@ -1,0 +1,19 @@
+== Mortars ==
+Mortars is a [[Combo]] game in [[Modern Warfare]] [[Mod]] with all the weapons beside Mortar Launcher banned or forbidden to pick up. It is most often played with 20% [[Loading Time]].
+
+<table cellpadding="2" cellspacing="0" class="collapsible" style="background:#FFFFFF;" width="100%">
+<table cellpadding="2" cellspacing="0" class="collapsible" style="background:#FFFFFF;" width="100%">
+<tr>
+<th class="MainPageBG" style="margin:0; background: #EFEFE6; font-size:100%; font-weight:bold; border:1px solid #D5D2D2; text-align:left; color:#000; padding:0.2em 0.4em;" width="100%"> <center>Popular Mods</center>
+</th></tr>
+<tr>
+<td style="background: white; color:#000; margin:0; border:1px solid #a3bfb1; text-align:left; color:#000; padding:0.2em 0.4em;"> <center>   [[Liero 1.0]] | [[Liero 1.11]] | [[Modern Warfare]] | [[Cruel]] | [[8-Bit Warfare]] | [[Food Fight]] | [[WH40k]] | [[MSF]] | [[Trick or Treat]]   </center>
+</td></tr></table>
+<p><br/>
+</p>
+<tr><td></td></tr>
+</table>
+
+[[Category:Mods]]
+
+<!-- imported from Wayback Machine: https://web.archive.org/web/20110721132705/http://www.openlierox.net/wiki/index.php/Mortars -->

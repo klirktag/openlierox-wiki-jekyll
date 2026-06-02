@@ -1,0 +1,6 @@
+= BattleCry =
+The BattlyCry, BC, is a [[Clanbase]] that is being developed by [[User RuNyoufool|RuNyoufool]] which is planned to include a build in ranking system and is planned to be integrated with the  [[Liero Xtreme Alliance|LXA forums]].
+
+[[Category:Liero Xtreme Community]]
+
+<!-- imported from Wayback Machine: https://web.archive.org/web/20130331062434/http://www.openlierox.net:80/wiki/index.php/BattleCry -->

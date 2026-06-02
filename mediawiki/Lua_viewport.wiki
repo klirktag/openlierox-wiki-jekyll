@@ -1,0 +1,29 @@
+Copied from [http://sliekas.org/basara/gusdocs/doku.php/main:modding_docs:lua:viewport here].
+
+====== Class Viewport ======
+<pre>
+===== See also: =====
+</pre>
+
+[[Lua global#bindings.wormrender|bindings.wormRender]], [[Lua global#bindings.wormrender|bindings.wormRender]], [[Lua global#bindings.viewportrender|bindings.viewportRender]]
+
+===== bitmap =====
+<pre>
+ bitmap()
+</pre>
+
+(Known as get_bitmap before 0.9c)
+
+Returns the HUD [[#bitmap]] of this viewport.
+
+===== from_map =====
+(available from version 0.9c)
+
+<pre>
+ from_map(x, y)
+</pre>
+
+Converts the map coordinates (x, y) to
+coordinates relative to the viewport [[#bitmap]] and returns them.
+
+<!-- imported from Wayback Machine: https://web.archive.org/web/20100618083137/http://www.openlierox.net:80/wiki/index.php/Lua:viewport -->

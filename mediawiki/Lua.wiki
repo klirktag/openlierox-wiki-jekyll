@@ -1,0 +1,3 @@
+[http://www.lua.org Lua] is a scripting language. We have started using it since we [[Merge with Gusanos|merged Gusanos into OLX]]. It can be used now for any [[Gusanos Maps|map]] or [[Gusanos Modding|mod]]. Check out the [[Lua classes|list of all Lua classes / functions]].
+
+<!-- imported from Wayback Machine: https://web.archive.org/web/20110721112525/http://www.openlierox.net/wiki/index.php/Lua -->

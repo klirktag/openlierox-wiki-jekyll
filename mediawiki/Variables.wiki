@@ -1,0 +1,12 @@
+All ingame settings can be accessed via variables.
+
+To get a list, currently the easiest way is to use autocompletion in [[Ingame console|ingame console]] on the "setVar" command or with [[Chat commands|chat commands]] on the "/setVar" command. You can also take a look into [[Options.cfg|options.cfg]] to get a list.
+
+Some common variables:
+
+<pre>
+GameOptions.GameInfo.TimeLimit - the time limit in minutes
+GameOptions.Network.ServerName - the servername
+</pre>
+
+<!-- imported from Wayback Machine: https://web.archive.org/web/20110721132314/http://www.openlierox.net/wiki/index.php/Variables -->

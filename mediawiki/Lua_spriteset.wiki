@@ -1,0 +1,31 @@
+Copied from [http://sliekas.org/basara/gusdocs/doku.php/main:modding_docs:lua:spriteset here].
+
+====== Class SpriteSet ======
+===== See also: =====
+[[Lua global#sprites_load|sprites_load]]
+
+===== frames =====
+<pre>
+ frames()
+</pre>
+
+Returns the number of [[#frames]] in this sprite set.
+
+===== render =====
+<pre>
+ render(bitmap, frame, x, y)
+</pre>
+
+Draws the frame //frame// of the sprite set on //bitmap// with the pivot at position (x, y).
+
+===== render_skinned_box =====
+<pre>
+ render_skinned_box(bitmap, x1, y1, x2, y2, color)
+</pre>
+
+Draws the sprite set as a skinned box with the rectangle (x1, y1) - (x2, y2)
+and background color //color//.
+
+'''Note that in versions before 0.9c, color was specified as three parameters. This has been deprecated.'''
+
+<!-- imported from Wayback Machine: https://web.archive.org/web/20100618081912/http://www.openlierox.net:80/wiki/index.php/Lua:spriteset -->

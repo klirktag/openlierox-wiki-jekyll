@@ -1,0 +1,78 @@
+Copied from [http://sliekas.org/basara/gusdocs/doku.php/main:modding_docs:lua:player here].
+
+====== Class Player ======
+===== See also: =====
+[[Lua global#bindings.wormrender|bindings.wormRender]], [[Lua global#bindings.viewportrender|bindings.viewportRender]], [[Lua global#bindings.playerupdate|bindings.playerUpdate]], [[Lua global#bindings.playerinit|bindings.playerInit]], [[Lua global#bindings.playerremoved|bindings.playerRemoved]], [[Lua networkplayerevent#send|NetworkPlayerEvent:send]], [[Lua global#network_player_event|network_player_event]], [[Lua object#player|Object:player]], [[Lua global#console_register_control|console_register_control]], [[Lua global#game_players|game_players]], [[Lua global#game_local_player|game_local_player]]
+
+===== data =====
+<pre>
+ data()
+</pre>
+
+Returns a lua table associated with this player.
+
+===== deaths =====
+<pre>
+ deaths()
+</pre>
+
+Returns the number of [[#deaths]] a player has suffered.
+
+===== is_local =====
+<pre>
+ is_local()
+</pre>
+
+Returns true if this player is a local player, otherwise false.
+
+===== kills =====
+<pre>
+ kills()
+</pre>
+
+Returns the number of [[#kills]] a player has made.
+
+===== name =====
+<pre>
+ name()
+</pre>
+
+Returns the [[#name]] of the player.
+
+===== say =====
+<pre>
+ say(text)
+</pre>
+
+Makes the player send 'text' as a chat message.
+
+===== select_weapons =====
+<pre>
+ select_weapons(weapons)
+</pre>
+
+Tries to change the player's weapons to the [[Lua weapontype|WeaponType]] objects
+in the array //weapons//.
+
+===== stats =====
+<pre>
+ stats()
+</pre>
+
+Returns a lua table associated with the [[#stats]] of this player.
+
+===== team =====
+<pre>
+ team()
+</pre>
+
+Returns the [[#team]] number of the player.
+
+===== worm =====
+<pre>
+ worm()
+</pre>
+
+Returns the [[#worm]] of the player.
+
+<!-- imported from Wayback Machine: https://web.archive.org/web/20100618083928/http://www.openlierox.net:80/wiki/index.php/Lua:player -->

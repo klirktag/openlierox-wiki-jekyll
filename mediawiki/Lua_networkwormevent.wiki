@@ -1,0 +1,21 @@
+Copied from [http://sliekas.org/basara/gusdocs/doku.php/main:modding_docs:lua:networkwormevent here].
+
+====== Class NetworkWormEvent ======
+<pre>
+===== See also: =====
+</pre>
+
+[[Lua global#network_worm_event|network_worm_event]], [[Lua global#network_worm_event|network_worm_event]]
+
+===== send =====
+<pre>
+ send(worm, [data[, connection[, mode[, rules]]]])
+</pre>
+
+Sends a worm event to one or more computers.
+
+//worm// is the [[Lua worm|Worm]] object to [[#send]] the event on.
+
+See [[Lua networkgameevent#send|Lua:networkgameevent#send]] for documentation of the other parameters.
+
+<!-- imported from Wayback Machine: https://web.archive.org/web/20100618090237/http://www.openlierox.net:80/wiki/index.php/Lua:networkwormevent -->

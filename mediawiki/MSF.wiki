@@ -1,0 +1,47 @@
+<table width="100%">
+<tr>
+<td align="center"> <h1> <span class="mw-headline">Marine Special Forces (MSF) II</span></h1>
+</td></tr>
+<tr>
+<td align="center"> [[File:MSF.png]]
+</td></tr></table>
+
+MSF II is an upgrade to v1.25 with some improved weapon balancing and bugfixes. The mod has now been released with the latest LieroX pack, so i decided to call it MSF II because it is so different from the old 1.22, which was the last version of MSF to be in an official pack. If you are a serious mod player, be sure to download it, since it is already being played instead of the old MSF 1.22.
+
+It was made by Kossu Man (the creator of MSF 1.22) and myself. After a beta testing phase and a 1.25 phase and multiple testing phases thereafter, the final release is now out. We have tried to design a mod that has the following features when played with 100% loading time using five different weapons:
+
+- '''Fast paced'''. Similarly to the old MSF, movement is swift and the rope is long. The weapons do considerable damage, making aim and evasion a critical skill.
+
+- '''Strategically different weapons'''. Each weapon is designed to have both advantages and disadvantages over the other weapons depending on range, level and movement Some weapons are non-reloadable such as grenades and bazookas. These are the most powerful, but limited in number. Several weapons are effective on long range, but have damage delay or a dud-effect which prevent their use on short range. Short range weapons suffer from inaccuracy on long distances. Selecting a functional set of weapons based on the level in question is a challenge in itself.
+
+- '''Balanced set of weapons'''. The set of weapons is designed to be balanced. This means that none of the weapons should be absolutely inferior, and none should be absolutely superior. This means that selecting a random set of weapons will be competitive, albeit not necessarily as good as a strategical weapon selection.
+
+If you are a fan of action-packed liero games, this mod is worthwhile downloading. The speed and chaos might feel daunting at first; but the limited number of weapons make the mod easy to learn, and their individual differences make it hard to master.
+
+== Strategy tips ==
+* In very close combat, Flamethrower is the weapon of choice. Care should be taken not to damage oneself from flames bouncing from surfaces.
+* The Desert Eagle is a good weapon on short range. It is inaccurate, but kills in five shots and fires a shot in less than a second.
+* M3 super is good on short and medium range. It's rate of fire is about twice that of the Desert Eagle, but the multiple bullets provide considerable damage on close range. On medium range, the bullets spread out somewhat.
+* Of the two submachine guns, AK-47 is more accurate and has a longer range than Scoped MP5. However, Scoped MP5 is more effective in close combat with a higher rate of fire, and is also equipped with a laser sight.
+* The Light Bazooka is faster than the Heavy Bazooka. The Heavy Bazooka on the other hand provides an explosion large enough to kill multiple opponents in one aimed hit. If a bazooka hits a wall almost immediately after being fired, it won't explode; so care should be taken to fire from a distance.
+* Napalm Bomb detonates on impact, while Gas Grenade continuously releases a cloud of gas after being thrown. You can increase the speed of the grenades by roping and throwing them at the same time.
+* Frag Grenade detonates in 1.5 seconds, and has a powerful explosion releasing frags in all directions.
+* The two cannons detonate on impact with a level surface only, they do not damage a player through a direct hit with the projectile. Cannon (he) explodes evenly around the area of impact, while Cannon (ap) penetrates the surface.
+* Barrett Light is a powerful sniper rifle on long range, providing over 50 points of damage with one shot. The weapon does not hit at close range, so to be effective, the sniper should remain at a distance. It requires considerable aiming skills to be used effectively.
+
+<table cellpadding="2" cellspacing="0" class="collapsible" style="background:#FFFFFF;" width="100%">
+<table cellpadding="2" cellspacing="0" class="collapsible" style="background:#FFFFFF;" width="100%">
+<tr>
+<th class="MainPageBG" style="margin:0; background: #EFEFE6; font-size:100%; font-weight:bold; border:1px solid #D5D2D2; text-align:left; color:#000; padding:0.2em 0.4em;" width="100%"> <center>Popular Mods</center>
+</th></tr>
+<tr>
+<td style="background: white; color:#000; margin:0; border:1px solid #a3bfb1; text-align:left; color:#000; padding:0.2em 0.4em;"> <center>   [[Liero 1.0]] | [[Liero 1.11]] | [[Modern Warfare]] | [[Cruel]] | [[8-Bit Warfare]] | [[Food Fight]] | [[WH40k]] | <strong class="selflink">MSF</strong> | [[Trick or Treat]]   </center>
+</td></tr></table>
+<p><br/>
+</p>
+<tr><td></td></tr>
+</table>
+
+[[Category:Mods]]
+
+<!-- imported from Wayback Machine: https://web.archive.org/web/20130324065626/http://www.openlierox.net:80/wiki/index.php/MSF -->

@@ -1,0 +1,21 @@
+<table border="1" cellpadding="2" cellspacing="0" width="400">
+<tr>
+<td>
+<table border="0" cellpadding="2" cellspacing="0" width="100%">
+<tr>
+<th align="center" colspan="2" style="background:#EFAAAA;" width="25">  Notice
+</th></tr>
+<tr>
+<td style="background:#EFAAAA;" width="20">
+</td><td align="center"> This article is about a clan that has been tagged dead. Any info is to be considered purely of historical value. Feel free to correct any inaccuracies.
+</td></tr></table>
+</td></tr></table>
+
+'''Majin''' ('''[M]''') (~late 2004 - early 2005) was a clan being led by Vegeta and Buu. The concept of Majin was to train a newcomer to become a skilled and recognisable player. After a newbie would reach a certain skill level he would be released from M to search for a respected clan.
+
+Known scholars who joined a respected clan later: j00s3phe, Dark Charlie.
+
+[[Category:Clans]]
+[[Category:Retired clans]]
+
+<!-- imported from Wayback Machine: https://web.archive.org/web/20110721135614/http://www.openlierox.net/wiki/index.php/Majin -->

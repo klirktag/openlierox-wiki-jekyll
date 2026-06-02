@@ -1,0 +1,34 @@
+<table border="1" cellpadding="2" cellspacing="0" width="400">
+<tr>
+<td>
+<table border="0" cellpadding="2" cellspacing="0" width="100%">
+<tr>
+<th align="center" colspan="2" style="background:#EFAAAA;" width="25">  Notice
+</th></tr>
+<tr>
+<td style="background:#EFAAAA;" width="20">
+</td><td align="center"> This article is about a clan that has been tagged dead. Any info is to be considered purely of historical value. Feel free to correct any inaccuracies.
+</td></tr></table>
+</td></tr></table>
+
+<table border="1" cellpadding="2" cellspacing="0" width="400">
+<tr>
+<td>
+<table border="0" cellpadding="2" cellspacing="0" width="100%">
+<tr>
+<th align="center" colspan="2" style="background:#CEF2E0;" width="25">  Notice
+</th></tr>
+<tr>
+<td style="background:#CEF2E0;" width="20">
+</td><td align="center"> This article has been started, but not finished. Feel free to update this article with any relevant information you have on the topic.
+</td></tr></table>
+</td></tr></table>
+
+= WaN =
+We are noobs!
+
+[[Category:Clans]]
+[[Category:Retired clans]]
+[[Category:Unfinished articles]]
+
+<!-- imported from Wayback Machine: https://web.archive.org/web/20110721151417/http://www.openlierox.net/wiki/index.php/We_are_Noobs -->

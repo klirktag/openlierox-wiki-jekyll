@@ -1,0 +1,16 @@
+Via mailinglists, you can easily make longer discussions in some group via mails and every other member of the mailinglist will receive all posted mails.
+
+= OpenLieroX development mailinglist =
+[[OpenLieroX]] has currently one active mailinglist for development discussions, ''openlierox-devel''.
+
+* [https://lists.sourceforge.net/lists/listinfo/openlierox-devel Register here to openlierox-devel]
+* [http://sourceforge.net/mailarchive/forum.php?forum_name=openlierox-devel Archive of all mails of openlierox-devel]
+
+= Automatic crash report mailinglist =
+* [https://lists.sourceforge.net/lists/listinfo/openlierox-crashs Register here to openlierox-crashs]
+* [http://sourceforge.net/mailarchive/forum.php?forum_name=openlierox-crashs Archive of all mails of openlierox-crashs]
+
+= Others =
+* [https://sourceforge.net/mail/?group_id=180059 List of all OLX mailinglists]
+
+<!-- imported from Wayback Machine: https://web.archive.org/web/20110721122559/http://www.openlierox.net/wiki/index.php/Mailinglists -->

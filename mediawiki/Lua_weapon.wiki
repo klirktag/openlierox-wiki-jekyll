@@ -1,0 +1,33 @@
+Copied from [http://sliekas.org/basara/gusdocs/doku.php/main:modding_docs:lua:weapon here].
+
+====== Class Weapon ======
+===== ammo =====
+<pre>
+ ammo()
+</pre>
+
+Returns the amount of [[#ammo]] left in this weapon.
+
+===== is_reloading =====
+<pre>
+ is_reloading()
+</pre>
+
+Returns true if this weapon is reloading.
+
+===== reload_time =====
+<pre>
+ reload_time()
+</pre>
+
+Returns the reload time left on this weapon.
+Does only make sense if is_reloading() is true.
+
+===== type =====
+<pre>
+ type()
+</pre>
+
+Returns the weapon [[#type]] in the form of a [[Lua weapontype|WeaponType]] object.
+
+<!-- imported from Wayback Machine: https://web.archive.org/web/20100618082321/http://www.openlierox.net:80/wiki/index.php/Lua:weapon -->

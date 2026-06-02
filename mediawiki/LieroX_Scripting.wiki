@@ -1,0 +1,149 @@
+'''Scripting Guide-Basics'''
+
+== Layout ==
+Every mod has the same layout. You use Main.txt as your starting point. Main.txt is what the compiler looks at first. This file will tell the compiler, what weapon files to read, and what to add to your mod. This will also show the mods name, and the overall settings of the mod, like how high you will jump, what speed you aim at, and more when we get into it. [[Script cheatsheet]].
+
+Inside your mod folder, you should have a folder named ''gfx'' and ''sfx''. If you choose to use default graphics, and pixels, you do not need to create these folders. But if you choose to use your own graphics and sounds, you must include all sounds and graphics inside there appropriate folders.
+
+Note that we extended the layout and the possibilities in OpenLieroX 0.58. Those new possibilities are experimental though and you probably should prefer [[Gusanos Modding]]. Anyway, [/forum/index.php/topic,12141.0.html here] are some background information about that.
+
+== Jumping In ==
+=== Main.txt ===
+Lets take a look at the main.txt a second.
+
+```<code> </code>``
+[General]
+ModName = WarZone
+
+[Weapons]
+NumWeapons = 2
+Weapon1 = Sniper Rifle.txt
+Weapon2 = Minigun.txt
+
+[NinjaRope]
+RopeLength = 300
+RestLength = 27
+Strength = 4.5
+
+[Worm]
+AngleSpeed = 120
+GroundSpeed = 3
+AirSpeed = 2
+Gravity = 125
+JumpForce = -75
+AirFriction = 0
+GroundFriction = 0.2
+``<code> </code>```
+
+Lets go over the block above line by line.
+
+* '''[General]''': Anything after this is the general mod settings. Its used as a type of header for certian parts of scripts in every script.
+* '''ModName''': This is the name of your mod. You can put anything you wish in here, but LieroX dosent see certian characters.
+
+* '''[Weapons]''': Another type of header, that deals with the weapons in the mod.
+* '''NumWeapons''': Short for number of weapons.
+* '''Weapon#''': Where # equals a number. (1, 2, 3, +) This lines all weapons and points them to there weapon file.
+
+* '''[NinjaRope''': This is another type of header that deals with the Ninja Rope.
+* '''RopeLength''': The length of your ninja rope in game.
+* '''RestLength''': The minimum lenth the rope will have when you hang on it.
+* '''Strength''': How fast it will move your worm to the restlength varaible.
+
+* '''[Worm]''': Is another type of header that deals with the worm.
+* '''AngleSpeed''': How fast your worm can change the direction of your aim.
+* '''GroundSpeed''': How fast your worm move on the ground.
+* '''AirSpeed''': How fast your worm move in the air.
+* '''Gravity''': This number decideds weither your want your worm to move in a certian way, or at all. 100 is normal gravity, 0 is no gravity, and a negative number will make your worm move upward.
+* '''JumpForce''': How fast your worm will jump. -65 is the normal jumpforce for the classic mod.
+* '''AirFriction''': How much the air slows your worm down.
+* '''GroundFriction''': How much the ground slows your worm down.
+
+=== Weapon File ===
+You might wonder, what a weapon file does, well, its the weapon your worm carries in short. It will be the first part of all weapons that you create. Lets look at an easy weapon. Again, this is from my WarZone mod.
+
+```<code> </code>``
+[General]
+Name = Sniper Rifle
+Class = WCL_MISSILE
+Recoil = 55
+Recharge = 1
+Drain = 20.2
+ROF = 1500
+LaserSight = true
+Sound = rifle.wav
+
+[Projectile]
+Amount = 1
+Speed = 800
+Spread = 0
+Projectile = Sniper Rifle/Rifle Projectile.txt
+``<code> </code>```
+
+* '''[General]''': General information/settings about the weapon.
+* '''Class''': Check striders Weapon Scripting Information linked above for information. Used as a refrence for weapons.
+* '''Recoil''': Recoil is how much the weapon will push your worm after its fired. 0 equals no recoil.
+* '''Recharge''': This is the speed in which a weapon will reload at. Lower, the slower.
+* '''Drain''': This will judge how much ammo a weapon has in precentage. (101 max)
+* '''ROF''': This is the time between each shot. It stands for Rate of Fire.
+* '''LaserSight''': This allows you to have a red laser shoot out, like on your basic rifle from Liero v1.0.
+* '''Sound''': Found in the sfx folder in your mod. There are default sounds you can choose from in the default sfx folder.
+
+* '''[Projectile]''': This is information about the projectile your weapon will shoot.
+* '''Amount''': This is how many of the projectiles you want to shoot.
+* '''Speed''': How fast the projectile will go.
+* '''Spread''': Randomly adds a distance between each projectile that is shot from the gun defined by this number. 0 equals none.
+* '''Projectile''': This calls the projectile. It will be whatever you name it.
+
+=== Projectile File ===
+The projectile is the image/pixel that is shot from the weapon, it includes all the script to deal damage, to change into another projectile, to have a trail, to fly around with no gravity. This is completely up to you. But Lets look at an easy projectile file for example.
+
+```<code> </code>``
+[General]
+Type = PRJ_IMAGE
+Image = Bullet.png
+Trail = TRL_NONE
+UseAngle = True
+AngleImages = 32
+
+[Hit]
+Type = Explode
+Damage = 5
+
+[PlayerHit]
+Type = Injure
+Damage = 65
+``<code> </code>```
+
+* '''[General]''': General information/settings about the projectile.
+* '''Type''': This is what you use to shoot an image, or a pixel. You can choose between PRJ_IMAGE or PRJ_PIXEL. For PRJ_PIXEL however, your script will change to look something more like this.
+
+```<code> </code>``
+Type = PRJ_PIXEL
+Colour1 = 0, 0, 0
+Colour2 = 0, 0, 0
+``<code> </code>```
+
+Although, you don't need to add Colour2, you can to give the weapon more colour. Also, it is RGB colors, so just change the 0's, to anything inbetween 0, and 255.
+
+* '''Image''': This is the name of the image that you want your weapon to shoot. Found in the gfx folder you create or the default gfx folder in your data folder.
+* '''Trail''': You will have to check Striders weapon scripting tutorial for all instances, but it defines a trail that follows the weapon, or does other things that are user defined.
+* '''UseAngle''': This is if you are using an image with different angles. It will allow you too choose how many angles the picture has, so it looks proper.
+* '''AngleImages''': This is used to define how many angles are in the image.
+
+* '''[Hit]''': Information about what happends when the weapon hits a solid object.
+* '''Type''': More information in Striders Weapon Scripting Tutorial. Explode is the type choosen, of course there are more you can look at, but this makes the projectile explode on contact.
+* '''Damage''': How much dirt will be removed on hit. Use -1 to show no explosion animation.
+
+* '''[PlayerHit]''': Information on what happends on player hit.
+* '''Type''': Again, can find more information in Striders Weapon Scripting Tutorial, but injure allows the projectile to move through a player, but still hurt them.
+* '''Damage''': The damage it deals to the player. Use -1 or more to heal.
+
+=== The End ===
+You now have basic information on how a mod works. You could create a bunch of weapons like this, but that would be boring. So, whenever my Mod: Intermediate Tutorial is done, you can look at that. Until then, you might wanna look at Striders Weapon Scripting Tutorial to check learn more.
+
+== Learn more ==
+[[Weapon examples]]
+
+[[Category:Guides]]
+
+<!-- imported from Wayback Machine: https://web.archive.org/web/20110721124929/http://www.openlierox.net/wiki/index.php/LieroX_Scripting -->

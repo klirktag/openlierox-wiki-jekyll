@@ -1,0 +1,16 @@
+Copied from [http://sliekas.org/basara/gusdocs/doku.php/main:modding_docs:variations here].
+
+====== Variation types ======
+Variations are usually a parameter of a game action or event that adds random to some other parameter of the action/event. An example good of this are the parameters '''speed''' and '''speedVariation''' of the [[Gusanos game actions#shoot_particles|Gusanos:game actions#shoot_particles]] game action where '''speedVariation''' will modify the final value of the '''speed''' parameter.
+
+There are two kind of variations that will be explained below.
+
+===== Positive Variation =====
+Positive variation will add to the main value another value that ranges from 0 to the value of the variation variable. For example, in [[Gusanos game actions#shoot_particles|Gusanos:game actions#shoot_particles]] the parameter '''amount''' is positivelly variated by '''amountVariation''', if amount were 5 and amount variation were 6 the final result could range from 5 to 11.
+
+===== Ratio Variation =====
+FIXME
+
+//If the speed of the object is 1, speed_var 0.4 will create speeds which are between 1 and 1.4//
+
+<!-- imported from Wayback Machine: https://web.archive.org/web/20100616152807/http://www.openlierox.net:80/wiki/index.php/Gusanos:variations -->

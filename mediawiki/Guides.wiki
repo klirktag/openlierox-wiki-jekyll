@@ -1,0 +1,14 @@
+= FAQ and Help articles =
+* [[Help Contents|Help main]]
+* FAQs
+
+= Guides =
+* [[Community guides]]
+* [[Game modification]]
+* [[Playing guides]]
+
+= How To =
+* [[Compile OpenLieroX]]
+* [[Obtaining OpenLieroX source from Git]]
+
+<!-- imported from Wayback Machine: https://web.archive.org/web/20110721115607/http://www.openlierox.net/wiki/index.php/Guides -->

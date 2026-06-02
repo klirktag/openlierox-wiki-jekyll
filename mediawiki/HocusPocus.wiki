@@ -1,0 +1,56 @@
+<table border="1" cellpadding="2" cellspacing="0" width="400">
+<tr>
+<td>
+<table border="0" cellpadding="2" cellspacing="0" width="100%">
+<tr>
+<th align="center" colspan="2" style="background:#ABCDEF;" width="25">  Notice
+</th></tr>
+<tr>
+<td style="background:#ABCDEF;" width="20">
+</td><td align="center"> This article is about a player that has been tagged as retired. Any featured information is to be considered purely of historical value. Feel free to correct any inaccuracies.
+</td></tr></table>
+</td></tr></table>
+
+'''HocusPocus''' (active in 2003 - 2005) was a member of [[42]] clan and a big contributor of LieroX files. He was also a leader of [[SimpleX Modding team]].
+
+== List of files ==
+=== Levels ===
+* Book Worm
+* Cafeteria
+* Campus
+* Christmas Tree
+* Gingerbread House
+* Gingerbread Mirrored
+* [[Jail Break]]
+* Kitchen Kombat
+* Labrinth
+* Lieros and Ladders
+* Locomotive
+* Messy Desk
+* SMB World1-3
+* SnowFlakes
+* Tetris
+* Valcano City
+* WormWood Park
+
+=== Mods ===
+* [[Food Fight]] v0.6
+* [[Liero 1.11|Liero v1.11]] (with [[Strider]])
+* LieroX-Mas Mod v1.1 (with [[SimpleX Modding team]])
+* Super Mario v0.3
+* [[Trick or Treat]] v0.3
+* Zelda v0.8
+
+=== Skins ===
+* GingerbreadMan
+* X-MasWorm
+* X-MasWorm_Cane (hat by Andy_Tran)
+
+=== Other files ===
+* LieroX-Mas Frontend (with TTFTCUTS)
+* [[Liero Xtreme v0.56 Christmas Edition]] (with [[SimpleX Modding team]])
+
+[[Category:Players]]
+[[Category:Retired players]]
+
+<!-- imported from Wayback Machine: https://web.archive.org/web/20110721141806/http://www.openlierox.net/wiki/index.php/HocusPocus -->

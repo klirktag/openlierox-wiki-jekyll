@@ -1,0 +1,65 @@
+<table style="margin:0; background:none; width:100%;">
+<tr>
+<th class="MainPageBG" style="margin:0; background:#EFEFE6; font-size:100%; font-weight:bold; border:1px solid #D5D2D2; text-align:left; color:#000; padding:0.2em 0.4em;"> Welcome | <small>July 21, 2011</small></th>
+</tr>
+<tr>
+<td style="background:white; color:#000; margin:0; border:1px solid #a3bfb1; text-align:left; padding:0.2em 0.4em;">
+<center><u><b>Whats New?</b></u>
+<table>
+<tr><td><small><b>October 4, 2009</b>: The OpenLieroX Devs have added a new website. [https://www.openlierox.net/ OpenLieroX.net]</small></td></tr>
+<tr><td><small><b>October 4, 2009</b>: The Main Page of the forum has been updated for the first time in months.</small></td></tr>
+<tr><td><small><b>October 4, 2009</b>: The OpenLieroX Forum Admins have added a new theme for the forum.</small></td></tr>
+<tr><td><center><small>[ [[News archive|Older news]] ]</small></center></td></tr>
+</table>
+</center>
+</td>
+</tr>
+<tr>
+<td style="background:white; color:#000; margin:0; border:1px solid #a3bfb1; text-align:left; padding:0.2em 0.4em;">
+<p>Welcome to the OLX Wiki. If you are a person who is interested in editing or adding then please check out [[Navigation]] before starting. Remember that you have to be a registered member to edit pages. If you are reading this and would wish to register please do so on the forum found [ [https://www.openlierox.net/forum/ here] ].</p>
+<p>If you are here to read then you can find most pages by using the search bar up on the upper left-hand corner of the page. Use short and sweet keywords to narrow your search.</p>
+<p>We encourage you to post as much history as you can remember, having everything written down is a good thing.</p>
+</td>
+</tr>
+</table>
+
+<table style="margin:0; background:none; width:100%;">
+<tr>
+<th class="MainPageBG" style="margin:0; background:#EFEFE6; font-size:100%; font-weight:bold; border:1px solid #D5D2D2; text-align:left; color:#000; padding:0.2em 0.4em;"> OpenLieroX</th>
+</tr>
+<tr>
+<td style="background:white; color:#000; margin:0; border:1px solid #a3bfb1; text-align:left; padding:0.2em 0.4em;">
+<p>Based on [[Liero]] gameplay, [[OpenLieroX]] is an extremely addictive realtime worms shoot-em-up backed by an active gamers community. The game is programmed by Dark Charlie, [[User Albert|Albert]], and Pelya.</p>
+<p>If you are new to the game, check out [[Liero 1.0]]. This mod is the most played mod, and the article has all the information needed to jump into the community. You can also find popular mods played on the bottom of that article.</p>
+<p>If you are looking for info on customization you can check here. Each article has a guide to it, so you can find all the info you about this here.</p>
+<ul>
+<li>[[Skin]]</li>
+<li>[[Level]]</li>
+<li>[[Mods]]</li>
+</ul>
+<p>The game also has a huge clan base, if you want to find info on clans you can check [[Clans|clans]], or [[Clan List]].</p>
+</td>
+</tr>
+</table>
+
+<table style="margin:0; background:none; width:100%;">
+<tr>
+<th class="MainPageBG" style="margin:0; background:#EFEFE6; font-size:100%; font-weight:bold; border:1px solid #D5D2D2; text-align:center; color:#000; padding:0.2em 0.4em;">Popular Mods</th>
+</tr>
+<tr>
+<td style="background:white; color:#000; margin:0; border:1px solid #a3bfb1; text-align:center; padding:0.2em 0.4em;">
+<center>&nbsp;
+[[Liero 1.0]] |
+[[Liero 1.11]] |
+[[Modern Warfare]] |
+[[Cruel]] |
+[[8-Bit Warfare]] |
+[[Food Fight]] |
+[[WH40k]] |
+[[MSF]] |
+[[Trick or Treat]] &nbsp;</center>
+</td>
+</tr>
+</table>
+
+<!-- imported from Wayback Machine: https://web.archive.org/web/20110721id_/http://www.openlierox.net/wiki/index.php/Main_Page -->

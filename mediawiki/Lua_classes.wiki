@@ -1,0 +1,26 @@
+[http://sliekas.org/basara/gusdocs/doku.php/main:modding_docs:lua:classes Copied from [here].]
+
+[[Lua]] is used to [[Gusanos Maps|script maps]] or [[Gusanos Modding|script mods]].
+
+== Global ==
+* [[Lua global|Global functions]]
+
+== Classes ==
+* [[Lua bitmap|Bitmap]]
+* [[Lua bitstream|Bitstream]]
+* [[Lua font|Font]]
+* [[Lua networkgameevent|NetworkGameEvent]]
+* [[Lua networkparticleevent|NetworkParticleEvent]]
+* [[Lua networkplayerevent|NetworkPlayerEvent]]
+* [[Lua networkwormevent|NetworkWormEvent]]
+* [[Lua object|Object]]
+* [[Lua particle|Particle]]
+* [[Lua player|Player]]
+* [[Lua sound|Sound]]
+* [[Lua spriteset|SpriteSet]]
+* [[Lua viewport|Viewport]]
+* [[Lua weapon|Weapon]]
+* [[Lua weapontype|WeaponType]]
+* [[Lua worm|Worm]]
+
+<!-- imported from Wayback Machine: https://web.archive.org/web/20110721122844/http://www.openlierox.net/wiki/index.php/Lua_classes -->

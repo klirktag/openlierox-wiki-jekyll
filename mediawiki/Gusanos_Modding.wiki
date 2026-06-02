@@ -1,0 +1,60 @@
+The original Gusanos documentation can be found [http://sliekas.org/basara/gusdocs/doku.php here].
+
+== Directory structure ==
+The directory structure of Gusanos mods is:
+
+* mod.cfg : mod [[Gusanos cfg|configuration]]
+* objects/ : directory of objects
+  '' ''.obj : all kind of [[Gusanos objects|objects]]
+** ninjarope.obj
+** death.obj
+** wormdig.obj
+  '' ''.exp : [[Gusanos explosions|explosions]]
+* weapons/
+  '' ''.wpn : [[Gusanos weapons|weapons]]
+* sounds/
+** chat.ogg
+  '' ''.wav or *.ogg
+* sprites/
+  '' ''.png
+* fonts/
+** minifont
+* mapeffects/
+  '' ''.mfx: [[Gusanos map effects|map effects]]
+* scripts/ : [[Lua]] scripts
+** <modname>.lua : init-function
+** common.lua : init-function fallback, if <modname>.lua was not found
+  '' ''.lua
+
+== Gusanos Scripting ==
+=== Configurations ===
+* [[Gusanos cfg|cfg files]]
+
+=== Script ===
+* [[Gusanos game actions|game actions]]
+* [[Gusanos explosions|explosions]]
+* [[Gusanos map effects|map effects]]
+* [[Gusanos objects|objects]]
+* [[Gusanos weapons|weapons]]
+
+=== Lua scripting ===
+* [[Lua classes]]
+
+== General ==
+* [[Gusanos fonts|Fonts]]
+* [[Gusanos sprites|Sprites]]
+* [[Gusanos sounds|Sounds]]
+
+== Examples ==
+* [[Gusanos Tutorial Creating explosive drums using collision layers|Creating explosive drums using collision layers]]
+* Check out the existing mods (there are some very famous already included in OLX). You'll find many more examples [/forum/index.php/topic,12842.0.html here].
+* [http://comser.robal.org/forum/index.php/board,15.0.html The Gusanos forums provide more help about modding.]
+
+== Changes of Gusanos in OpenLieroX ==
+=== Gusanos Console system ===
+The Gusanos console is only used internally for Gusanos; OpenLieroX uses an own console system. And many commands/variables of the Gusanos console system are ignored and don't work in OpenLieroX. That are mostly all the game logic related stuff (maxkills etc.; this is all handled by OLX itself) and also system parameters (gfx settings etc.).
+
+=== Gusanos menu system ===
+Is completly ignored in OLX. It is not rendered at all.
+
+<!-- imported from Wayback Machine: https://web.archive.org/web/20110721114541/http://www.openlierox.net/wiki/index.php/Gusanos_Modding -->

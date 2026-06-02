@@ -1,0 +1,20 @@
+Copied from [http://sliekas.org/basara/gusdocs/doku.php/main:modding_docs:lua:sound here].
+
+====== Class Sound ======
+<pre>
+===== See also: =====
+</pre>
+
+[[Lua global#sounds|sounds]]
+
+===== play =====
+(available from version 0.9c)
+
+<pre>
+ play([x, y | object] [, loudness, pitch, pitchVariation])
+</pre>
+
+Plays a sound either at position (x, y) on the map, or attached to
+object //object// (depending on which is passed to the function).
+
+<!-- imported from Wayback Machine: https://web.archive.org/web/20100618080812/http://www.openlierox.net:80/wiki/index.php/Lua:sound -->

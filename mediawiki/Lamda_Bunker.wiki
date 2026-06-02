@@ -1,0 +1,11 @@
+= Lamda Bunker =
+<div class="thumb tright"><div class="thumbinner" style="width:182px;">[[File:Lamda_Bunker.JPG|Overview image of Lamda Bunker]] <div class="thumbcaption"><div class="magnify" style="float:right"><a href="/wiki/index.php/Image_Lamda_Bunker.JPG/"><img alt="" src="/wiki/skins/common/images/magnify-clip.png"/></a></div>Overview image of Lamda Bunker</div></div></div>
+
+A level set in a bunker which is almost exclusively played in [[Rifles|rifle games]]. Made by Ragzouken.
+
+== Layout ==
+The straight narrow passages provide a unique style of play. The top and bottom part of the level, displayed as rock is all dirt. In the far east and west parts of the level it can be dug out to reveal paths into the main area of the level.
+
+[[Category:Levels]]
+
+<!-- imported from Wayback Machine: https://web.archive.org/web/20110721135850/http://www.openlierox.net/wiki/index.php/Lamda_Bunker -->

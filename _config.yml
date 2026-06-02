@@ -39,6 +39,7 @@ defaults:
 
 exclude:
   - scripts/
+  - mediawiki/
   - README.md
   - CLAUDE.md
   - Gemfile

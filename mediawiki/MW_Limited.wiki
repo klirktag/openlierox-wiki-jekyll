@@ -1,0 +1,30 @@
+<table border="1" cellpadding="2" cellspacing="0" width="400">
+<tr>
+<td>
+<table border="0" cellpadding="2" cellspacing="0" width="100%">
+<tr>
+<th align="center" colspan="2" style="background:#CEF2E0;" width="25">  Notice
+</th></tr>
+<tr>
+<td style="background:#CEF2E0;" width="20">
+</td><td align="center"> This article has been started, but not finished. Feel free to update this article with any relevant information you have on the topic.
+</td></tr></table>
+</td></tr></table>
+
+<table cellpadding="2" cellspacing="0" class="collapsible" style="background:#FFFFFF;" width="100%">
+<table cellpadding="2" cellspacing="0" class="collapsible" style="background:#FFFFFF;" width="100%">
+<tr>
+<th class="MainPageBG" style="margin:0; background: #EFEFE6; font-size:100%; font-weight:bold; border:1px solid #D5D2D2; text-align:left; color:#000; padding:0.2em 0.4em;" width="100%"> <center>Popular Mods</center>
+</th></tr>
+<tr>
+<td style="background: white; color:#000; margin:0; border:1px solid #a3bfb1; text-align:left; color:#000; padding:0.2em 0.4em;"> <center>   [[Liero 1.0]] | [[Liero 1.11]] | [[Modern Warfare]] | [[Cruel]] | [[8-Bit Warfare]] | [[Food Fight]] | [[WH40k]] | [[MSF]] | [[Trick or Treat]]   </center>
+</td></tr></table>
+<p><br/>
+</p>
+<tr><td></td></tr>
+</table>
+
+[[Category:Mods]]
+[[Category:Unfinished articles]]
+
+<!-- imported from Wayback Machine: https://web.archive.org/web/20110721132628/http://www.openlierox.net/wiki/index.php/MW_Limited -->

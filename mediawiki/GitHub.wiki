@@ -1,0 +1,5 @@
+'''GitHub''' is a website for Open Source software development projects much centered around [[Git]]: [https://github.com github.com]
+
+As of May 2011, we have moved our [[OpenLieroX source code|main code]] repository to GitHub. Earlier, we have used [[SourceForge]] which is a similar site with much different priorities though. We also still use SourceForge for other services like file hosting.
+
+<!-- imported from Wayback Machine: https://web.archive.org/web/20110721122634/http://www.openlierox.net/wiki/index.php/GitHub -->

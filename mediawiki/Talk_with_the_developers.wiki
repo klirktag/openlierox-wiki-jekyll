@@ -1,0 +1,21 @@
+Talking with the [[Developers|developers]] is the best way to get involved with the [[OpenLieroX]] project. There are multiple ways you can contact us. Best way is to leave a mail in our [[Mailinglist|mailinglist]], i.e. at [mailto:openlierox-devel@lists.sourceforge.net openlierox-devel@lists.sourceforge.net].
+
+== Instant messaging / Chatting ==
+Some contact details of the main developers:
+
+* ''Albert''
+** Jabber/GTalk: albzey@gmail.com
+** ICQ: 107220269
+* ''Karel'' (alias DarkCharlie)
+** ICQ: 241749823
+** MSN: karel.petranek@tiscali.cz
+
+There is also [[IRC|an IRC room]], although it is not visited that often from the developers.
+
+== Further links ==
+Read more details about [[How to contribute to OpenLieroX|how to contribute to OpenLieroX]].
+
+== Frequently asked questions ==
+In many cases, people interested in the code of OLX are asking the same questions. I have copied some [[Typical developer introduction talk|chat excerpts which answer some common questions here]].
+
+<!-- imported from Wayback Machine: https://web.archive.org/web/20110721112425/http://www.openlierox.net/wiki/index.php/Talk_with_the_developers -->

@@ -1,0 +1,49 @@
+This is a collection of articles about Liero, LieroX and OpenLieroX.
+
+== Liero reviews ==
+TIGSource (independent gaming news) with a side note about OpenLieroX: <http://tigsource.com/articles/2008/05/14/multiplayer-on-one-keyboard-6-lier-um-yeah>
+
+Powermagazine: <http://powermagazine.liero.be/>
+
+== OpenLieroX reviews ==
+LinuxTidBits: <http://linuxtidbits.wordpress.com/2008/03/31/upcoming-games-openlierox/>
+
+nice history about OpenLieroX: <http://www.lanthrax.com/news_details.asp?NewsID=01381>
+
+BigDownload / GameDaily: <http://news.bigdownload.com/2009/09/04/freeware-friday-openlierox/>
+
+small review of OpenLieroX in Powermagazine: <http://powermagazine.liero.be/2007-POWER-7.pdf>
+
+one of the most respected Linux magazine in CZ about OLX (about OLX itself, not refered to Liero): <http://www.root.cz/clanky/openlierox-nebezpecni-cervici/>
+
+== Other references ==
+Jason Boettchers LieroX source code release: <http://www.thegaminguniverse.com/forums/showthread.php?t=28565>
+
+Ohloh OpenLieroX code analysis: <https://www.ohloh.net/p/openlierox/analyses/latest>
+
+== Part of collections ==
+Liero, LieroX or OpenLieroX are often noted in some overview about a collections of games.
+
+Open Source Worms Clones overview with OpenLieroX: <http://techwoo.com/open-source-artillery-worms-clones/>
+
+== Game dictionaries ==
+Some game dictionary entries are notable. Note that this is not meant as a complete list, just some noteable entries should be listed here.
+
+LinuxLinks: <http://www.linuxlinks.com/article/20080524122016281/OpenLieroX.html>
+
+== Hackontest ==
+Hackontest was a coding contest in 2008 where OpenLieroX took part.
+
+short German summary with results by netzwoche: <http://www.netzwoche.ch/News/NWTickerHeadlinesDetail.aspx?Id=34462&Date=29.09.2008&Digest=hD71yU1Qc1+3d9nn95W9YQ&AspxAutoDetectCookieSupport=1>
+
+some pictures and a video: <http://www.etoy.com/blog/archive/2008/09/26/hackontest.html>
+
+Bruce Perens summary: <http://technocrat.net/d/2008/9/25/50176/>
+
+German summary about OpenExpo: <http://www.openexpo.ch/openexpo-2008-zuerich/presse/>
+
+very short German summary: <http://www.swissitmagazine.ch/software/backend-sw/articles/164817/?icmp=aut-artikel-artikel>
+
+[[Category:Liero Xtreme Community]]
+
+<!-- imported from Wayback Machine: https://web.archive.org/web/20130331062209/http://www.openlierox.net:80/wiki/index.php/Articles -->

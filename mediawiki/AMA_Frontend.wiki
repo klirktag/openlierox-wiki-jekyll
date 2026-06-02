@@ -1,0 +1,11 @@
+Created by Magus, Asrack, Spectro, and Azriath, this was a huge hit with many people apparntly.
+[[File:Amafront.jpg]]
+
+Azriath - Buttons, Header, Background.
+Asrack - GFX And ideas.
+Magus - Background, colors.
+Spectrumfire - Worm, Team Buttons.
+
+[[Category:Frontend]]
+
+<!-- imported from Wayback Machine: https://web.archive.org/web/20110721212437/http://www.openlierox.net/wiki/index.php/AMA_Frontend -->

@@ -1,0 +1,11 @@
+= Game modification =
+[[OpenLieroX]] can be modified.
+
+There are several ways of modifying the game
+
+* [[Level Making]]
+* [[Scripting|Mod Scripting]]
+* [[Frontend Making]]
+* [[Skin|Skinning]]
+
+<!-- imported from Wayback Machine: https://web.archive.org/web/20100914071932/http://www.openlierox.net:80/wiki/index.php/Game_modification -->

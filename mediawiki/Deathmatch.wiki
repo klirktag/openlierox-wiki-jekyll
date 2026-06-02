@@ -1,0 +1,3 @@
+'''Deathmatch''' is a [[Game type|game type]] where everybody plays against each other and the goal is to get as many kills as possible or to stay alive as long as possible. It is the standard game type of [[OpenLieroX]].
+
+<!-- imported from Wayback Machine: https://web.archive.org/web/20120321054713/http://www.openlierox.net/wiki/index.php/Deathmatch -->

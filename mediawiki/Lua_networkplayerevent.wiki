@@ -1,0 +1,21 @@
+Copied from [http://sliekas.org/basara/gusdocs/doku.php/main:modding_docs:lua:networkplayerevent here].
+
+====== Class NetworkPlayerEvent ======
+<pre>
+===== See also: =====
+</pre>
+
+[[Lua global#bindings.playernetworkinit|bindings.playerNetworkInit]], [[Lua global#network_player_event|network_player_event]], [[Lua global#network_player_event|network_player_event]]
+
+===== send =====
+<pre>
+ send(player, [data[, connection[, mode[, rules]]]])
+</pre>
+
+Sends a player event to one or more computers.
+
+//player// is the [[Lua player|Player]] object to [[#send]] the event on.
+
+See [[Lua networkgameevent#send|Lua:networkgameevent#send]] for documentation of the other parameters.
+
+<!-- imported from Wayback Machine: https://web.archive.org/web/20100618081359/http://www.openlierox.net:80/wiki/index.php/Lua:networkplayerevent -->

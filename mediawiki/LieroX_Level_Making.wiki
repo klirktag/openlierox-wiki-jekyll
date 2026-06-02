@@ -1,0 +1,29 @@
+There are many other guides on level making out there, this is just one of them. This will teach you tips, tricks, and how to use the level editor. Also as you can see below the images are used from [[Magus]]'s level Abandoned Facility.
+
+== Starting out ==
+There are many programs out there to help you make levels, some cost money, some don't. A few items that you could use are '''Paint.net''', '''Photoshop''', '''Paint Shop Pro''', '''Paint''', and '''GIMP'''. Some form of graphical editor is needed to make a level. You also need a file called Level Maker. You should be able to find it in your (Open)LieroX directory.
+
+== Images ==
+There are three types of images in level making, the '''front''', the '''back''', and the '''material''' image. Below is a small write up on each image. Supported file formats are PNG, JPG (JPEG), PCX, BMP, TGA, GIF. The most used and probably the best formats are JPG and BMP. The level sizes range from 320x191 pixels to 4096x4096 pixels. Keep in mind that jpgs should be on a high quality scale because LieroX uses a 640x480 resolution.
+
+=== Front ===
+This image contains the graphics before anything is changed. You can leave the background black, but it's not a must. This should contain all graphics that are planned to be removed by the player. Examples in other levels would include dig able crates, barrels, clouds, etc. Here is an example.
+[[File:Lmf.JPG]]
+
+=== Back ===
+This back (background) shows what will be visible ingame once all destructable terrain (dirt) has been removed. It should be the same image as the front image, except that it shows what's behind the destructible terrain. As in the front image, in the background image there are painted areas aswell but this time only the terrain that's solid (rock). This is also made to reduce the size of the level and is recommendable when creating one.
+[[File:Lmb.JPG]]
+
+=== Material ===
+This image defines how the worm interacts with the level. It should only be made out of three colors.
+
+* RGB(0,0,0):(Black) Used for making free space, anywhere the player can move.
+* RGB(255,255,255):(White) Used for areas that are capable of being dug through. Otherwise known as dirt.
+* RGB(128,128,128):(Grey) Used for areas that the worm is not capable of accessing. Cannot dig through, cannot spawn in, cannot move in. It's otherwise known as solid wall.
+
+Here is an example.
+[[File:Lmm.JPG]]
+
+[[Category:Guides]]
+
+<!-- imported from Wayback Machine: https://web.archive.org/web/20141004174648/http://www.openlierox.net:80/wiki/index.php/LieroX_Level_Making -->

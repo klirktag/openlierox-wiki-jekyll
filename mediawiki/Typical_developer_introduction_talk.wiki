@@ -1,0 +1,144 @@
+I often feel that I repeat myself on every introduction for a developer newcomer. As this might be interesting for other people, I am copying here some excerpts of some discussions (of course with permission to do so). The chat excerpts itself are sometimes a bit edited/modified (if I talked bullshit for example). Feel free to correct/edit them yourself.
+
+If you have not already, read also the general [[Contribute to the source code|code contribute introduction article]].
+
+18:14:12 Albert Zeyer: you have access to the [[SourceForge|SF]] [[Git|git]] now
+18:14:17 Kai Leddy: thanks
+18:16:10 Albert Zeyer: do you have checked out the [[Source|source]] already?
+18:16:54 Kai Leddy: not yet i havent but i will in a minute
+18:23:52 Kai Leddy: ..., I can work on [[OpenLieroX]] whenever I dont have other work to do, ..., I found OpenLieroX through a friend, and have been playing it on and off for about a year and a half, and learnt c++ but didnt have any real projects to work on with it, and thought i should help work on an existing open source project, when i stumbled through my bookmarks and found openlierox again.
+18:25:31 Albert Zeyer: ah cool :) yes, [[Openlierox|openlierox]] is a nice project to learn practical programming in c++ and some other languages, also including python (but only minor, only for the dedicated script)
+18:25:43 Albert Zeyer: most of us learned a lot in this project
+18:26:57 Kai Leddy: well, i am hoping to learn a lot from the project and at the same time help out an open source project, and at the same time see if i can get some friends interested in playing the game
+18:28:10 Albert Zeyer: depending how much time&energy you are willing to spend on the project, you can learn a lot. such a project covers really a huge area of topics in computer science, both theoretical and practical
+18:28:37 Albert Zeyer: i wrote an article about that once: [[Why game development is a great learning playground]]
+18:29:56 Kai Leddy: is that the full list of libraries it uses, just so i can install them
+18:30:34 Albert Zeyer: it may be a hurdle at the beginning to get into the project because the code base has become quite huge. but on the other side, you don't really need to know every detail about the code to work with it and understand it. an overview is enough and i put some documentation about the code, including a code overview, into our wiki
+18:30:46 Albert Zeyer: what operating system do you use?
+18:31:21 Kai Leddy: i mostly use ubuntu 10.04 64 bit, but i also have a partition with windows 7 again 64 bit
+18:31:41 Albert Zeyer: ah good. to setup the development environment will be much easier on linux
+18:32:02 Albert Zeyer: [[Compiling OpenLieroX on Linux]]
+18:32:12 Kai Leddy: thats mostly why i use linux, i find its a lot easier to set up and use when i comes to coding
+18:32:24 Albert Zeyer: it should work if you just execute that command from there, that should install all needed libs and stuff
+18:32:36 Kai Leddy: ahh thanks
+18:32:57 Albert Zeyer: and here for checking out from git: [[Obtaining OpenLieroX source from Git]]
+18:33:25 Albert Zeyer: you should switch to the 0.59 branch as it is stated there
+18:33:44 Albert Zeyer: ah btw, you should register in the mailinglist if you have not already so you get any dev mails
+18:35:33 Kai Leddy: ok, i might need a bit of help with git in a bit, i havent used it before as i have only worked on small projects i never needed to use it
+18:36:40 Albert Zeyer: it's also quite useful for small projects :) i use it all the time for just everything. also because it is so trivial to use (just a <code>git init</code> in some directory and i have put it under git control). in case of openlierox, just copy&paste the commands from the page to clone the repo
+18:38:12 Kai Leddy: ok, thanks, im not exactly sure what the other git commands do though, such as checkout, pull, commit and things
+18:38:31 Kai Leddy: but at least once i know how to use it it makes the project much easier to manage
+18:39:42 Kai Leddy: im cloning the git repository at the moment, it seems to be taking a while
+18:40:22 Albert Zeyer: just ask if you dont know sth
+18:41:17 Albert Zeyer: but to only use it and do basic things, there is not much you must know except of the very basic commands, like commit, add, push, pull
+18:41:41 Albert Zeyer: yea, cloning will take a while, it has become quite huge :) i think 300mb or sth
+18:42:08 Albert Zeyer: that's because it contains the full history since the very beginning of the project and also all the data (like graphics, levels, etc)
+18:42:24 Kai Leddy: oh, that explains it
+18:43:16 Albert Zeyer: there is also a way to just clone the latest revision and ignore the other history, so i think you would probably save 50% (not much actually if you take into account that we have about 8000 revisions)
+18:43:48 Kai Leddy: well its 70% done now so i might as well just let it finish
+18:43:49 Albert Zeyer: but i think it is worth to have everything. sometimes looking at the history is very helpful, esp when searching for errors but also for learning why someone made some change or so
+18:44:15 Kai Leddy: so have you been working on openlierox since the beginning of the project?
+18:44:29 Albert Zeyer: yea. karel and i have founded the project
+18:45:32 Kai Leddy: its been going for a long time now, its a really fun game to play and in the time i have been playing it even it has grown quite a bit
+18:45:55 Albert Zeyer: the project openlierox. olx source code is based on the lierox project. lierox was closed source. and then the developer of it (only one guy, jason boettcher or jasonb) has lost interest in it, stopped working on it and published the source code. that is where olx started
+18:46:18 Kai Leddy: ah
+18:46:22 Albert Zeyer: but the source code has changed quite a lot since then. and also grown a lot. i think it has grown by 300% or so
+18:47:01 Albert Zeyer: the git history starts with mostly this original lierox version
+18:47:26 Kai Leddy: i never played the original lierox but openlierox i think is an amazing game and i think its sort of a shame more people dont play it
+18:47:50 Kai Leddy: everyone i played the game with or showed it to out of my friends loved it
+18:48:35 Albert Zeyer: the gameplay of olx is just the same, in fact it is just the same game as lierox. ofc many new stuff has been added over the time, so some people might call it a different game now but the standard settings when you start a new game are mostly just like the original lierox
+18:51:40 Albert Zeyer: a few times in the past, some changes has been made to the physics engine of the original lierox code (mostly to fix some bugs) but the community of oldschool players was mostly very annoyed by that, also because of the frequent changes, so that we tried to recover the original code as far as possible in the recent time and made many things optionable (so you have options like "enable LX56 buggy wallshoot behaviour" and more)
+18:52:25 Albert Zeyer: 0.58rc3 is the latest stable version we have published. the latest beta is 0.59beta9. since 0.59, we have recovered the exact physics code from lx56 and made almost everything configureable
+18:53:34 Kai Leddy: nice
+18:54:43 Albert Zeyer: do you know gusanos? -> [[Gusanos]]
+18:55:09 Albert Zeyer: do you know the original liero? (not lierox, i mean the real original liero) -> [[Liero]]
+18:55:17 Kai Leddy: no, i saw something about it on the openlierox website but i dont know what it is
+18:55:37 Kai Leddy: no, i never knew about liero until openlierox
+18:56:09 Albert Zeyer: the original liero was a DOS game, already quite old (created in 1998)
+18:56:13 Albert Zeyer: and the most famous
+18:56:45 Albert Zeyer: lierox was the most famous clone of it. mostly because it was easy to use and run on windows
+18:56:58 Albert Zeyer: [[Lierox|lierox]] started in 2002
+18:57:13 Albert Zeyer: gusanos also started in 2002. whereby they basically recoded it from scratch (or with at least major changes) in each version. gusanos 0.9, was released firstly in 2005. gusanos 0.9c with many more bugfixes to 0.9 was released 2006.
+18:57:45 Albert Zeyer: gusanos is also a liero clone. the gusanos physics is much more close to the original liero than in lierox
+18:57:55 Albert Zeyer: and the gusanos engine is also much more nice after all
+18:58:23 Albert Zeyer: problem was that in the beginning, gusanos did not have any menu, so you had to do everything via the ingame console (first version with a menu was 0.9)
+18:58:34 Albert Zeyer: also, the network engine in gusanos sucked a bit
+18:58:44 Albert Zeyer: gusanos was always open source, since the very beginning
+18:59:23 Albert Zeyer: but a problem was that it depends on commercial libs, so it was not really possible to port it to new platforms. only systems it supported were windows and a few linux 32bit x86
+19:00:03 Albert Zeyer: i have done some work a year ago or so to replace all the libs in gusanos by open ones (and recode some missing functionality)
+19:00:16 Albert Zeyer: and then i merged the whole gusanos code into openlierox
+19:00:56 Albert Zeyer: so we have both physics engines in olx now. and not only physics engines, also the modding engine and scripting and stuff. gusanos uses lua
+19:01:26 Albert Zeyer: well, i have written an article about the details why i did that and about the benefits etc in the wiki, read that if you are interested -> [[Gusanos in OpenLieroX]]
+19:02:30 Kai Leddy: well its sounds like you have done a lot of work, merging gusanos with openlierox must have taken ages
+19:02:58 Albert Zeyer: yea was not that easy. but also not impossible as some other people have said earlier :)
+19:03:29 Albert Zeyer: and it's also not fully finished yet. it works in 0.59 but there are quite a few issues
+19:04:45 Albert Zeyer: sometimes a bit unstable (but most of these problems are fixed now). biggest problem is maybe the network engine, which still sucks in gusanos (i have embedded the old gusanos net engine into the OLX net protocol, so there is also quite some overhead and the general handling is a bit hacky)
+19:05:05 Kai Leddy: ah ok
+19:05:27 Albert Zeyer: there are some plans to rewrite the full net engine. i think that is probably the only good solution to solve all the problems
+19:05:48 Albert Zeyer: some initial work was already done for this, though it's unfinished
+19:06:43 Albert Zeyer: but this is maybe some of the most wanted features the community wants. a new nice network engine. even in LX, it is not perfect (never was). it is not perfectly synced
+19:08:51 Albert Zeyer: well, it would take some time to explain everything about this in detail. maybe compile it first, decide where you want to work on and if it is the net engine, i can give you more details about it :) but the net engine is probably also the most complicated and difficult thing you could work on, so i dont know if it is really a good idea to start with this :) you should also first read the current network code and look at the unfinished work pelya has done for a new net engine -> [[Network engine]]
+19:11:29 Kai Leddy: ok, well i tried to compile it and it failed with all sorts of errors, it seems because im missing a few dependencies which i found in DEPS, so im installing them then im going to try to compile again
+19:13:14 Albert Zeyer: ok. you probably also can tell from the error messages. always check out the very first error it gives you, also following ones are probably related. it's most often sth like #include XY, cannot find XY
+19:16:08 Kai Leddy: ok i cant work out why it wont compile
+19:16:17 Albert Zeyer: what's the very first error?
+19:16:20 Kai Leddy: ill send you the terminal output
+19:16:25 Albert Zeyer: just the first line
+19:16:28 Albert Zeyer: of the error
+19:16:47 Kai Leddy: /home/kai/Projects/OpenLieroX/libs/breakpad/src/common/linux/dump_symbols.cc: In function ‘void<unnamed>::FixAddress(void*)’:
+19:16:57 Albert Zeyer: ok also the next line :)
+19:17:04 Albert Zeyer: the error itself
+19:17:13 Albert Zeyer: ah, you have a 64bit system?
+19:17:23 Kai Leddy: /home/kai/Projects/OpenLieroX/libs/breakpad/src/common/linux/dump_symbols.cc:83: error: cast from ‘void*’ to ‘Elf64_Word’ loses precision
+make[2]: *** [CMakeFiles/openlierox.dir/libs/breakpad/src/common/linux/dump_symbols.o] Error 1
+make[1]: *** [CMakeFiles/openlierox.dir/all] Error 2
+make: *** [all] Error 2
+19:17:28 Albert Zeyer: yea
+19:17:28 Kai Leddy: thats the entire error
+19:17:35 Kai Leddy: and yeah i have 64bit
+19:17:56 Albert Zeyer: do you have any problems if i publish parts of this chat discussion? :) because many things i have said here may be interesting to other newcomers as well
+19:18:12 Kai Leddy: no you can if you want
+19:18:47 Kai Leddy: if other people have the same problem it would be useful for them to know how i sorted it out
+19:19:13 Albert Zeyer: do this: cmake -DBREAKPAD=Off .
+19:19:17 Albert Zeyer: and then make again
+19:20:07 Albert Zeyer: we use [[Google Breakpad]] for [[Automatic crash reports|automatic crash reports]]. however, google breakpad doesnt work on linux 64bit yet (or at least the version we have included in the code, i should check a newer version at some time). but as it is optional, it is not really a problem
+19:20:24 Kai Leddy: oh ok thanks
+19:21:03 Kai Leddy: it seems to be going fine now
+19:22:17 Albert Zeyer: i extended the wiki for that bit :)
+19:22:24 Kai Leddy: ok
+19:22:38 Kai Leddy: i would not have guessed that because i have never even heard of breakpad
+19:22:59 Kai Leddy: its compiling fine now, just a few warnings
+19:23:44 Albert Zeyer: ok good
+19:24:18 Kai Leddy: its just the occasional unused variable
+19:24:50 Albert Zeyer: breakpad is cool, really nice and powerful lib. also used in projects like firefox and many others
+19:25:30 Kai Leddy: oh ok
+19:25:48 Kai Leddy: yeah the warnings are all just unused variables
+19:26:55 Albert Zeyer: oh ok. should check that later on. it's also not always our code. we have some more libs included, for example libzip, hawknl or lua which may also be compiled along with olx (depending on your settings). and i dont really want to change that code
+19:27:14 Kai Leddy: ok
+...
+19:55:31 Kai Leddy: where should i post it
+19:55:41 Kai Leddy: in which mailing list
+19:56:38 Albert Zeyer: openlierox-devel
+19:56:47 Albert Zeyer: where you have posted your other mail
+19:56:52 Kai Leddy: to be honest im not quite sure how to use mailinglists either
+19:56:53 Albert Zeyer: have you registered in that list already?
+19:57:30 Albert Zeyer: well, just register on it and then each time when someone sends a mail to openlierox-devel@lists.sourceforge.net, you will receive it
+19:57:36 Albert Zeyer: that is all about mailinglists :)
+19:57:41 Kai Leddy: oh ok
+19:57:46 Kai Leddy: it seems very simple
+19:58:25 Albert Zeyer: yea. and usually, when you hit reply in your mailclient to such a mail, it will automatically put that mail from the list as the receiver again, so that everyone also will get the answer
+19:58:44 Kai Leddy: oh ok, nice
+19:59:02 Kai Leddy: do i register to the mailinglist on sourceforge then?
+19:59:49 Albert Zeyer: read here: [[Mailinglists]]
+19:59:54 Albert Zeyer: there are the register links
+20:00:21 Kai Leddy: thanks
+...
+20:16:06 Albert Zeyer: yea those are mostly dead links. articles which have not been written yet
+20:16:15 Albert Zeyer: i am getting an edit-new-article page when i click on them
+20:16:26 Kai Leddy: oh ok
+...
+20:20:12 Albert Zeyer: the non finished articles in the wiki article [[OpenLieroX source code#overview_of_the_code|OpenLieroX source code#Overview_of_the_code]] are probably not that important, you will also get a good impression by just taking a short look at that code file
+20:20:44 Albert Zeyer: all the points under "most important code" refer to some c++ classes or cpp files
+20:20:54 Kai Leddy: ok
+
+<!-- imported from Wayback Machine: https://web.archive.org/web/20110721112459/http://www.openlierox.net/wiki/index.php/Typical_developer_introduction_talk -->

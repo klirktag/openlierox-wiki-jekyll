@@ -1,0 +1,27 @@
+== HA! I've found a bug you n00bs made, how do I tell ya? ==
+If you discovered a bug and want to report it to us, it's great! Only please make sure no one else has posted this bug before. OLX is not perfect and has many bugs, many of them you "meet" every day and if everyone posted the same bug, we wouldn't do anything else than reading duplicate reports.
+
+== How do I make a bug report or how do I get the list of already reported bugs? ==
+Visit our bug tracker at GitHub: <https://github.com/albertz/openlierox/issues>
+
+You will see a list of bugs. Click on "New Issue" to create a new bug. Follow the instructions.
+
+== I got an idea for a new OLX feature, how do I let you know guys? ==
+Simply post on [[LXA]] (or use [https://github.com/albertz/openlierox/issues Issue tracker at GitHub]). The rules are the same as for posting bugs - please do not post duplicate requests (look at GitHub for the list of features).
+
+== OLX does not work for me, HELP!!! ==
+We will, just post it. However, to make this forum well arranged, use the Search feature of this forum before you post.
+
+== I am new to this game, what should I do? ==
+[/downloads Download OLX] and enjoy the game! Don't forget to check this site or [http://sourceforge.net/projects/openlierox Sourceforge site] from time to time to get new versions.
+
+== There are so many versions and various games. I am lost in it, what version is for me? ==
+Short answer: The latest release of [[OpenLieroX]] is the most advanced version and probably the best for you, check it out here: <http://openlierox.sourceforge.net/>
+
+Long answer about the various versions:
+At the end of previous millenium one geek who called himself [[JasonB]] started programming a [[Liero clone]] named [[LieroX]]. In few years LieroX became the most played Liero clone ever, mainly because of its user friendliness and possibility to play over the Internet. However, after 6 years of work, he released a totally recoded LieroX 0.6 that suffered from some various bugs and had different physics from previous version, the most enjoyed version 0.56b. He decided to release the code of 0.56b and stopped working on LieroX. From LieroX codebase two project have grown - LieroX Enhanced (LXE) developed by Rye which was incompatible with "old" LieroX 0.56b and LieroX Professional that allowed you to play and host 0.56b games. Later Rye decided to recode the whole LieroX Enhanced code because of dirty codebase and he is working on it until now (you can see the monthly progress on [http://forums.thegaminguniverse.com Gaming Universe Forums]). LieroX Professional fixed some serious bugs 0.56b suffered from and also added few new features. Then a new developer got interested in LieroX and later LieroX Professional - Albert. He is a Linux geek and he modified the LieroX Professional to work on Linux and later also on Mac OS X and other platforms. The project got opensource and has been renamed to OpenLieroX. Since then countless beta versions have been released, OpenLieroX 0.57 beta8 being the newest one in time of writing this post. OpenLieroX is still fully compatible with old 0.56b which is still the most played version on the net. Nowadays almost no one plays first beta of LXE and JasonB's 0.6 version.
+
+== Can I help ==
+Of course you can! Read here: [[Contribute]]
+
+<!-- imported from Wayback Machine: https://web.archive.org/web/20130519021713/http://www.openlierox.net:80/wiki/index.php/FAQ_for_newcomers -->

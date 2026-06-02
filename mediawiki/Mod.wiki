@@ -1,0 +1,29 @@
+This page should be a post holder for all mods currently made. Now descriptions, Liero v1.0 should be the first mod on the list. It is the default mod and most played. Please keep it this way while editing.
+
+= Mods =
+Mods are files which define rules for what weapons will appear and physics in a game session.
+
+All installed mods will appear as folders in your Liero Xtreme root catalogue
+containing the script file itself as well as the gfx and sfx folders.
+
+== Most Famous Mods ==
+* [[Liero 1.0]]
+* [[Liero 1.11]]
+* [[8-Bit Warfare]]
+* [[Cruel]]
+* FoodFight
+* Hose Master XXL
+* LieroX-Mas Mod
+* [[Modern Warfare]]
+* [[MSF|Marine Special Forces]]
+* [[Naruto]]
+* Shock
+* Super Mario
+* Zelda
+
+== Scripting ==
+Can be found at [[Scripting]]
+
+[[Category:Main]]
+
+<!-- imported from Wayback Machine: https://web.archive.org/web/20120425164549/http://www.openlierox.net:80/wiki/index.php/Mod -->
